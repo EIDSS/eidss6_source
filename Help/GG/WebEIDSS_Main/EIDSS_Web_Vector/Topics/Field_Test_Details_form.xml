@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">საველე ტესტების დეტალების ფორმა</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">საველე ტესტების დეტალების ფორმა</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">აქ შეიტანეთ თემის ტექსტი.</text></para>
+    <para styleclass="Image Caption"><image src="field_tyest_details_form.png" scale="55.00%" width="411" height="235" styleclass="Image Caption"><caption translate="true"><![CDATA[ნახ. <%FIG++%> საველე ტესტების დეტალები]]></caption></image></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="14" colcount="2" style="width:100%; cell-padding:2px; cell-spacing:2px; border-width:1px; border-spacing:2px; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:top">
+        <td colspan="2">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-weight:bold;" translate="true">მონაცემთა ველები</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ველზე ხელმისაწვდომობის ID</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეიყვანეთ იმ ნიმუშის საველე ID, რომლისთვისაც უნდა დაინიშნოს ტესტი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ნიმუშის ტიპი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ნაგულისხმევი სახით, ეკრანზე ჩანს შერჩეული ნიმუშის ტიპი და მისი შეცვლა შეუძლებელია.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">შეგროვების თარიღი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ნაგულისხმევი სახით, ეკრანზე ჩანს შერჩეული ნიმუშის აღების თარიღი და მისი შეცვლა შეუძლებელია.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ტესტის სახელი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">მონიშნეთ ტესტის დასახელება. ველი სავალდებულოა.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ტესტის კატეგორია</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">მონიშნეთ ტესტის კატეგორია.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ტესტის ჩატარების თარიღი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">მონიშნეთ ტესტირების თარიღი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ტესტირებულია ინსტიტუტის მიერ</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">მონიშნეთ ორგანიზაცია, რომელმაც ტესტი ჩაატარა. </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ვინ ჩაატარა ტესტირება</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">მონიშნეთ ის პირი, ვინც ტესტი ჩაატარა.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ტესტის შედეგი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">მონიშნეთ ტესტის შედეგი, თუ ცნობილია. თუ შედეგი დადებითია, დაავადება </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დაავადების</text><text styleclass="Table_body" translate="true"> სვეტიდან ასლის სახით გადადის იმ ვექტორული ზედამხედველობის სესიის </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დაავადებების</text><text styleclass="Table_body" translate="true"> ველში, რომელსაც ეს ტესტი მიეკუთვნება.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">დავადება</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">მონიშნეთ დაავადება, რომელიც უნდა დადასტურდეს ტესტით. თუ დაავადება დადასტურდა, იგი ასლის სახით გადავა იმ ვექტორული ზედამხედველობის სესიის </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დაავადებების</text><text styleclass="Table_body" translate="true"> ველში, რომელსაც ეს ტესტი მიეკუთვნება.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="2">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ღილაკები</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">დიახ</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="List" translate="true">ინახავს ცვლილებებს და ხურავს ფორმას. თუ ფორმა ადრე არ ყოფილა შენახული, </text><text styleclass="Table_body" translate="true">იხსნება</text><text styleclass="Table_body" style="font-weight:bold;" translate="true"> დადასტურების</text><text styleclass="Table_body" translate="true"> ფანჯარა. დააწკაპუნეთ </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">"დიახ"</text><text styleclass="Table_body" translate="true"> ცვლილებების შესანახად და </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დადასტურების</text><text styleclass="Table_body" translate="true"> ფანჯრის დასახურად.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">გაუქმება</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">აუქმებს დაუმახსოვრებელ ცვლილებებს და ხურავს ფორმას.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="See_also"><conditional-text type="IF" value="HTML,WEB_EIDSS"/><text styleclass="See_also" translate="true">იხ. აგრეთვე:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#252;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_field_test_results" styleclass="List" translate="true">ვექტორის/პულის საველე ტესტების შედეგების რეგისტრაცია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_W03" styleclass="List" translate="true">პულის/ცალკეული ვექტორის დეტალების W03 ფორმა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Field_Tests_tab_of_W03" styleclass="List" translate="true">პულის/ ინდივიდუალური ვექტორის დეტალების W03 ფორმის საველე ტესტების ჩანართი</link><conditional-text type="END"/></li>
+    </list>
+  </body>
+</topic> 

@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="xrLabel8.Text" xml:space="preserve">
+    <value>Роздруковано з ЕЛІССЗ</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="xrTableCell22.Weight" type="System.Double, mscorlib">
+    <value>1.7020833349227909</value>
+  </data>
+  <data name="xrTableCell27.Weight" type="System.Double, mscorlib">
+    <value>1.1825000015894573</value>
+  </data>
+  <data name="xrTableCell28.Weight" type="System.Double, mscorlib">
+    <value>0.82416666825612339</value>
+  </data>
+  <data name="xrTableCell29.Weight" type="System.Double, mscorlib">
+    <value>0.82416666825612461</value>
+  </data>
+  <data name="xrTableCell30.Weight" type="System.Double, mscorlib">
+    <value>0.824166668256124</value>
+  </data>
+  <data name="xrTableCell31.Weight" type="System.Double, mscorlib">
+    <value>0.82416666825612372</value>
+  </data>
+  <data name="xrTableCell32.Weight" type="System.Double, mscorlib">
+    <value>1.0750000015894574</value>
+  </data>
+  <data name="xrTableCell33.Weight" type="System.Double, mscorlib">
+    <value>0.82416666825612384</value>
+  </data>
+  <data name="xrTableCell34.Weight" type="System.Double, mscorlib">
+    <value>0.82416666825612372</value>
+  </data>
+  <data name="xrTableCell36.Weight" type="System.Double, mscorlib">
+    <value>1.1824999332427977</value>
+  </data>
+  <data name="xrTableCell37.Weight" type="System.Double, mscorlib">
+    <value>0.824166668256124</value>
+  </data>
+  <data name="xrTableCell38.Weight" type="System.Double, mscorlib">
+    <value>0.824166668256124</value>
+  </data>
+  <data name="xrTableCell39.Weight" type="System.Double, mscorlib">
+    <value>1.791666668256124</value>
+  </data>
+  <data name="xrTableCell41.Weight" type="System.Double, mscorlib">
+    <value>0.91375000158945718</value>
+  </data>
+  <data name="xrTableCell42.Weight" type="System.Double, mscorlib">
+    <value>0.91375000158945707</value>
+  </data>
+  <data name="xrTableCell43.Weight" type="System.Double, mscorlib">
+    <value>0.9137502066294354</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="xrDataTable.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>5000, 25</value>
+  </data>
+  <data name="xrHeaderCell1.Text" xml:space="preserve">
+    <value>Інд. № випадку</value>
+  </data>
+  <data name="xrHeaderCell2.Text" xml:space="preserve">
+    <value>Дата події</value>
+  </data>
+  <data name="xrHeaderCell3.Text" xml:space="preserve">
+    <value>Класифікація випадку</value>
+  </data>
+  <data name="xrHeaderCell4.Text" xml:space="preserve">
+    <value>Область</value>
+  </data>
+  <data name="xrHeaderCell5.Text" xml:space="preserve">
+    <value>Район</value>
+  </data>
+  <data name="xrHeaderCell6.Text" xml:space="preserve">
+    <value>Населений пункт</value>
+  </data>
+  <data name="xrHeaderCell7.Text" xml:space="preserve">
+    <value>Адреса</value>
+  </data>
+  <data name="xrHeaderCell8.Text" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="xrHeaderCell9.Text" xml:space="preserve">
+    <value>ПІБ</value>
+  </data>
+  <data name="xrHeaderCell10.Text" xml:space="preserve">
+    <value>Стать</value>
+  </data>
+  <data name="xrHeaderCell11.Text" xml:space="preserve">
+    <value>Вік</value>
+  </data>
+  <data name="xrHeaderCell12.Text" xml:space="preserve">
+    <value>Дата народження</value>
+  </data>
+  <data name="xrHeaderCell13.Text" xml:space="preserve">
+    <value>Наявність симптомів</value>
+  </data>
+  <data name="xrHeaderCell14.Text" xml:space="preserve">
+    <value>Назва установи, що відправила повідомлення</value>
+  </data>
+  <data name="xrHeaderCell15.Text" xml:space="preserve">
+    <value>Пацієнт є медичним працівником?</value>
+  </data>
+  <data name="xrHeaderCell16.Text" xml:space="preserve">
+    <value>Повна назва місця роботи пацієнта-медика</value>
+  </data>
+  <data name="xrHeaderCell17.Text" xml:space="preserve">
+    <value>Посада медика</value>
+  </data>
+  <data name="xrHeaderCell18.Text" xml:space="preserve">
+    <value>Повторний випадок</value>
+  </data>
+  <data name="xrHeaderCell19.Text" xml:space="preserve">
+    <value>Вакцинація</value>
+  </data>
+  <data name="xrHeaderCell20.Text" xml:space="preserve">
+    <value>Кількість отриманих доз</value>
+  </data>
+  <data name="xrHeaderCell21.Text" xml:space="preserve">
+    <value>Дата отримання позитивного ПЛР тесту</value>
+  </data>
+  <data name="xrHeaderCell22.Text" xml:space="preserve">
+    <value>Дата отримання позитивного швидкого тесту на визначення антигену SARS-CoV-2</value>
+  </data>
+  <data name="xrHeaderCell22.Weight" type="System.Double, mscorlib">
+    <value>1.7020833349227906</value>
+  </data>
+  <data name="xrHeaderCell23.Text" xml:space="preserve">
+    <value>Перебування в самоізоляції</value>
+  </data>
+  <data name="xrHeaderCell24.Text" xml:space="preserve">
+    <value>Госпіталізація</value>
+  </data>
+  <data name="xrHeaderCell25.Text" xml:space="preserve">
+    <value>Дата госпіталізації</value>
+  </data>
+  <data name="xrHeaderCell26.Text" xml:space="preserve">
+    <value>Місце госпіталізації</value>
+  </data>
+  <data name="xrHeaderCell27.Text" xml:space="preserve">
+    <value>Перебування у відділенні інтенсивної терапії</value>
+  </data>
+  <data name="xrHeaderCell27.Weight" type="System.Double, mscorlib">
+    <value>1.1825000015894576</value>
+  </data>
+  <data name="xrHeaderCell28.Text" xml:space="preserve">
+    <value>Штучна вентиляція легень</value>
+  </data>
+  <data name="xrHeaderCell28.Weight" type="System.Double, mscorlib">
+    <value>0.8241666682561235</value>
+  </data>
+  <data name="xrHeaderCell29.Text" xml:space="preserve">
+    <value>Наявність супутніх станів</value>
+  </data>
+  <data name="xrHeaderCell29.Weight" type="System.Double, mscorlib">
+    <value>0.82416666825612461</value>
+  </data>
+  <data name="xrHeaderCell30.Text" xml:space="preserve">
+    <value>Вагітність</value>
+  </data>
+  <data name="xrHeaderCell30.Weight" type="System.Double, mscorlib">
+    <value>0.824166668256124</value>
+  </data>
+  <data name="xrHeaderCell31.Text" xml:space="preserve">
+    <value>Імунодефіцит</value>
+  </data>
+  <data name="xrHeaderCell31.Weight" type="System.Double, mscorlib">
+    <value>0.8241666682561235</value>
+  </data>
+  <data name="xrHeaderCell32.Text" xml:space="preserve">
+    <value>Серцево-судинні захворювання, в т.ч. гіпертонія</value>
+  </data>
+  <data name="xrHeaderCell32.Weight" type="System.Double, mscorlib">
+    <value>1.0750000015894574</value>
+  </data>
+  <data name="xrHeaderCell33.Text" xml:space="preserve">
+    <value>Діабет</value>
+  </data>
+  <data name="xrHeaderCell33.Weight" type="System.Double, mscorlib">
+    <value>0.82416666825612384</value>
+  </data>
+  <data name="xrHeaderCell34.Text" xml:space="preserve">
+    <value>Захворювання печінки</value>
+  </data>
+  <data name="xrHeaderCell34.Weight" type="System.Double, mscorlib">
+    <value>0.82416666825612372</value>
+  </data>
+  <data name="xrHeaderCell35.Text" xml:space="preserve">
+    <value>Захворювання нирок</value>
+  </data>
+  <data name="xrHeaderCell36.Text" xml:space="preserve">
+    <value>Хронічні неврологічні чи нейром'язові захворювання</value>
+  </data>
+  <data name="xrHeaderCell36.Weight" type="System.Double, mscorlib">
+    <value>1.1824999332427977</value>
+  </data>
+  <data name="xrHeaderCell37.Text" xml:space="preserve">
+    <value>Злоякісні новоутворення</value>
+  </data>
+  <data name="xrHeaderCell37.Weight" type="System.Double, mscorlib">
+    <value>0.824166668256124</value>
+  </data>
+  <data name="xrHeaderCell38.Text" xml:space="preserve">
+    <value>Хронічні захворювання легень</value>
+  </data>
+  <data name="xrHeaderCell38.Weight" type="System.Double, mscorlib">
+    <value>0.824166668256124</value>
+  </data>
+  <data name="xrHeaderCell39.Text" xml:space="preserve">
+    <value>Інше, зазначте</value>
+  </data>
+  <data name="xrHeaderCell39.Weight" type="System.Double, mscorlib">
+    <value>1.791666668256124</value>
+  </data>
+  <data name="xrHeaderCell40.Text" xml:space="preserve">
+    <value>Результат захворювання</value>
+  </data>
+  <data name="xrHeaderCell41.Text" xml:space="preserve">
+    <value>Дата смерті</value>
+  </data>
+  <data name="xrHeaderCell41.Weight" type="System.Double, mscorlib">
+    <value>0.91375000158945718</value>
+  </data>
+  <data name="xrHeaderCell42.Text" xml:space="preserve">
+    <value>Дата виписки</value>
+  </data>
+  <data name="xrHeaderCell42.Weight" type="System.Double, mscorlib">
+    <value>0.91375000158945707</value>
+  </data>
+  <data name="xrHeaderCell43.Text" xml:space="preserve">
+    <value>Дата введення</value>
+  </data>
+  <data name="xrHeaderCell43.Weight" type="System.Double, mscorlib">
+    <value>0.91375458081563332</value>
+  </data>
+  <data name="xrHeaderTable.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>5000.00049, 50</value>
+  </data>
+  <data name="$this.PageWidth" type="System.Int32, mscorlib">
+    <value>5000</value>
+  </data>
+</root>

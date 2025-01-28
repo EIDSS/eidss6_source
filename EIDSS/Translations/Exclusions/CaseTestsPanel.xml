@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+ <data name="colFieldID" file="EidssFields" key="strFieldBarcodeLocal,strFieldBarcodeField" /> 
+ <data name="colAnimal" file="EidssFields" key="strAnimalCode,strSpecies" /> 
+ <data name="colAnimalID" file="EidssFields" key="strAnimalCode" />
+ <data name="colSpecies" file="EidssFields" key="strSpecies" />
+ <data name="colFieldSampleIdV" file="EidssFields" key="strFieldBarcodeLocal,strFieldBarcodeField" />
+ <data name="colLabSampleIdV" file="EidssFields" key="strLabBarcode" />
+ <data name="colSampleTypeV" file="EidssFields" key="strSampleName" />
+</root>

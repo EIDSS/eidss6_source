@@ -1,0 +1,11 @@
+﻿.ffGridBanded-content { max-height: 800px; }
+.ffGridBanded-content thead th { /*position: sticky;*/ top: 0; z-index: 1; }
+.ffGridBanded-content tbody th { /*position: sticky;*/ left: 0; z-index: 1;}
+.ffGridBanded-content .fixed {top:0; left:0; z-index:2}
+.ffGridBanded-content .header-cell {left:-300px;}
+
+.ffGridBanded-content .ffGridBanded-rtl tbody th {right: 0; left:initial;}
+.ffGridBanded-content .ffGridBanded-rtl .fixed {right:0; left:initial;}
+.ffGridBanded-content .ffGridBanded-rtl .header-cell {right:-300px;}
+
+.summary-stub-td { background-color: #afc2da;}

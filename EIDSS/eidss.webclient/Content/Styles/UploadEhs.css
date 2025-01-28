@@ -1,0 +1,21 @@
+﻿.tr-control td {
+    padding: 15px;
+    text-align: left;
+}
+td {
+    width: 150px;
+}
+td + td {
+    width: auto;
+}
+.upload-disabled {
+    opacity:0.6;
+}
+.ehs-fileInput {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer; 
+    width:400px;
+}

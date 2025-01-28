@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Needs Review">
+  <title translate="true">განიხილეთ სესიის საველე ტესტები და ტესტის შედეგები</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">განიხილეთ სესიის საველე ტესტები და ტესტის შედეგები</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">სესიის საველე ტესტები არის ჩამონათვალი ყველა </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_field_test_results" styleclass="Normal" translate="true">საველე ტესტისა, რომლებიც ჩატარდა სესიის თითოეული ინდივიდუალური ვექტორის / პულისთვის</link><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">სესიის საველე ტესტების შესამოწმებლად გახსენით </text><text styleclass="Normal" style="font-weight:bold;" translate="true">საველე ტესტების</text><text styleclass="Normal" translate="true"> ქვეჩანართი </text><text styleclass="Normal" style="font-weight:bold;" translate="true">დეტალური ინფორმაციის</text><text styleclass="Normal" translate="true"> ტაბულაციიდან, </text><text styleclass="Normal" style="font-weight:bold;" translate="true">ვექტორის ზედამხედველობის სესიის</text><text styleclass="Normal" translate="true"> ფორმა. მონაცემები ამ ჩანართში არის მხოლოდ კითხვად რეჟიმში. ნიმუშების რედაქტირებისთვის, გახსენით </text><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_W03" styleclass="Normal" translate="true">პულის/ინდივიდუალური ვექტორის დეტალების</link><text styleclass="Normal" translate="true"> ფორმა ყოველი პულისთვის/ ინდივიდუალური ვექტორისთვის, დააწკაპუნეთ</text><text styleclass="Normal" style="font-weight:bold;" translate="true"> საველე ტესტების</text><text styleclass="Normal" translate="true"> ველზე, რომ დაარედაქტიროთ ნიმუშები.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">იმისათვის, რომ დეტალურად აღიწეროს თითოეული ველი </text><text styleclass="Normal" style="font-weight:bold;" translate="true">საველე ტესტების</text><text styleclass="Normal" translate="true">ქვეტაბულაციის, წაიკითხეთ სექცია </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Field_Tests_subtab_of_Vector_S" styleclass="Normal" translate="true">ვექტორის ზედამხედველობის სესიის W02 ფორმის საველე ტესტების ქვეჩანართი</link><text styleclass="Normal" translate="true">.</text></para>
+  </body>
+</topic> 

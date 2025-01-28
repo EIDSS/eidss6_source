@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Finished">
+  <title translate="true">გადასინჯეთ VS-ის აგრეგირებული მონაცემები</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">გადასინჯეთ VS სესიის აგრეგირებული მონაცემები</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">მონაცემები, რომლებიც შეყვანილია თითოეული ინდივიდუალური ვექტორის/ პულისთვის დაკოპირებულია სესიის დეტალების ფორმაში და სეჯერებულია VS სესიის აგრეგირებულ მოანცემევთან:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Review_samples" styleclass="List" translate="true">სესიის ნიმუშები</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Review_field_rests_and_test_re" styleclass="List" translate="true">სესიის საველე ტესტები და ტესტის შედეგები</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Review_laboratory_tests_VS" styleclass="List" translate="true">სესიის ლაბორატორიული ტესტები და ტესტის შედეგები</link></li>
+    </list>
+  </body>
+</topic> 

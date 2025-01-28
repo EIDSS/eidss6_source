@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Finished">
+  <title translate="true">შეიყვანეთ "ვექტორული ზედამხედველობის" ზოგადი ინფორმაცია</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">შეიყვანეთ "ვექტორული ზედამხედველობის" ზოგადი ინფორმაცია</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">თუ </text><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_Create" styleclass="Normal" translate="true">შეიქმნება ახალი "ვექტორული ზედამხედველობის სესია"</link><text styleclass="Normal" translate="true"> ან </text><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_edit" styleclass="Normal" translate="true">არსებული სესია გაიხსნება შესასწორებლად</link><text styleclass="Normal" translate="true">, შესაძლებელი იქნება მისი ზოგადი ინფორმაციის განსაზღვრა ან/და რედაქტირება </text><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_W02" styleclass="Normal" translate="true">ვექტორული ზედამხედველობის სესიის W02</link><text styleclass="Normal" translate="true"> ფორმის ზოგადი მონაცემების სექციაში . სესიის ძირითადი ველები სავალდებულოა და გაყვითლებულია: სესიის </text><text styleclass="Normal" style="font-weight:bold;" translate="true">დაწყების თარიღი</text><text styleclass="Normal" translate="true"> და </text><text styleclass="Normal" style="font-weight:bold;" translate="true">სტატუსი</text><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ამ ველების დეტალური აღწერილობისთვის, წაიკითხეთ სექცია </text><link displaytype="text" defaultstyle="true" type="topiclink" href="General_Info_of_W02" styleclass="Normal" translate="true">"ვექტორული ზედამხედველობის სესიის" (W02) ფორმის "ზოგადი ინფორმაცია"</link><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="See_also"><conditional-text type="IF" value="HTML,WEB_EIDSS"/><text styleclass="See_also" translate="true">იხ. აგრეთვე:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="ü" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Enter_Detailed_Information" styleclass="List" translate="true">შეიყვანეთ "ვექტორული ზედამხედველობის" დეტალური ინფორმაცია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Enter_Summary_Information" styleclass="Normal" translate="true">შეიყვანეთ "ვექტორული ზედამხედველობის" ჯამური ინფორმაცია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Link_a_VS_session_to_outbreak" styleclass="Normal" translate="true">"ვექტორული ზედამხედველობის სესია" მიაბით ეპიდაფეთქებას</link><conditional-text type="END"/></li>
+    </list>
+  </body>
+</topic> 

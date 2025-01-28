@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Finished" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">შეაჯამეთ (დახურეთ) ვექტორის ზედამხედველობის სესია</title>
+  <a-keywords>
+    <a-keyword>VS_final</a-keyword>
+  </a-keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">შეაჯამეთ (დახურეთ) ვექტორის ზედამხედველობის სესია</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">"ვექტორული ზედამხედველობის სესიის" დასრულება არის ოპერაცია, როდესაც სესია მთავრდება და არანაირი ახალი მოქმედება არ არის მოსალოდნელი. დზეის-ის სესიის დასრულების დროს, სესიის სტატუსი იცვლება სტატუსით </text><text styleclass="Normal" style="font-style:italic;" translate="true">დახურული</text><text styleclass="Normal" translate="true">. ამის შემდეგ შეუძლებელი იქნება სესიაში ცვლილებების გაკეთება.</text></para>
+    <para styleclass="Normal"></para>
+    <list id="282" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">იპოვეთ დასასრულებელი სესია.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">გააკეთეთ შემდეგიდან ერთ–ერთი:</text></li>
+    </list>
+    <list id="283" level="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">დააწკაპუნეთ დასარედაქტირებელი სესიის ნომერზე.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">დააწკაპუნეთ </text><text styleclass="List" style="font-weight:bold;" translate="true">რედაქტირების</text><text styleclass="List" translate="true"> ღილაკზე(</text><image src="edit_button.png" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true">) დასასრულებელ სესიამდე.</text></li>
+    </list>
+    <para styleclass="List2"><text styleclass="List2" translate="true">სესია გაიხსნება </text><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_W02" styleclass="List2" translate="true">ვექტორული ზედამხედველობის სესიის</link><text styleclass="List2" translate="true"> ფორმაში და იგი მზადაა რედაქტირებისთვის.</text></para>
+    <list id="282" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true"> </text><text styleclass="List" style="font-weight:bold;" translate="true">სტატუსის</text><text styleclass="List" translate="true"> ველში მონიშნეთ </text><text styleclass="List" style="font-weight:bold;" translate="true">დახურული</text><text styleclass="List" translate="true">.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">შეინახეთ სესია და დახურეთ </text><text styleclass="List" style="font-weight:bold;" translate="true">ვექტორის ზედამხედველობის სესიის</text><text styleclass="List" translate="true"> ფორმა.</text></li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">მიმდინარე თარიღი დაყენებულია სესიის </text><text styleclass="Normal" style="font-weight:bold;" translate="true">დახურვის თარიღად</text><text styleclass="Normal" translate="true">, სესია დასრულდება და გახდება მხოლოდ წაკითხვადი ფორმატის.</text></para>
+    <para styleclass="See_also"><conditional-text type="IF" value="HTML,WEB_EIDSS"/><text styleclass="See_also" translate="true">იხ. აგრეთვე:</text></para>
+    <list id="284" type="ul" listtype="bullet" formatstring="&#252;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_Create" styleclass="List" translate="true">ვექტორული ზედამხედველობის სესიის (VS) შექმნა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Close_VS_Session" styleclass="List" style="font-family:'Times New Roman'; font-size:11pt; font-weight:normal; color:#000000;" translate="true">დახურეთ VS სესიის ფანჯარა</link><conditional-text type="END"/></li>
+    </list>
+  </body>
+</topic> 

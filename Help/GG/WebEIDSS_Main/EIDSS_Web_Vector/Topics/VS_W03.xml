@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Finished" lasteditedby="RBanton" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">პულის/ინდივიდუალური ვექტორის დეტალები W03</title>
+  <a-keywords>
+    <a-keyword>VS_W03</a-keyword>
+  </a-keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">პულის/ინდივიდუალური ვექტორის დეტალები W03</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ფორმა </text><text styleclass="Normal" style="font-weight:bold;" translate="true">პულის/ინდივიდუალური ვექტორის დეტალი W03</text><text styleclass="Normal" translate="true"> გამოიყენება სესიაზე შეგროვებული ვექტორის ან პულის რეგისტრირებისთვის და მათ შესახებ დეტალური ინფორმაციის დასამატებლად. მონაცემები, რომლებიც შეყვანილია ფორმაში </text><text styleclass="Normal" style="font-weight:bold;" translate="true"> პულის/ინდივიდუალური ვექტორის დეტალი W03</text><text styleclass="Normal" translate="true"> არის სესიის მონაცემთა კომპილაცია: ვექტორები, რომლებიც შექმნილია</text><text styleclass="Normal" style="font-weight:bold;" translate="true"> პულის/ინდივიდუალური ვექტორის დეტალების </text><text styleclass="Normal" translate="true">ფანჯარაში ქმნის სესიის ვექტორების.ერთობლიობათა ჩამონათვალს; და ეს ნიმუშები, რომელიც შეტანილია სესიის თითოეული ვექტორის ან პულისთვის, ქმნის ნიმუშთა ჩამონათვალს, რომლებიც სესიისთვისაა შეგროვებული. </text></para>
+    <para styleclass="Picture"><image src="VS_W03.png" scale="55.00%" width="564" height="433" styleclass="Picture"><caption translate="true"><![CDATA[ნახ. <%FIG++%> ერთობლიობა/ინდივიდუალური ვექტორის დეტალების ფორმა]]></caption></image></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ფორმა </text><text styleclass="Normal" style="font-weight:bold;" translate="true">პული.ინდივიდუალური</text><text styleclass="Normal" translate="true"> დეტალი W03</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Summary_section_of_W03" styleclass="List" translate="true">ვექტორის/პულის ჯამური ინფორმაცია</link><text styleclass="List" translate="true"> შეყვანილი იქნება </text><text styleclass="List" style="font-weight:bold;" translate="true">ერთობლიობის.ინდივიდუალური ვექტორის დეტალის W03</text><text styleclass="List" translate="true"> ფორმის ზედა ნაწილში</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">ვექტორის/ პულის ზოგადი ინფორმაცია შეიყვანება ფორმაში </text><link displaytype="text" defaultstyle="true" type="topiclink" href="General_tab_of_W03" styleclass="List" translate="true">პულის/ინდივიდუალური ვევქტორის დეტალების ფორმის W03 ზოგად ჩანართიში</link></li>
+      <li styleclass="List"><text styleclass="List" translate="true">ინფორმაცია ვექტორის შესახებ, რომელიც დამოკიდებულია ვექტორის ტიპზე, შეიყვანება ფორმაში </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Vector_Specific_Data_tab_of_W03" styleclass="List" translate="true">პულის/ ინდივიდუალური ვევქტორის დეტალების ფორმის W03 ვექტორის სპეციფიკური მონაცემების ჩანართი</link></li>
+      <li styleclass="List"><text styleclass="List" translate="true">ნიმუშების ჩამონათვალის, რომელიც შექმნილია შეგროვებული ვექტორის/ პულისაგან, შეიყვანება ფორმაში </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Samples_tab_of_W03" styleclass="List" translate="true">პულის/ ინდივიდუალური ვევქტორის დეტალების ფორმის W03 ნიმუშების ჩანართი</link></li>
+      <li styleclass="List"><text styleclass="List" translate="true">საველე ტესტების ჩამონათვალი, რომლებიც ჩატარდა შეგროვებული ვექტორის/ერთობლიობისთვის, შეყვანილი იქნება ფორმაში </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Field_Tests_tab_of_W03" styleclass="List" translate="true">პულის/ ინდივიდუალური ვევქტორის დეტალების ფორმის W03 საველე ტესტების ჩანართი</link></li>
+      <li styleclass="List"><text styleclass="List" translate="true">ლაბორატორიული ტესტების ჩამონათვალი შესრულებულია ვექტორის/ერთობლიობისთვის ლაბორატორიულ მოდულში და აისახება ფორმაში პულის/ინდივიდუალური ვექტორის </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Lab_Tests_tab_of_W03" styleclass="List" translate="true">დეტალების ფორმის W03 ლაბორატორიული ტესტების ჩანართი</link></li>
+    </list>
+  </body>
+</topic>

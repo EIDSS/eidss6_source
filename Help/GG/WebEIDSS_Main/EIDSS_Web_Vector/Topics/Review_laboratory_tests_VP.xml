@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Finished">
+  <title translate="true">განიხილეთ ლაბორატორიული ტესტები და ტესტის შედეგები ვექტორისთვის/ პულისთვის</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">განიხილეთ ლაბორატორიული ტესტები და ტესტის შედეგები ვექტორისთვის/ პულისთვის</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ლაბორატორიულ მოდულში ლაბორატორიული ტესტების ჩატარების შემდეგ, ისინი აისახება ფორმაში </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Lab_Tests_tab_of_W03" styleclass="Normal" translate="true">პულის/ ინდივიდუალური ვექტორის დეტალების ლაბორატორიული ტესტების ჩანართი</link><text styleclass="Normal" translate="true">. მონაცემები მხოლოდ წაკითხვის რეჟიმშია ვექტორის ზედამხედველობის მოდულში; თუმცა შესაძლებელია ტესტების რედაქტირება ლაბორატორიულ მოდულში.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">სესიის ვექტორებისთვის/ პულისთვის ჩატარებული ტესტები დაკოპირებულია ფორმაში </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Lab_Tests_subtab_of_W02" styleclass="Normal" translate="true">ვექტორის ზედამხედველობის სესიის ლაბორატორიული ტესტების ქვეჩანართი</link><text styleclass="Normal" translate="true"> და შეჯერებულია სესიის ლაბორატორიული ტესტების ჩამონათვალთან.</text></para>
+    <para styleclass="See_also"><conditional-text type="IF" value="HTML,WEB_EIDSS"/><text styleclass="See_also" translate="true">იხ. აგრეთვე:</text></para>
+    <list id="2" type="ul" listtype="bullet" formatstring="ü" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Lab_Tests_tab_of_W03" styleclass="List" translate="true">"პულის/ცალკეული ვექტორის დეტალების" W03 ფორმის "ლაბორატორიული ტესტების" ჩანართი</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_samples_for_vp" styleclass="List" translate="true">დაარეგისტრირეთ ვექტორის/პულისნიმუშები</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_field_test_results" styleclass="List" translate="true">ვექტორის/პულის საველე ტესტების შედეგების რეგისტრაცია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Accession_in_a_sample__linked_" domain="EIDSS_Lab.hmxz" styleclass="List" translate="true">ნიმუშ(ებ)ის მიღება/შემოსვლა</link></li>
+    </list>
+    <list id="3" type="ul" listtype="bullet" formatstring="ü" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Assign_test" domain="EIDSS_Lab.hmxz" styleclass="List" translate="true">ტესტის დანიშვნა/მინიჭება</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Enter_test_result" domain="EIDSS_Lab.hmxz" styleclass="List" translate="true">შეიყვანეთ ტესტის შედეგი</link><conditional-text type="END"/></li>
+    </list>
+  </body>
+</topic> 

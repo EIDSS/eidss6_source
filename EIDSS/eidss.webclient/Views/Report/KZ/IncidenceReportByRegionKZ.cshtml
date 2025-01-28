@@ -1,0 +1,103 @@
+﻿@using Kendo.Mvc.UI
+@using Kendo.Mvc.UI.Html
+@using bv.common.Configuration
+@using eidss.web.common.Utils
+@using eidss.webclient.Utils
+@using bv.model.Model.Core
+@model eidss.webclient.Models.Reports.IncidenceReportByRegionKZWebModel
+
+@{
+    Layout = "~/Views/Shared/_ReportLayout.cshtml";
+}
+@if (BaseSettings.TranslationMode)
+{
+    <input type='hidden' id='aspclassname' value='@GetType().FullName' />
+}
+
+@using (Html.BeginForm())
+{
+    @Html.Partial("Common/ExportButtonsNoArchive", Model)
+
+    <div class="bluelayout">
+        <div class="tabPanelContent">
+
+            @Html.Partial("Common/BaseFilter", Model)
+
+            <table id="Form1KZFilterTable" class="level1">
+
+                <tr id="yearsRow">
+                    <td class="mediumreport">
+                        @Html.LabelFor(m => m.Year)
+                    </td>
+                    <td class="largereport">
+
+                        @{
+                            @(
+                                        Html.Kendo().NumericTextBox()
+                                        .Name("Year")
+                                        .Value(DateTime.Today.Year)
+                                        .Min(2000)
+                                        .Max(DateTime.Today.Year)
+                                        .Decimals(0)
+                                        .HtmlAttributes(new { @class = "requiredField" })
+                                        .Placeholder("")
+                                        .Format("g")
+                            )
+                        }
+                    </td>
+
+                    <td class="mediumreport">
+                        @Html.LabelFor(m => m.Diagnosis)
+                    </td>
+                    <td class="largereport nopadding">
+
+                        @(Html.Kendo().ComboBox()
+                          .Name("idfsDiagnosisOrDiagnosisGroup")
+                          .BindTo(Model.DiagOrGroupLookup)
+                          .DataValueField("Value")
+                          .DataTextField("Text")
+                          .HtmlAttributes(new { @class = "requiredField" })
+                          .Events(events => events.Open("function(e) { bvComboBox.onOpen(e, " + (int)EditorControlWidth.Large + "); }"))
+                          .Template("<div class='${data.ClassName}'>${ data.Text }<div>")
+                        )
+
+                    </td>
+
+                </tr>
+                <tr id="MonthsRow">
+                    <td class="mediumreport">
+                        @Html.LabelFor(m => m.StartMonth)
+                    </td>
+                    <td class="largereport">
+
+                        @{
+                            @(Html.Kendo().ComboBox()
+                                .BindTo(Model.SelectedMonthList.ConvertToSelectListItem())
+                                .Name("StartMonth")
+                                .HtmlAttributes(new { @class = "requiredField" })
+                                .Events(c => c.Change("paperForm.OnMonthChangedKZ"))
+                            )
+                        }
+                    </td>
+                    <td class="mediumreport">
+                        @Html.LabelFor(m => m.EndMonth)
+                    </td>
+                    <td class="largereport nopadding">
+
+                        @{
+                            @(Html.Kendo().ComboBox()
+                                .BindTo(Model.UnselectedMonthList.ConvertToSelectListItem())
+                                .Name("EndMonth")
+                                .HtmlAttributes(new { @class = "requiredField" })
+                                .Events(c => c.Change("paperForm.OnMonthChangedKZ"))
+                            )
+                        }
+                    </td>
+                </tr>
+            </table>
+
+            @Html.Partial("Common/AddressFilter", Model.Address)
+
+        </div>
+    </div>
+}

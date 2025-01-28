@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">განიხილეთ სესიის ნიმუშები</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">განიხილეთ სესიის ნიმუშები</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">სესიის ნიმუშები არის </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_samples_for_vp" styleclass="Normal" translate="true">ჩამონათვალი ყველა ნიმუშის, რომლებიც შეგროვდა სესიის თითოეული ინდივიდუალური ვექტორისთვის/ პულისთვის</link><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">სესიის ნიმუშთა ჩამონათვალის განსახილველად, გახსენით </text><text styleclass="Normal" style="font-weight:bold;" translate="true">ნიმუშების</text><text styleclass="Normal" translate="true"> ქვეტაბულაცია </text><text styleclass="Normal" style="font-weight:bold;" translate="true">დეტალური ინფორმაციის</text><text styleclass="Normal" translate="true"> ტაბულაციის </text><text styleclass="Normal" style="font-weight:bold;" translate="true">ვექტორის ზედამხედველობის სესიის</text><text styleclass="Normal" translate="true"> ფორმაში. მონაცემები ამ ჩანართში არის მხოლოდ კითხვად რეჟიმში. ნიმუშების რედაქტირებისთვის, გახსენით </text><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_W03" styleclass="Normal" translate="true">პულის/ინდივიდუალური ვექტორის დეტალების</link><text styleclass="Normal" translate="true"> ფორმა ყოველი პულისთვის/ ინდივიდუალური ვექტორისთვის, დააწკაპუნეთ</text><text styleclass="Normal" style="font-weight:bold;" translate="true"> ნიმუშების</text><text styleclass="Normal" translate="true"> ფორმაზე, რომ დაარედაქტიროთ ნიმუშები.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ნიმუშების</text><text styleclass="Normal" style="font-weight:bold;" translate="true"> ქვე-ჩანართების ყოველი </text><text styleclass="Normal" translate="true">ველის დეტალური აღწერა იხ. </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Samples_subtab_of_W02" styleclass="Normal" translate="true">ვექტორის ზედამხედველობის სესიის (W02) ფორმის ნიმუშების ქვე-ჩანართის</link><text styleclass="Normal" translate="true"> სექცია.</text></para>
+  </body>
+</topic> 

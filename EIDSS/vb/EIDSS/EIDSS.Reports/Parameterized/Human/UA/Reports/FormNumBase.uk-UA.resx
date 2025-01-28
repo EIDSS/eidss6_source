@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="xrLabel8.Text" xml:space="preserve">
+    <value>Роздруковано з ЕЛІССЗ</value>
+  </data>
+  <data name="xrLabelAddresUnderCaption.Text" xml:space="preserve">
+    <value>(поштовий індекс, область /Автономна Республіка Крим, район, населений пункт, вулиця /провулок, площа тощо,</value>
+  </data>
+  <data name="xrLabelAddressDetailUnderCaption.Text" xml:space="preserve">
+    <value>№ будинку /корпусу, № квартири /офісу)</value>
+  </data>
+  <assembly alias="DevExpress.Data.v15.1" name="DevExpress.Data.v15.1, Version=15.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="xrLineRespondentLocation.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>137, 147</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="xrLineRespondentLocation.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>545, 4</value>
+  </data>
+  <data name="xrLineRespondentName.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>137, 80</value>
+  </data>
+  <data name="xrLineRespondentName.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>545, 4</value>
+  </data>
+  <data name="xrLabelRespondentLocation.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>124, 16.000061</value>
+  </data>
+  <data name="xrLabelRespondentLocation.Text" xml:space="preserve">
+    <value>Місцезнаходження:</value>
+  </data>
+  <data name="xrLabelRespondentName.Text" xml:space="preserve">
+    <value>Найменування:</value>
+  </data>
+  <data name="xrLabel5Respondent.Text" xml:space="preserve">
+    <value>Респондент:</value>
+  </data>
+  <data name="xrLabelOrgName.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>137, 46</value>
+  </data>
+  <data name="xrLabelOrgName.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>545, 34</value>
+  </data>
+  <data name="xrLabelCountry.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>137, 130.999939</value>
+  </data>
+  <data name="xrLabelCountry.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>545, 16.000061</value>
+  </data>
+  <data name="xrPanelRespondent.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>10, 692</value>
+  </data>
+  <data name="xrTable3.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>15, 269.446625</value>
+  </data>
+  <data name="xrTableCell18.Text" xml:space="preserve">
+    <value>Подають</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="xrTableCell18.Weight" type="System.Double, mscorlib">
+    <value>3.5819452025814509</value>
+  </data>
+  <data name="xrTableCell19.Text" xml:space="preserve">
+    <value>Термін подання</value>
+  </data>
+  <data name="xrTableCell19.Weight" type="System.Double, mscorlib">
+    <value>1.6813879273013619</value>
+  </data>
+  <data name="xrTableRow3.Weight" type="System.Double, mscorlib">
+    <value>2.6377918221064505</value>
+  </data>
+  <data name="xrTableCell71.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="xrTableCell71.Text" xml:space="preserve">
+    <value>Санітарно-епідеміологічні станції (СЕС) незалежно від підпорядкування:</value>
+  </data>
+  <data name="xrTableCell71.Weight" type="System.Double, mscorlib">
+    <value>3.5819454139783962</value>
+  </data>
+  <data name="xrTableCell76.Weight" type="System.Double, mscorlib">
+    <value>1.6813877159044166</value>
+  </data>
+  <data name="xrTableRow5.Weight" type="System.Double, mscorlib">
+    <value>2.6174622628560904</value>
+  </data>
+  <data name="xrTableCell82.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="xrTableCell82.Text" xml:space="preserve">
+    <value>- сільських і міських районів, міст без районного поділу – СЕС Автономної Республіки Крим, обласній, міській (міста з районним поділом) СЕС</value>
+  </data>
+  <data name="xrTableCell82.Weight" type="System.Double, mscorlib">
+    <value>3.5819453268173862</value>
+  </data>
+  <data name="xrTableCell87.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="xrTableCell87.Weight" type="System.Double, mscorlib">
+    <value>1.6813878030654268</value>
+  </data>
+  <data name="xrTableRow2.Weight" type="System.Double, mscorlib">
+    <value>3.6644471101232967</value>
+  </data>
+  <data name="xrTableCell83.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="xrTableCell83.Text" xml:space="preserve">
+    <value>- міст з районним поділом (крім міст Києва і Севастополя) зведений звіт – СЕС Автономної Республіки Крим, обласній СЕС</value>
+  </data>
+  <data name="xrTableCell83.Weight" type="System.Double, mscorlib">
+    <value>3.5819453268173862</value>
+  </data>
+  <data name="xrTableCell88.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="xrTableCell88.Weight" type="System.Double, mscorlib">
+    <value>1.6813878030654268</value>
+  </data>
+  <data name="xrTableRow4.Weight" type="System.Double, mscorlib">
+    <value>3.6644467107302727</value>
+  </data>
+  <data name="xrTableCell74.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="xrTableCell74.Text" xml:space="preserve">
+    <value>СЕС Автономної Республіки Крим, обласні, Київська і Севастопольська  міські СЕС зведений звіт – Центральній СЕС МОЗ України та Головним управлінням статистики в Автономній Республіці Крим, областях, місті Києві, Управлінню статистики в місті Севастополі </value>
+  </data>
+  <data name="xrTableCell74.Weight" type="System.Double, mscorlib">
+    <value>3.6499999102375722</value>
+  </data>
+  <data name="xrTableCell79.Weight" type="System.Double, mscorlib">
+    <value>1.7133332196452402</value>
+  </data>
+  <data name="xrTableRow6.Weight" type="System.Double, mscorlib">
+    <value>4.1879395216010744</value>
+  </data>
+  <data name="xrTableCell75.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="xrTableCell75.Text" xml:space="preserve">
+    <value>Центральна СЕС МОЗ України зведений звіт по Україні та регіонах – Міністерству охорони здоров'я України, Держкомстату України</value>
+  </data>
+  <data name="xrTableCell75.Weight" type="System.Double, mscorlib">
+    <value>3.6499999102375722</value>
+  </data>
+  <data name="xrTableCell80.Weight" type="System.Double, mscorlib">
+    <value>1.7133332196452402</value>
+  </data>
+  <data name="xrTableRow7.Weight" type="System.Double, mscorlib">
+    <value>4.1879386228181117</value>
+  </data>
+  <data name="xrTable3.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>536.3333, 400.388336</value>
+  </data>
+  <data name="xrLabel3.Text" xml:space="preserve">
+    <value>Звітність</value>
+  </data>
+  <data name="xrTableCell9.Text" xml:space="preserve">
+    <value>Ідентифікаційний код ЄДРПОУ</value>
+  </data>
+  <data name="xrLabel1.Text" xml:space="preserve">
+    <value>ЗАТВЕРДЖЕНО
+Наказ МОЗ України
+02.06.2009 № 378</value>
+  </data>
+  <data name="ReportHeader.HeightF" type="System.Single, mscorlib">
+    <value>1049.16675</value>
+  </data>
+  <data name="xrTableCell72.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="xrTableCell72.Weight" type="System.Double, mscorlib">
+    <value>3.6499998647258458</value>
+  </data>
+  <data name="xrTableCell77.Weight" type="System.Double, mscorlib">
+    <value>1.7133332651569664</value>
+  </data>
+  <data name="xrTableCell73.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="xrTableCell73.Weight" type="System.Double, mscorlib">
+    <value>3.6499998647258463</value>
+  </data>
+  <data name="xrTableCell78.Weight" type="System.Double, mscorlib">
+    <value>1.7133332651569666</value>
+  </data>
+  <data name="xrLabel2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>118, 16</value>
+  </data>
+  <data name="xrLabel2.Text" xml:space="preserve">
+    <value>Електронна пошта:</value>
+  </data>
+  <data name="xrLabel10.Text" xml:space="preserve">
+    <value>(П.І.Б.)</value>
+  </data>
+  <data name="xrLabel9.Text" xml:space="preserve">
+    <value>(підпис)</value>
+  </data>
+  <data name="xrLabel5.Text" xml:space="preserve">
+    <value>Факс:</value>
+  </data>
+  <data name="xrLabelPhone.Text" xml:space="preserve">
+    <value>телефон:</value>
+  </data>
+  <data name="xrLabelPreparedBy.Text" xml:space="preserve">
+    <value>Виконавець</value>
+  </data>
+  <data name="xrLabel.Text" xml:space="preserve">
+    <value>(П.І.Б.)</value>
+  </data>
+  <data name="xrLabelSignatureUnderCaption.Text" xml:space="preserve">
+    <value>(підпис)</value>
+  </data>
+  <data name="xrLabelApprovedBy.Text" xml:space="preserve">
+    <value>Керівник</value>
+  </data>
+  <data name="xrLabelCellNumber.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>BottomCenter</value>
+  </data>
+  <data name="NonSelectedRegion" xml:space="preserve">
+    <value>ВСЯ КРАЇНА</value>
+  </data>
+  <data name="SelectedRegion" xml:space="preserve">
+    <value>ОБЛАСТЬ </value>
+  </data>
+</root>

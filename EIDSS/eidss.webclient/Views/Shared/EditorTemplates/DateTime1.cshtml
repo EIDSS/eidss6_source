@@ -1,0 +1,12 @@
+﻿@using Kendo.Mvc.UI
+@model ViewUserControl<DateTime?>
+
+@*TODO: Chrome date problem fix - start*@
+@*old version@Html.Kendo().DateTimePicker()
+    .Name(ViewData.TemplateInfo.GetFullHtmlFieldName(string.Empty))
+    .Value(Model !=null && Model > DateTime.MinValue? Model : DateTime.Today)*@
+@Html.Kendo().DateTimePicker()
+    .Name(ViewData.TemplateInfo.GetFullHtmlFieldName(string.Empty))
+    .Value(Model !=null && Model > DateTime.MinValue? Model : DateTime.Today)
+    .HtmlAttributes(new { type = "text" })
+@*TODO: Chrome date problem fix - end*@

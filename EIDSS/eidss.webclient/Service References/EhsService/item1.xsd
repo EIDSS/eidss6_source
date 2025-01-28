@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/eidss.model.Model.UploadEhs" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/eidss.model.Model.UploadEhs" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:50120/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/eidss.model.Schema" />
+  <xs:complexType name="ValidateDataResult">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/eidss.model.Schema" minOccurs="0" name="EventError" type="q1:UploadEhsFileResult" />
+      <xs:element minOccurs="0" name="EventFileContent" nillable="true" type="xs:base64Binary" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/eidss.model.Schema" minOccurs="0" name="EventState" type="q2:UploadEhsMasterState" />
+      <xs:element minOccurs="0" name="HasEventErrorFile" type="xs:boolean" />
+      <xs:element minOccurs="0" name="HasPatientErrorFile" type="xs:boolean" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/eidss.model.Schema" minOccurs="0" name="PatientError" type="q3:UploadEhsFileResult" />
+      <xs:element minOccurs="0" name="PatientFileContent" nillable="true" type="xs:base64Binary" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/eidss.model.Schema" minOccurs="0" name="PatientState" type="q4:UploadEhsMasterState" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ValidateDataResult" nillable="true" type="tns:ValidateDataResult" />
+  <xs:complexType name="SaveDataResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EventJsonWithResults" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="IsSuccessful" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SaveDataResult" nillable="true" type="tns:SaveDataResult" />
+</xs:schema>

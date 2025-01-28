@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Finished">
+  <title translate="true">ვექტორის ზედამხედველობის W02 ფორმის დეტალური ინფორმაცია</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">"ვექტორული ზედამხედველობის სესიის" W02 ფორმის "დეტალური ინფორმაცია"</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">დეტალურ ინფორმაციაში შედის სესიის პერიოდში აღებული პულების/ვექტორების ჩამონათვალი, მათი აღების არეალი და დრო, ასევე ამ მასალის ამღები პირის სახელი. აღებული მასალის შესახებ ინფორმაციის დაფიქსირების შემდეგ, განსაზღვრეთ ამ მასალებიდან მიღებული ნიმუშები. ქვემოთ მოყვანილი ეტაპებია ტესტების რეგისტრაცია, ჯერ აღებულ მასალაზე ჩატარებული საველე ტესტები და შემდეგ ლაბორატორიული ტესტები. ზემოთმოყვანილი ყველა ეტაპი ტარდება "ვექტორული ზედამხედველობის მოდულში" ლაბორატორიული ტესტების გარდა, რომლებიც ტარდება "ლაბორატორიულ მოდულში" და ჩანს მხოლოდ "ვექტორული ზედამხედველობის მოდულში".</text></para>
+    <para styleclass="Normal"></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Pools_Individual_Vectors_of_W02" styleclass="List" translate="true">"ვექტორული ზედამხედველობის სესიის" (W02) ფორმის "პულები/ცალკეული ვექტორების" ქვეჩანართი</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Samples_subtab_of_W02" styleclass="List" translate="true">"ვექტორული ზედამხედველობის სესიის" (W02) ფორმის "ნიმუშების" ქვეჩანართი</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Field_Tests_subtab_of_Vector_S" styleclass="List" translate="true">"ვექტორული ზედამხედველობის სესიის" (W02) ფორმის "საველე ტესტების" ქვეჩანართი</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Lab_Tests_subtab_of_W02" styleclass="List" translate="true">"ვექტორული ზედამხედველობის სესიის" (W02) ფორმის "ლაბორატორიული ტესტების" ქვეჩანართი</link></li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic> 

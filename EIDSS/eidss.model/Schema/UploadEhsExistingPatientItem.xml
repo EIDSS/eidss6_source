@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<object name="UploadEhsExistingPatientItem"
+        connection="EidssConnectionString"
+        generator="ObjectGenerator.xslt"
+        xmlns="urn:schemas-bv:objectmodel">
+
+  <storage>
+    <get name="spUploadEhsExistingPatientItem_SelectList" type="detaillist,detailone" />
+  </storage>
+
+  <tables>
+    <table name="UploadEhsExistingPatientItem">
+      <labels>
+        <item name="patient_id_EIDSS"  labelId="ehsPatientId"/>
+        <item name="first_name_EIDSS"  labelId="strFirstName"/>
+        <item name="last_name_EIDSS"  labelId="strLastName"/>
+        <item name="second_name_EIDSS"  labelId="strSecondName"/>
+        <item name="person_birth_date_EIDSS"  labelId="datDateofBirth"/>
+        <item name="gender_EIDSS"  labelId="idfsSex"/>
+        <item name="address_area_EIDSS"  labelId="idfsRegion"/>
+        <item name="address_region_EIDSS"  labelId="idfsRayon"/>
+        <item name="address_settlement_EIDSS"  labelId="idfsSettlement"/>
+        <item name="address_street_EIDSS"  labelId="strStreetName"/>
+        <item name="address_building_EIDSS"  labelId="strHouse"/>
+        <item name="address_apartment_EIDSS"  labelId="strApartment"/>
+        <item name="address_zip_EIDSS"  labelId="strPostCode"/>
+        <item name="phones_EIDSS"  labelId="strHomePhone"/>
+        <item name="strPatientName"  labelId="PatientName"/>
+      </labels>
+      <fields>
+        <calculated name="master" depends="Parent" type="UploadEhsMaster" lambda="c => c.Parent as UploadEhsMaster"/>
+        <calculated name="strStatus" type="string" depends="Resolution" lambda='c => eidss.model.Resources.EidssMessages.Get(c.Resolution.HasValue ? (c.Resolution.Value == (int)UploadEhsPatientResolution.Updated ? "rsUpdated" : (c.Resolution.Value == (int)UploadEhsPatientResolution.Created ? "rsCreated" : "rsDismissed")) : "rsUnspecified")' />
+        <calculated name="strStatusPresent" type="string" depends="Resolution" lambda='c => eidss.model.Resources.EidssMessages.Get(c.Resolution.HasValue ? (c.Resolution.Value == (int)UploadEhsPatientResolution.Updated ? "rsUpdate" : (c.Resolution.Value == (int)UploadEhsPatientResolution.Created ? "rsCreate" : "rsDismiss")) : "rsUnspecified")' />
+        <storage name="Resolved" type="bool"/>
+      </fields>
+      <readonly>
+        <!--<fields name="*" predicate="c => true" />-->
+
+        <fields name="idfHumanActual" predicate="c => true" />
+        <fields name="strPatientName" predicate="c => true" />
+
+        <fields name="patient_id" predicate="c => true" />
+        <fields name="patient_id_EIDSS" predicate="c => true" />
+        <fields name="patient_id_EHS" predicate="c => true" />
+
+        <fields name="last_name" predicate="c => true" />
+        <fields name="last_name_EIDSS" predicate="c => true" />
+        <fields name="last_name_EHS" predicate="c => true" />
+
+        <fields name="first_name" predicate="c => true" />
+        <fields name="first_name_EIDSS" predicate="c => true" />
+        <fields name="first_name_EHS" predicate="c => true" />
+
+        <fields name="second_name" predicate="c => true" />
+        <fields name="second_name_EIDSS" predicate="c => true" />
+        <fields name="second_name_EHS" predicate="c => true" />
+
+        <fields name="person_birth_date" predicate="c => true" />
+        <fields name="person_birth_date_EIDSS" predicate="c => true" />
+        <fields name="person_birth_date_EHS" predicate="c => true" />
+
+        <fields name="gender" predicate="c => true" />
+        <fields name="gender_EIDSS" predicate="c => true" />
+        <fields name="gender_EHS" predicate="c => true" />
+
+        <fields name="phones" predicate="c => true" />
+        <fields name="phones_EIDSS" predicate="c => true" />
+        <fields name="phones_EHS" predicate="c => true" />
+
+        <fields name="address_zip" predicate="c => true" />
+        <fields name="address_zip_EIDSS" predicate="c => true" />
+        <fields name="address_zip_EHS" predicate="c => true" />
+
+        <fields name="address_area" predicate="c => true" />
+        <fields name="address_area_EIDSS" predicate="c => true" />
+        <fields name="address_area_EHS" predicate="c => true" />
+
+        <fields name="address_region" predicate="c => true" />
+        <fields name="address_region_EIDSS" predicate="c => true" />
+        <fields name="address_region_EHS" predicate="c => true" />
+
+        <fields name="address_settlement" predicate="c => true" />
+        <fields name="address_settlement_EIDSS" predicate="c => true" />
+        <fields name="address_settlement_EHS" predicate="c => true" />
+
+        <fields name="address_street" predicate="c => true" />
+        <fields name="address_street_EIDSS" predicate="c => true" />
+        <fields name="address_street_EHS" predicate="c => true" />
+
+        <fields name="address_building" predicate="c => true" />
+        <fields name="address_building_EIDSS" predicate="c => true" />
+        <fields name="address_building_EHS" predicate="c => true" />
+
+        <fields name="address_apartment" predicate="c => true" />
+        <fields name="address_apartment_EIDSS" predicate="c => true" />
+        <fields name="address_apartment_EHS" predicate="c => true" />
+
+        <fields name="address_type" predicate="c => true" />
+        <fields name="address_type_EIDSS" predicate="c => true" />
+        <fields name="address_type_EHS" predicate="c => true" />
+
+        <!--<fields name="Resolution" predicate="c => true" />-->
+
+        <fields name="idfsUploadEhs" predicate="c => true" />
+        <fields name="idfsUploadEhsPatientItem" predicate="c => true" />
+        <fields name="idfsNavigatorItem" predicate="c => true" />
+
+        <fields name="strStatusPresent" predicate="c => true" />
+      </readonly>
+      <actions>
+        <standard>
+          <remove type="Create"/>
+          <remove type="Delete"/>
+          <remove type="SelectAll"/>
+          <remove type="Ok"/>
+          <remove type="Cancel"/>
+          <remove type="Save"/>
+        </standard>
+      </actions>
+    </table>
+  </tables>
+</object>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Needs Review">
+  <title translate="true">გადასინჯეთ სესიის ლაბორატორიული ტესტები და ტესტის შედეგები</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">გადასინჯეთ სესიის ლაბორატორიული ტესტები და ტესტის შედეგები</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">სესიის ლაბორატორიული ტესტები არის ჩამონათვალი ყველა </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Review_laboratory_tests_VP" styleclass="Normal" translate="true">საველე ტესტისა, რომლებიც ჩატარდა სესიის თითოეული ინდივიდუალური ვეტორის/ პულისთვის.</link><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">სესიის ლაბორატორიული ტესტების გადასინჯვისთვის გახსენით </text><text styleclass="Normal" style="font-weight:bold;" translate="true">ლაბორატორიული ტესტების</text><text styleclass="Normal" translate="true"> ქვეჩანართი </text><text styleclass="Normal" style="font-weight:bold;" translate="true">დეტალური ინფრმაციის</text><text styleclass="Normal" translate="true"> ტაბულაციიდან, </text><text styleclass="Normal" style="font-weight:bold;" translate="true">ვექტორის ზედამხედველობის სესიის</text><text styleclass="Normal" translate="true">ფორმა. მონაცემები ამ ჩანართში არის მხოლოდ კითხვად რეჟიმში. ნიმუშების რედაქტირებისთვის გამოიყენეთ ლაბორატორიული მოდული.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">იმისათვის, რომ დეტალურად აღიწეროს </text><text styleclass="Normal" style="font-weight:bold;" translate="true">ლაბორატორიული ტესტების</text><text styleclass="Normal" translate="true">თითოეული ველის ქვეჩანართი, წაიკითხეთ </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Lab_Tests_subtab_of_W02" styleclass="Normal" translate="true">ვექტორის ზედამხედველობის სესიის W02 ფორმის ლაბორატორიული ტესტების ქვეტაბულაციის</link><text styleclass="Normal" translate="true"> სექცია.</text></para>
+  </body>
+</topic> 

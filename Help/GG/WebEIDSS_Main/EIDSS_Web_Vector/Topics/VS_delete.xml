@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Finished" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">VS სესიის წაშლა</title>
+  <a-keywords>
+    <a-keyword>VS_delete</a-keyword>
+  </a-keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">VS სესიის წაშლა</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">თუკი ვექტორის ზედამხედველობის სესია შეცდომით შეიქმნა, მისი წაშლა შეიძლება.</text></para>
+    <para styleclass="Important"><text styleclass="Important" translate="true">შეიძლება წაიშალოს მხოლოდ აქტიური სესია, ანუ სესია </text><text styleclass="Important" style="font-style:italic;" translate="true">მიმდინარე</text><text styleclass="Important" translate="true"> სტატუსით, რომელთანაც არ არის დაკავშირებული არც ვექტორები და არც აფეთქებები.</text></para>
+    <para styleclass="Normal"></para>
+    <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="List" translate="true"></text><text styleclass="List" style="font-weight:bold;" translate="true">ჟურნალების</text><text styleclass="List" translate="true"> მენიუში შეარჩიეთ </text><text styleclass="List" style="font-weight:bold;" translate="true">ვექტორული ზედამხედველობის სესიები</text><text styleclass="List" translate="true">. გაიხსნება </text><text styleclass="List" style="font-weight:bold;" translate="true">ვექტორული ზედამხედველობის სესიების ჩამონათვალის</text><text styleclass="List" style="font-weight:normal;" translate="true"> ფანჯარა. </text></li>
+      <li styleclass="Normal"><text styleclass="List" translate="true">მოძებნეთ სასურველი ვექტორული ზედამხედველობის სესია.</text></li>
+      <li styleclass="Normal"><text styleclass="List" translate="true">გააკეთეთ შემდეგიდან ერთ–ერთი:</text></li>
+    </list>
+    <list id="4" level="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" style="font-family:'Times New Roman'; font-size:11pt; color:#000000;" translate="true">წდააწკაპუნეთ<text styleclass="Normal" style="font-family:'Times New Roman'; font-size:11pt; font-weight:bold; color:#000000;" translate="true"> </text>წაშლის</text><text styleclass="Normal" style="font-family:'Times New Roman'; font-size:11pt; color:#000000;" translate="true"> ღილაკზე (</text><image src="delete_button.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Normal" style="font-family:'Times New Roman'; font-size:11pt; color:#000000;" translate="true">) წასაშლელ სესიამდე.</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" style="font-family:'Times New Roman'; font-size:11pt; color:#000000;" translate="true">გახსენით წასაშლელი სესია და დააწკაპუნეთ </text><text styleclass="Normal" style="font-family:'Times New Roman'; font-size:11pt; font-weight:bold; color:#000000;" translate="true">წაშლის </text><text styleclass="Normal" style="font-family:'Times New Roman'; font-size:11pt; color:#000000;" translate="true">ღილაკზე </text><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_W02" styleclass="Normal" style="font-family:'Times New Roman'; font-size:11pt; color:#000000;" translate="true">ვექტორული ზედამხედველობის სესიის</link><text styleclass="Normal" style="font-family:'Times New Roman'; font-size:11pt; color:#000000;" translate="true"> ფორმის ზედა ნაწილში.</text></li>
+    </list>
+    <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="List" translate="true">როდესაც </text><text styleclass="List" style="font-weight:bold;" translate="true">დადასტურების</text><text styleclass="List" translate="true"> ფანჯარა იხსნება, დაკლიკეთ </text><text styleclass="List" style="font-weight:bold;" translate="true">დიახ</text><text styleclass="List" translate="true"> ღილაკზე, წაშლის დადასტურებისთვის.</text></li>
+    </list>
+    <para styleclass="See_also"><conditional-text type="IF" value="HTML,WEB_EIDSS"/><text styleclass="See_also" translate="true">იხ. აგრეთვე:</text></para>
+    <list id="5" type="ul" listtype="bullet" formatstring="&#252;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_Create" styleclass="List" translate="true">ვექტორული ზედამხედველობის სესიის (VS) შექმნა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_edit" styleclass="List" style="font-family:'Times New Roman'; font-size:11pt; font-weight:normal; color:#000000;" translate="true">დაარედაქტირეთ ვექტორული ზედამხედველობის სესია</link><conditional-text type="END"/></li>
+    </list>
+  </body>
+</topic> 

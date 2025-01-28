@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Finished">
+  <title translate="true">ვექტორის ზედამხედველობის სესია W02</title>
+  <a-keywords>
+    <a-keyword>VS_W02</a-keyword>
+  </a-keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">ვექტორის ზედამხედველობის სესია W02</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal;" translate="true">ეს</text><text styleclass="Normal" style="font-weight:bold;" translate="true">ვექტორის ზედამხედველობის სესია (W02)</text><text styleclass="Normal" translate="true"> არის ფორმა, რომელიც გამოიყენება VS სესიის შესაყვანად, დასათვაიერებლად, ან ზოგადი, დეტალური და შემაჯამებელი ინფორმაციის რედაქტირებისთვის.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ვექტორის ზედამხედველობის სესიის შესახებ ინფორმაცია შეიძლება ჩაიწეროს დეტალურად ან რეზიუმეს სახით. დეტალური ინფორმაცია მოიცავს ერთობლიობას/ვექტორებს, რომლებიც შეგროვებულია სესიის განმავლობაში, მათი შეგროვების არეალსა და დროს, და მასალის შემგროვებელი პირის სახელს. შეგროვებული მასალის შესახებ ინფორმაციის შეყვანის შემდეგ ხდება განსაზღვრა ნიმუშებისა, რომლებიც შეგროვებული მასალიდან იქნა მიღებული. ხოლო წინა ნაბიჯებია ტესტების რეგისტრაცია, პირველი საველე ტესტები და შემდეგ ლაბორატორიული ტესტები, რომელიც შეგროვებული მასალისთვის ჩატარდა. ზემოთმოყვანილი ყველა ეტაპი ტარდება "ვექტორული ზედამხედველობის მოდულში" ლაბორატორიული ტესტების გარდა, რომლებიც ტარდება "ლაბორატორიულ მოდულში" და ჩანს მხოლოდ "ვექტორული ზედამხედველობის მოდულში".</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ყველა ნიმუში და ვექტორის ზედამხედველობის მოდულში რეგისტრირებული ნიმუშები ხელმისაწვდომია ლაბორატორიის მოდულში.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ჯამური ინფორმაცია არის ძალიან მოკლე ინფორმაცია, რომელშიც შედის შემდეგი მონაცემები; შეგროვებული ვექტორები, მათი შეგროვების ადგილი და დაავადებები, რომლებიც დადასტურდა შეგროვებული მასალის ტესტირებების შედეგად. ინფორმაცია ტესტების შესახებ: რაოდენობა, ტიპი და თარიღი არ ფიქსირდება; ფიქსირდება მხოლოდ დადასტურებული დაავადებები.</text></para>
+    <para styleclass="Picture"><image src="VS_W02.png" scale="55.00%" width="558" height="326" styleclass="Picture"><caption translate="true"><![CDATA[ნახ, <%FIG++%> ვექტორის ზედამხედველობის სესიის ფორმა]]></caption></image></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ფორმა </text><text styleclass="Normal" style="font-weight:bold;" translate="true">ვექტორის ზედამხედველობის სესია</text><text styleclass="Normal" translate="true"> შედგება შემდეგი ელემენტებისაგან:</text></para>
+    <list id="1" level="3" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="General_Info_of_W02" styleclass="List" translate="true">ზოგადი ინფორმაციის ფანჯარა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Detailed_Info_of_W02" styleclass="List" translate="true">დეტალური ინფორმაციის ჩანართი</link><text styleclass="List" translate="true"> ქვეჩანართებით:</text></li>
+      <list id="1" level="5" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+        <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Pools_Individual_Vectors_of_W02" styleclass="List" translate="true">ერთობლიობის/ინდივიდუალური ვექტორების ქვეჩანართი</link></li>
+        <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Samples_subtab_of_W02" styleclass="List" translate="true">ნიმუშების ქვეჩანართი</link></li>
+        <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Field_Tests_subtab_of_Vector_S" styleclass="List" translate="true">საველე ტესტების ქეტაბულაცია</link></li>
+        <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Lab_Tests_subtab_of_W02" styleclass="List" translate="true">ლაბორატორიული ტესტების ქვეჩანართი</link></li>
+      </list>
+    </list>
+    <list id="1" level="3" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Summary_Info_tab_of_W02" styleclass="List" translate="true">ჯამური საინფორმაციო ჩანართი</link></li>
+    </list>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="5" colcount="2" style="width:100%; cell-padding:2px; cell-spacing:2px; border-width:1px; border-spacing:2px; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:top">
+        <td colspan="2" style="width:587px;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ღილაკები</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:330px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">დამახსოვრება</text></para>
+        </td>
+        <td style="width:1039px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">იმახსოვრებს ცვლილებებს, რომლებიც გაკეთდა გახსნილ სესიაში. ფანჯარა </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დადასტურება</text><text styleclass="Table_body" translate="true"> ხსნის შეკითხვას შენახვის დადასტურების შესახებ.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:330px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">დიახ</text></para>
+        </td>
+        <td style="width:1039px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">დახურეთ ვექტორის ზედამხედველობის სესიის ფანჯარა. თუკი სესიაში შეტანილი ცვლილებები დამახსოვრებული არ არის, გაიხსნება ფანჯარა </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დადასტურება</text><text styleclass="Table_body" translate="true"> და მოითხოვს დამახსოვრების დადასტურებას.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:330px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">გაუქმება</text></para>
+        </td>
+        <td style="width:1039px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">აუქმებს ყველა დაუმახსოვრებელ ცვლილებას. ღილაკზე დაწკაპუნების შემდეგ გაიხსნება ფანჯარა </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დადასტურება</text><text styleclass="Table_body" translate="true"> და მოითხოვს ცვლილებების გაუქმების დადასტურებას.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:330px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">წაშლა</text></para>
+        </td>
+        <td style="width:1039px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">წაშლის გახსნილ სესიას. შეიძლება წაიშალოს მხოლოდ აქტიური სესია, ანუ სესია </text><text styleclass="Table_body" style="font-style:italic;" translate="true">მიმდინარე</text><text styleclass="Table_body" translate="true"> სტატუსით, რომელთანაც არ არის დაკავშირებული არც ვექტორები და არც აფეთქებები.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic> 

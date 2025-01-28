@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Alexander" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Finished">
+  <title translate="true">ეკრანული ფორმის აღწერა</title>
+  <a-keywords>
+    <a-keyword>VS_forms</a-keyword>
+  </a-keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">ეკრანული ფორმების აღწერილობა</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ამ სექციაში აღწერილია "ვექტორული ზედამხედველობის მოდულთან" დაკავშირებული თითოეული ფორმა.</text></para>
+  </body>
+</topic> 

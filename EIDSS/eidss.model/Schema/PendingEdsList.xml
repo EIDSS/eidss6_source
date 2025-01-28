@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<object name="PendingEdsEventListItem"
+        connection="EidssConnectionString"
+        generator="ObjectGenerator.xslt"
+        xmlns="urn:schemas-bv:objectmodel">
+
+	<storage>
+    <get name="fn_PendingEdsEvent_SelectList" type="fnlist" />
+    <count name="spPendingEdsEvent_SelectCount" />
+	</storage>
+
+	<tables>
+    <table name="PendingEdsEventListItem">
+      <searchpanel>
+        <item name="idfsActionName" editor="Lookup" labelId="strActionName"	lookupName="AuditEventTypeLookup"
+					  lookupType="BaseReference" lookupText="c.name" lookupValue="c.idfsBaseReference"/>
+        <item name="idfsObjectType" editor="Lookup" labelId="strObjectType"	lookupName="AuditObjectTypeLookup"
+					  lookupType="BaseReference" lookupText="c.name" lookupValue="c.idfsBaseReference" dependent="strObjectName"/>
+        <item name="strObjectName" editor="Text" labelId="idfObjectID" />
+        <item name="datEnteringDate" editor="Date" labelId="datTransactionDate" range="true" mandatory="true"
+					  default="c => DateTime.Today.AddDays(-EidssUserContext.User.Options.Prefs.DefaultDays) "/>
+      </searchpanel>
+
+      <grid>
+        <item name="idfDataAuditEvent" key="true" visible="false" />
+        <item name="strActionName" />
+        <item name="strObjectType" />
+        <item name="strObjectName" />
+        <item name="datEnteringDate" format="G" defaultSort="Descending" />
+        <item name="datObsoleteDate" format="G"/>
+      </grid>
+      <labels>
+        <item name="datEnteringDate" labelId="datTransactionDate"/>
+        <item name="strObjectName" labelId="idfObjectID"/>
+      </labels>
+      <readonly>
+                <fields name="strObjectName"
+                        predicate="c => c.AuditObjectType == null ||
+                        !((c.AuditObjectType != null &amp;&amp; c.AuditObjectType.idfsBaseReference == (long)eidss.model.Enums.EIDSSAuditObject.daoHumanCase)
+                        || (c.AuditObjectType != null &amp;&amp; c.AuditObjectType.idfsBaseReference == (long)eidss.model.Enums.EIDSSAuditObject.daoOutbreak)
+                        || (c.AuditObjectType != null &amp;&amp; c.AuditObjectType.idfsBaseReference == (long)eidss.model.Enums.EIDSSAuditObject.daoVetCase)
+                        || (c.AuditObjectType != null &amp;&amp; c.AuditObjectType.idfsBaseReference == (long)eidss.model.Enums.EIDSSAuditObject.daoCampaign)
+                        || (c.AuditObjectType != null &amp;&amp; c.AuditObjectType.idfsBaseReference == (long)eidss.model.Enums.EIDSSAuditObject.daoMonitoringSession)
+                        || (c.AuditObjectType != null &amp;&amp; c.AuditObjectType.idfsBaseReference == (long)eidss.model.Enums.EIDSSAuditObject.daoAgregateHumanCase)
+                        || (c.AuditObjectType != null &amp;&amp; c.AuditObjectType.idfsBaseReference == (long)eidss.model.Enums.EIDSSAuditObject.daoAggregateVetCase)
+                        || (c.AuditObjectType != null &amp;&amp; c.AuditObjectType.idfsBaseReference == (long)eidss.model.Enums.EIDSSAuditObject.daoAggregateVetAction)
+                        || (c.AuditObjectType != null &amp;&amp; c.AuditObjectType.idfsBaseReference == (long)eidss.model.Enums.EIDSSAuditObject.daoVectorSurveillanceSession)
+                        || (c.AuditObjectType != null &amp;&amp; c.AuditObjectType.idfsBaseReference == (long)eidss.model.Enums.EIDSSAuditObject.daoBssForm)
+                        || (c.AuditObjectType != null &amp;&amp; c.AuditObjectType.idfsBaseReference == (long)eidss.model.Enums.EIDSSAuditObject.daoBssAggregateForm)
+                        )" />
+                <fields name="*" predicate="c => false" />
+            </readonly>
+      <lookups>
+				<lookup name="AuditObjectType" table="BaseReference"  section="rftDataAuditObjectType" source="idfsObjectType" target="idfsBaseReference" />
+				<lookup name="AuditEventType" table="BaseReference"  section="rftDataAuditEventType" source="idfsActionName" target="idfsBaseReference" />
+			</lookups>
+
+			<storage>
+				<delete name="spReadOnlyObject_Delete"/>
+				<candelete name="spReadOnlyObject_CanDelete"/>
+			</storage>
+
+      <actions child="PendingEds">
+        <standard>
+          <remove type="Create"/>
+          <remove type="Edit"/>
+          <remove type="Delete"/>
+          <remove type="Report"/>
+        </standard>
+        <action name="CleanUpPendingEds" type="Action">
+          <visual alignment="Right" panel="Top">
+            <regular caption="strCleanUpPendingEds_Id" tooltip="strCleanUpPendingEds_Id"  icon=""/>
+          </visual>
+          <!--<permissions type=""/>-->
+          <run>
+            <preUI webType="JScript"/>
+          </run>
+          <!--<run>
+            <preText>
+              manager.SetSpCommand("dbo.spPendingEds_CleanUpByUser"
+              , manager.Parameter("@idfUserID", (long)(EidssUserContext.User.ID))
+              ).ExecuteNonQuery();
+              return true;
+            </preText>
+          </run>-->
+        </action>
+        <action name="SignPendingEds" type="Action">
+          <visual alignment="Right" panel="Top">
+            <regular caption="strSignPendingEds_Id" tooltip="strSignPendingEds_Id"  icon=""/>
+          </visual>
+          <!--<permissions type=""/>-->
+          <run>
+            <preUI webType="JScript"/>
+          </run>
+          <!--<run>
+            <preText>
+              manager.SetSpCommand("dbo.spPendingEds_SignByUser"
+              , manager.Parameter("@idfUserID", (long)(EidssUserContext.User.ID))
+              , manager.Parameter("@strCheckSum", "XXX")
+              ).ExecuteNonQuery();
+              return true;
+            </preText>
+          </run>-->
+        </action>
+      </actions>
+
+    </table>
+	</tables>
+</object>

@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="xrTableCellNovember.Weight" type="System.Double, mscorlib">
+    <value>0.19363891844218639</value>
+  </data>
+  <data name="xrLabelRegionsAndSpecies.Text" xml:space="preserve">
+    <value>xrLabelRegionsAndSpecies</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tableBaseHeader.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>156.3333, 25.83334</value>
+  </data>
+  <data name="xrTableCellMarch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <data name="xrTableCellFebruary.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <data name="xrTableCellNovember.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <data name="xrTableCellMay.Weight" type="System.Double, mscorlib">
+    <value>0.19235266604303086</value>
+  </data>
+  <data name="xrTableCellDecember.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <assembly alias="DevExpress.Data.v15.1" name="DevExpress.Data.v15.1, Version=15.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="xrLabelPrintedFromEIDSS.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>TopRight</value>
+  </data>
+  <data name="xrTableCellFebruaryData.Weight" type="System.Double, mscorlib">
+    <value>0.19363891844218642</value>
+  </data>
+  <data name="xrTable1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="Detail1.HeightF" type="System.Single, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="xrTableCellJulyData.Weight" type="System.Double, mscorlib">
+    <value>0.19363891844218639</value>
+  </data>
+  <data name="xrTable1.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCellTotal.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="xrLabelPrintedDateAndTime.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>924.5, 27.33332</value>
+  </data>
+  <data name="xrTableCellJuly.Weight" type="System.Double, mscorlib">
+    <value>0.19363891844218639</value>
+  </data>
+  <data name="xrTableCellNovember.Text" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="tableBaseHeader.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="xrTableCellAugustData.Weight" type="System.Double, mscorlib">
+    <value>0.19363891844218639</value>
+  </data>
+  <data name="xrTable2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>1064, 26</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="xrTableCellCaption.Weight" type="System.Double, mscorlib">
+    <value>0.482694099504776</value>
+  </data>
+  <data name="xrTableCellMay.Text" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="xrLabelRegionsAndSpecies.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>1027.861, 46.4999924</value>
+  </data>
+  <data name="xrLabelPrintedFromEIDSS.Text" xml:space="preserve">
+    <value>Printed from EIDSS: </value>
+  </data>
+  <data name="xrTableCellSeptember.Weight" type="System.Double, mscorlib">
+    <value>0.19363891130524111</value>
+  </data>
+  <data name="xrTableCellCaptionData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <data name="xrTableCellOctober.Text" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="xrTable1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>0, 0</value>
+  </data>
+  <data name="xrLabelRegionsAndSpecies.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>TopCenter</value>
+  </data>
+  <data name="xrChart.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="xrTableCellDecember.Text" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="xrTableCellApril.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <data name="xrTableCellMay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <data name="xrLabelBeginOfTheCaption.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>175.079453, 16.00001</value>
+  </data>
+  <data name="xrLabelPrintedFromEIDSS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="xrTableCellMarch.Weight" type="System.Double, mscorlib">
+    <value>0.19363891844218639</value>
+  </data>
+  <data name="xrPageInfo1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="xrLabelRegionsAndSpecies.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="xrTableCellJanuary.Text" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="xrLabelPrintedFromEIDSS.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>732, 27.33332</value>
+  </data>
+  <data name="xrTableCellSeptember.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <data name="xrLabelCurrentOrganization.Text" xml:space="preserve">
+    <value>xrLabelCurrentOrganization</value>
+  </data>
+  <data name="xrTable2.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCellAugust.Weight" type="System.Double, mscorlib">
+    <value>0.19363891844218639</value>
+  </data>
+  <data name="xrTableCellTotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <data name="xrTableCellAugust.Text" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="GroupFooter1.HeightF" type="System.Single, mscorlib">
+    <value>365.833374</value>
+  </data>
+  <data name="xrTableCellFebruary.Weight" type="System.Double, mscorlib">
+    <value>0.19363891844218642</value>
+  </data>
+  <data name="xrLabelPrintedDateAndTime.Text" xml:space="preserve">
+    <value>xrLabelPrintedDateAndTime</value>
+  </data>
+  <data name="xrTableCellApril.Weight" type="System.Double, mscorlib">
+    <value>0.18206267182909516</value>
+  </data>
+  <data name="xrTableCellOctober.Weight" type="System.Double, mscorlib">
+    <value>0.19363891130524108</value>
+  </data>
+  <data name="xrChart.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>1064, 358.333374</value>
+  </data>
+  <data name="xrTableRow2.Weight" type="System.Double, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="xrTableCellJuneData.Weight" type="System.Double, mscorlib">
+    <value>0.19363890773676845</value>
+  </data>
+  <data name="xrTableCellApril.Text" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="ReportHeader.HeightF" type="System.Single, mscorlib">
+    <value>95.50001</value>
+  </data>
+  <data name="xrTableCellDecemberData.Weight" type="System.Double, mscorlib">
+    <value>0.19363891844218639</value>
+  </data>
+  <data name="xrTableCellJuly.Text" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="xrTableCellJune.Text" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="GroupHeader1.HeightF" type="System.Single, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="xrLabelPrintedFromEIDSS.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>192.5, 17.00001</value>
+  </data>
+  <data name="xrTableCellJune.Weight" type="System.Double, mscorlib">
+    <value>0.19363890773676845</value>
+  </data>
+  <data name="xrTableCellMarchData.Weight" type="System.Double, mscorlib">
+    <value>0.19363891844218639</value>
+  </data>
+  <data name="xrTableCellMarch.Text" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="xrTableCellFebruary.Text" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="xrTableCellOctober.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <data name="xrTableCellJune.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <data name="xrTable2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="xrTable1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>1064, 46</value>
+  </data>
+  <data name="xrTableCellJanuary.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <data name="xrTableCellMayData.Weight" type="System.Double, mscorlib">
+    <value>0.19235266604303086</value>
+  </data>
+  <data name="xrTableRow1.Weight" type="System.Double, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="xrTable2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>0, 0</value>
+  </data>
+  <data name="xrLabelCurrentOrganization.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>590.4999, 34</value>
+  </data>
+  <data name="xrTableCellTotalData.Weight" type="System.Double, mscorlib">
+    <value>0.19363897196927618</value>
+  </data>
+  <data name="xrTableCellDecember.Weight" type="System.Double, mscorlib">
+    <value>0.19363891844218639</value>
+  </data>
+  <data name="PageHeader.HeightF" type="System.Single, mscorlib">
+    <value>46.66667</value>
+  </data>
+  <data name="xrLabelPrintedDateAndTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="xrTableCellCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <data name="xrLabelRegionsAndSpecies.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>17.999979, 39.0000153</value>
+  </data>
+  <data name="tableBaseHeader.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.999979, 8.000005</value>
+  </data>
+  <data name="xrLabelCurrentOrganization.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>0, 27.33332</value>
+  </data>
+  <data name="xrTableCellOctoberData.Weight" type="System.Double, mscorlib">
+    <value>0.19363891130524108</value>
+  </data>
+  <data name="xrLabelBeginOfTheCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14pt, style=Bold</value>
+  </data>
+  <data name="xrTableCellJuly.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <data name="xrTableCellSeptember.Text" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="xrTableCellNovemberData.Weight" type="System.Double, mscorlib">
+    <value>0.19363891844218639</value>
+  </data>
+  <data name="xrTableCellAprilData.Weight" type="System.Double, mscorlib">
+    <value>0.18206267182909516</value>
+  </data>
+  <data name="xrLabelBeginOfTheCaption.Text" xml:space="preserve">
+    <value>Veterinary Comparative report by months of {0} {1}</value>
+  </data>
+  <data name="xrTableCellCaptionData.Weight" type="System.Double, mscorlib">
+    <value>0.482694099504776</value>
+  </data>
+  <data name="xrLabelCurrentOrganization.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="PageFooter.HeightF" type="System.Single, mscorlib">
+    <value>61.33332</value>
+  </data>
+  <data name="xrTableCellSeptemberData.Weight" type="System.Double, mscorlib">
+    <value>0.19363891130524111</value>
+  </data>
+  <data name="xrTableCellTotal.Weight" type="System.Double, mscorlib">
+    <value>0.19363897196927618</value>
+  </data>
+  <data name="xrLabelBeginOfTheCaption.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>TopCenter</value>
+  </data>
+  <data name="xrTableCellAugust.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <data name="lblReportName.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.999975, 8.000005</value>
+  </data>
+  <data name="lblReportName.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>114.7506, 42</value>
+  </data>
+  <data name="xrChart.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>0, 7.5</value>
+  </data>
+  <data name="xrTableCellJanuary.Weight" type="System.Double, mscorlib">
+    <value>0.19363891844218639</value>
+  </data>
+  <data name="xrLabelBeginOfTheCaption.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>769.948, 22.9999981</value>
+  </data>
+  <data name="xrLabelPrintedDateAndTime.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>123.1667, 17.00001</value>
+  </data>
+  <data name="xrTableCellJanuaryData.Weight" type="System.Double, mscorlib">
+    <value>0.19363891844218639</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="m_BaseAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="comparativeReportByMonthsDataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 146</value>
+  </metadata>
+  <metadata name="m_BaseDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 60</value>
+  </metadata>
+  <metadata name="spRepVetComparativeAZTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 103</value>
+  </metadata>
+  <data name="Azerbaijan" xml:space="preserve">
+    <value>Azerbaijan</value>
+  </data>
+  <data name="YearsWordText" xml:space="preserve">
+    <value>years</value>
+  </data>
+  <data name="YearWordText" xml:space="preserve">
+    <value>year</value>
+  </data>
+  <data name="Specie_Key" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="Year_Key" xml:space="preserve">
+    <value>Year</value>
+  </data>
+</root>

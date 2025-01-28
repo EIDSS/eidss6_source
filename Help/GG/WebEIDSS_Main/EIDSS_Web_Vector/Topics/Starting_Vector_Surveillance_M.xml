@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Finished">
+  <title translate="true">ვექტორის ზედამხედველობის მოდულის დაწყება</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">ვექტორის ზედამხედველობის მოდულის დაწყება</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">პირველი ვექტორის სესიის შეყვანამდე, მოახდინეთ ვექტორის ზედამხედველობის (VS) მოდულის კონფიგურაცია. ვექტორის ზედამხედველობის მოდულის კონფიგურაცია შეიცავს უნიკალური დანომვრის სქემას, მისათითებელი ცხრილების კონფიგურაციას და კონფიგურაციის მატრიცებს. ყველა მათგანი უკვე შექმნილია დეფოლტის მეშვეობით, მაგრამ რეკომენდებულია მათი გახსნა და უზრუნველყოფა იმისა, რომ მათი წინასწარი ვერსია აკმაყოფილებდეს თქვენი პროცესის მთხოვნებს. </text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">მაშინაც კი, როდესაც მისათითებელი ცხრილები წინასწარაა შეჯერებული, მათი შეჯერება ნებისმიერ დროს შეიძლება ამის სემდეგაც. თუმცა, მატრიცები და დანომვრის სქემა წინასწარ უნდა შეიქმნას, მათი არასწორი კონფიგურაცია ხელს შეუშლის მოდულის სწორ ფუნქციონირებას. </text></para>
+    <para styleclass="Procedure"><text styleclass="Procedure" translate="true">უნიკალური დანომვრის სქემა</text></para>
+    <list id="4" level="3" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Unique_Numbering_Schema" domain="EIDSS_Config.hmxz" styleclass="List" translate="true">ვექტორის და ვექტორის ზედამხედველობის სესიის დანომვრa</link></li>
+    </list>
+    <para styleclass="Procedure"><text styleclass="Procedure" translate="true">მისათითებელი ცხრილების კონფიგურაცია</text></para>
+    <list id="5" level="3" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Vector_Types_Editor" domain="EIDSS_Config.hmxz" styleclass="List" translate="true">ვექტორის ტიპები</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Vector_species_types" domain="EIDSS_Config.hmxz" styleclass="List" translate="true">ვექტორის სახეობათა ტიპები</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Basic_reference_Editor" domain="EIDSS_Config.hmxz" styleclass="List" translate="true">საბაზისო მითითების რედაქტორი</link></li>
+    </list>
+    <list id="6" level="5" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="List" translate="true">შეგროვების მეთოდი</text></li>
+      <li styleclass="Normal"><text styleclass="List" translate="true">შემოგარენი</text></li>
+      <li styleclass="Normal"><text styleclass="List" translate="true">ჩანაწერის საფუძველი</text></li>
+      <li styleclass="Normal"><text styleclass="List" translate="true">იდენტიფიცირების მეთოდი</text></li>
+      <li styleclass="Normal"><text styleclass="List" translate="true">ფენსაიდ ტესტის კატეგორია</text></li>
+      <li styleclass="Normal"><text styleclass="List" translate="true">შეგროვების დროის პერიოდი</text></li>
+    </list>
+    <para styleclass="Procedure"><text styleclass="Procedure" translate="true">მატრიცების კონფიგურაცია</text></para>
+    <list id="7" level="3" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Vector_Type-Collection_method_matrix" domain="EIDSS_Config.hmxz" styleclass="List" translate="true">ვექტორის ტიპით შეგროვების მეთოდის მატრიცა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Vector_Type-Sample_type_matrix" domain="EIDSS_Config.hmxz" styleclass="Normal" translate="true">ვექტორის ტიპის-ნიმუშის ტიპის მატრიცა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Vector_Type-Field_test_matrix" domain="EIDSS_Config.hmxz" styleclass="Normal" translate="true">ვექტორის ტიპის-საველე ტესტის მატრიცა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Diagnosis-Penside_tests_matrix" domain="EIDSS_Config.hmxz" styleclass="Normal" translate="true">დიაგნოზი-საველე ტესტების მატრიცა</link></li>
+    </list>
+  </body>
+</topic> 

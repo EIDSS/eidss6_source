@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Finished">
+  <title translate="true">"ვექტორული ზედამხედველობის სესიის" W02 ფორმის "ზოგადი ინფორმაცია"</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">"ვექტორული ზედამხედველობის სესიის" W02 ფორმის "ზოგადი ინფორმაცია"</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true"></text><text styleclass="Normal" style="font-weight:bold;" translate="true">ზოგადი ინფორმაციის</text><text styleclass="Normal" translate="true"> პანელი გამოიყენება "ვექტორული ზედამხედველობის სესიის" შესახებ ძირითადი ინფორმაციის შესაყვანად, სანახავად და დასარედაქტირებლად: ვექტორული ზედამხედველობის სესიის დრო, მისი ადგილმდებარეობა, აღებული ვექტორების ტიპები, დაავადებები, რომლებითაც შეიძლება ისინი დაავადდნენ.</text></para>
+    <para styleclass="Picture"><image src="VS_W02_general.png" scale="55.00%" width="558" height="96" styleclass="Picture"><caption translate="true"><![CDATA[ნახ. <%FIG++%> "ზოგადი ინფორმაციის" პანელი]]></caption></image></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="12" colcount="2" style="width:100%; cell-padding:2px; cell-spacing:2px; border-width:1px; border-spacing:2px; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:top">
+        <td colspan="2" style="width:587px;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-weight:bold;" translate="true">მონაცემთა ველები</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:324px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">სესიის ID</text></para>
+        </td>
+        <td style="width:1045px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ვექტორული ზედამხედველობის სესიის ID.</text><text styleclass="Table_body" style="font-weight:bold;" translate="true"> (ახალი)</text><text styleclass="Table_body" translate="true"> გამოიყენება ახალი, არდამახსოვრებული სესიისთვის. სესიის პირველად დამახსოვრების შემდეგ, </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">(ახალი)</text><text styleclass="Table_body" translate="true"> ID-ს ნაცვლად გამოიყენება "დანომრვის უნიკალური სქემის" შესაბამისად წარმოქმნილი ID. </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:324px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">დასაწყისის თარიღი</text></para>
+        </td>
+        <td style="width:1045px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეიყვანეთ ტესტის დაწყების თარიღი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:324px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">დახურვის თარიღი</text></para>
+        </td>
+        <td style="width:1045px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">აქ გამოჩნდება თარიღი, როცა სესიის სტატუსი შეიცვალა სტატუსით </text><text styleclass="Table_body" style="font-style:italic;" translate="true">დახურული</text><text styleclass="Table_body" translate="true"> და მისი შეცვლა შეუძლებელი იქნება.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:324px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">შეგროვების ღონისძიება (სთ)</text></para>
+        </td>
+        <td style="width:1045px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეიყვანეთ სესიის ფარგლებში ვექტორების შეგროვებაზე დახარჯული საათების ოდენობა.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:324px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">საველე სესიის საიდენტიფიკაციო ნომერი</text></para>
+        </td>
+        <td style="width:1045px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეიყვანეთ სესიის ID, რომელიც მინიჭებულია სესიის დზეის-ში რეგისტრაციამდე.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:324px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">სტატუსი</text></para>
+        </td>
+        <td style="width:1045px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეიყვანეთ ვექტორული ზედამხედველობის სესიის ამჟამინდელი სტატუსი. შესაძლებელია მხოლოდ </text><text styleclass="Table_body" style="font-style:italic;" translate="true">პროცესშია</text><text styleclass="Table_body" translate="true"> სტატუსის მქონე სესიების რედაქტირება. სესიების დამახსოვრება შეგიძლიათ </text><text styleclass="Table_body" style="font-style:italic;" translate="true">დახურული</text><text styleclass="Table_body" translate="true"> სტატუსის დროს, ასევე შესაძლებელია მათი გახსნა, მაგრამ შეცვლა შეუძლებელია.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:324px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">აღწერა</text></para>
+        </td>
+        <td style="width:1045px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true"> შეიყვანეთ ვექტორული ზედამხედველობის სესიის აღწერილობა. </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:324px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">ვექტორის ტიპი</text></para>
+        </td>
+        <td style="width:1045px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">სესიის პერიოდში აღებული ვექტორის ტიპები ავტომატურად გამოჩნდება აქ და მათი ხელით შეცვლა შეუძლებელი იქნება. ვექტორები, რომლებიც რეგისტრირებულია სესიებისთვის </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დეტალური ინფორმაციის</text><text styleclass="Table_body" translate="true"> ჩანართის </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">პულები/ცალკეული ვექტორების</text><text styleclass="Table_body" translate="true"> ქვეჩანართში და </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">ჯამური ინფორმაციის</text><text styleclass="Table_body" translate="true"> ჩანართში, განსაზღვრავენ ვექტორის ტიპების ჩამონათვალს.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:324px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">ადგილმდებარეობა</text></para>
+        </td>
+        <td style="width:1045px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეარჩიეთ ან შეიყვანეთ სესიის ზუსტი ადგილმდებარეობა. დააწკაპუნეთ ამ ველზე, გაიხსნება სპეციალური ფანჯარა ადგილმდებარეობის შესაყვანად. ადგილმდებარეობის განსაზღვრის შემდეგ, დააწკაპუნეთ </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დიახ</text><text styleclass="Table_body" translate="true"> ღილაკზე ამ სპეციალური ფანჯრის დასახურად. მონაცემები გამოჩნდება </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">ადგილმდებარეობის</text><text styleclass="Table_body" translate="true"> ველში.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:324px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">აფეთქების საიდენტიფიკაციო ნომერი</text></para>
+        </td>
+        <td style="width:1045px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ხელით შეიყვანეთ ან ჩამონათვალში მონიშნეთ სესიასთან დაკავშირებული ეპიდაფეთქება. ყველა რეგისტრირებული ეპიდაფეთქების ჩამონათვალის გასახსნელად, დააწკაპუნეთ </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">ჩამონათვალის</text><text styleclass="Table_body" translate="true"> ღილაკზე (</text><image src="button_list.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Table_body" translate="true">).</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:324px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">დიაგნოზები</text></para>
+        </td>
+        <td style="width:1045px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">გამოჩნდება სესიის პერიოდში აღებულ ვექტორებზე/პულებზე ჩატარებული საველე ტესტებით ან ინდიკაციური ლაბორატორიული ტესტებით დადასტურებული დიაგნოზი და მათი ხელით შეცვლა შეუძლებელი იქნება.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="See_also"><conditional-text type="IF" value="HTML,WEB_EIDSS"/><text styleclass="See_also" translate="true">იხ. აგრეთვე:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="ü" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_Create" styleclass="List" translate="true">ვექტორული ზედამხედველობის სესიის (VS) შექმნა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_edit" styleclass="List" translate="true">დაარედაქტირეთ ვექტორული ზედამხედველობის სესია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Enter_general_information_of__" styleclass="List" translate="true">შეიყვანეთ "ვექტორული ზედამხედველობის" ზოგადი ინფორმაცია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Link_a_VS_session_to_outbreak" styleclass="List" translate="true">"ვექტორული ზედამხედველობის სესია" მიაბით ეპიდაფეთქებას</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_final" styleclass="List" translate="true">დაასრულეთ "ვექტორული ზედამხედველობის სესია"</link><conditional-text type="END"/></li>
+    </list>
+  </body>
+</topic> 

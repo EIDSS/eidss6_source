@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<object name="EHealthCaseAMRequest"
+        connection="EidssConnectionString"
+        generator="ObjectGenerator.xslt"
+        xmlns="urn:schemas-bv:objectmodel">
+
+  <storage>
+    <!--Fake stored procedure-->
+    <get name="spEHealthCaseAMRequest_SelectDetail" type="detailone" />
+  </storage>
+
+  <tables>
+    <table name="EHealthCaseAMRequest">
+      <fields>
+        <storage name="intDummy" type="int"/>
+      </fields>
+      <relations>
+        <relation name="EHealthCaseAMItems" table="EHealthCaseAM" internal="false" type="child" notautoload="true" lazy="false" source="idfEHealthCaseAMRequest" target="idfEHealthCaseAMRequest" serializexml="true" />
+      </relations>
+      <storage>
+        <post name="spEHealthCaseAMRequest_Post"/>
+      </storage>
+      <postorder>
+        <item name="this"/>
+      </postorder>
+      <extenders>
+        <creating>
+          <custom_extender>
+            <text>
+              obj = SelectByKey(manager, GetNewIDExtender&lt;EHealthCaseAMRequest&gt;.getNewId(manager));
+              obj.EHealthCaseAMItems.Clear();
+            </text>
+          </custom_extender>
+        </creating>
+        <created>
+          <custom_extender>
+            <text>
+              if (EidssUserContext.Instance != null)
+                if (EidssUserContext.User != null)
+                {                             
+                  if (EidssUserContext.User.EmployeeID != null)
+                  {
+                    long em;
+                    if (long.TryParse(EidssUserContext.User.EmployeeID.ToString(), out em))
+                      obj.idfPersonEnteredBy = em;
+                  }
+                  if (EidssUserContext.User.ID != null)
+                  {
+                    long em;
+                    if (long.TryParse(EidssUserContext.User.ID.ToString(), out em))
+                      obj.idfUserID = em;
+                  }
+                }                        
+            </text>
+          </custom_extender>
+        </created>
+        <posting>
+          <lambda_extender target="xmlEHealthCaseAM" type="string" lambda="c => c.Serialize()"/>
+        </posting>
+      </extenders>
+      <actions>
+        <standard>
+          <remove type="Create"/>
+          <remove type="Delete"/>
+          <remove type="SelectAll"/>
+          <remove type="Ok"/>
+          <remove type="Cancel"/>
+          <remove type="Save"/>
+        </standard>
+      </actions>
+    </table>
+  </tables>
+</object>

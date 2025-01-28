@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Finished" lasteditedby="RBanton" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">პულის/ ინდივიდუალური ვექტორის დეტალების W03 ფორმის ლაბორატორიული ტესტების ჩანართი</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">პულის/ ინდივიდუალური ვექტორის დეტალების W03 ფორმის ლაბორატორიული ტესტების ჩანართი</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">ლაბორატორიული ტესტების</text><text styleclass="Normal" translate="true"> ჩანართი გამოიყენება &quot;ლაბორატორიულ მოდულში&quot; ვექტორისთვის/პულისთვის ჩატარებული ლაბორატორიული ტესტების ჩამონათვალის სანახავად. ეს ჩანართი მხოლოდ წაკითხვადი ფორმატისაა.</text></para>
+    <para styleclass="Picture"><image src="VS_W02_vp_lab.png" scale="55.00%" width="563" height="175" styleclass="Picture"><caption translate="true"><![CDATA[ნახ. <%FIG++%> ლაბორატორიული ტესტების ჩანართი]]></caption></image></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="12" colcount="2" style="width:100%; cell-padding:2px; cell-spacing:2px; border-width:1px; border-spacing:2px; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:top">
+        <td colspan="2">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-weight:bold;" translate="true">მონაცემთა ველები</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">ლაბორატორიული ნიმუშის საიდენტიფიკაციო კოდი</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ტესტისთვის გამოყენებული ნიმუშის ლაბორატორიული საიდენტიფიკაციო ნომერი. ნიმუშის ლაბორატორიული ID ავტომატურად ენიჭება </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Unique_Numbering_Schema" domain="EIDSS_Config.hmxz" styleclass="Table_body" translate="true">დანომრვის უნიკალური სქემის</link><text styleclass="Table_body" translate="true"> შესაბამისად, როდესაც ხდება </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Accession_in_a_sample__linked_" domain="EIDSS_Lab.hmxz" styleclass="Table_body" translate="true">ნიმუშის მიღება</link><text styleclass="Table_body" translate="true"> &quot;ლაბორატორიულ მოდულში&quot;.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">ველზე ხელმისაწვდომობის ID</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ტესტისთვის გამოყენებული ნიმუშის სავალე ID.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">ნიმუშის ტიპი</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ტესტისთვის გამოყენებული ნიმუშის ტიპი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">შეგროვების თარიღი</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">თარიღი, როცა აღებული იყო ტესტისთვის გამოყენებული ნიმუში.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">ტესტის სახელი</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ტესტის დასახელება.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">ტესტის კატეგორია</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ეკრანზე ჩანს ტესტის კატეგორია, თუ ცნობილია.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">შედეგის თარიღი</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">თარიღი, როცა </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Start_test" domain="EIDSS_Lab.hmxz" styleclass="Table_body" translate="true">დაიწყო ტესტი</link><text styleclass="Table_body" translate="true"> ან როცა მისი </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Enter_test_result" domain="EIDSS_Lab.hmxz" styleclass="Table_body" translate="true">შედეგი შეიყვანეს</link><text styleclass="Table_body" translate="true">. </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">ვინ ჩაატარა ტესტირება</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">იმ თანამშრომლის სახელი, ვინც ტესტის შედეგი შეიყვანა.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">ტესტირებულია ინსტიტუტის მიერ</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ორგანიზაცია, რომელმაც ტესტი ჩაატარა. </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">ტესტის შედეგი</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ტესტის შედეგი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">დავადება</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">დაავადება, რომელიც &quot;ლაბორატორიულ მოდულში&quot; კონკრეტული ტესტისთვის დაყენებულია როგორც </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">ტესტის დიაგნოზი</text><text styleclass="Table_body" translate="true">. თუ შედეგი დადებითია, დაავადება ასლის სახით გადადის სესიის </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დაავადებების</text><text styleclass="Table_body" translate="true"> ველში.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="See_also"><conditional-text type="IF" value="HTML,WEB_EIDSS"/><text styleclass="See_also" translate="true">იხ. აგრეთვე:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#252;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Review_laboratory_tests_VP" styleclass="List" translate="true">ვექტორის/პულისთვის ჩატარებული ლაბორატორიული ტესტების და ტესტის შედეგების გაცნობა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Assign_test" domain="EIDSS_Lab.hmxz" styleclass="List" translate="true">ტესტის დანიშვნა/მინიჭება</link><conditional-text type="END"/></li>
+    </list>
+  </body>
+</topic>

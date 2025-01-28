@@ -1,0 +1,24 @@
+﻿@using Kendo.Mvc.UI
+@using eidss.webclient.Utils
+@model eidss.model.Reports.Common.AddressModel
+
+<table id="AddressFilterTable" class="level1">
+
+    <tr>
+        <td class="mediumreport">
+            @(Html.Label(Model.RegionLabel))
+        </td>
+        <td class="largereport">
+            @{
+                @(Html.Kendo().ComboBox()
+                      .BindTo(Model.GetSelectedRegions(null).ConvertToSelectListItem())
+                      .Name("Address.RegionId")
+                      .HtmlAttributes(Model.IsRequired ? new { @class = "requiredField" } : null)
+                      .Events(c => c.Change("paperForm.OnRegionChanged")))
+            }
+
+        </td>
+        <td></td>
+    </tr>
+
+</table>

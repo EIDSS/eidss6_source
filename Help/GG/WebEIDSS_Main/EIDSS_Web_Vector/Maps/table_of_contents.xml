@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XInclude">
+  <topicref type="topic" id="413515798127560" build="ALL" modified="2014-06-05T16:35:50.455Z" icon="0" href="Vector_Surveillance">
+    <caption translate="true">ვექტორული ზედამხედველობა</caption>
+    <topicref type="topic" id="417824741282893" modified="2014-07-08T16:34:17.398Z" icon="0" href="Starting_Vector_Surveillance_M">
+      <caption translate="true">ვექტორის ზედამხედველობის მოდულის დაწყება</caption>
+    </topicref>
+    <topicref type="topic" id="413517124642870" build="ALL" modified="2014-05-23T16:33:32.434Z" icon="0" href="VS_search">
+      <caption translate="true">ვექტორული ზედამხედველობის სესიის ძებნა</caption>
+    </topicref>
+    <topicref type="topic" id="413514178385957" build="ALL" modified="2014-05-23T14:34:52.008Z" icon="0" href="VS_operations">
+      <caption translate="true">ოპერაციები "ვექტორული ზედამხედველობის მოდულში"</caption>
+      <topicref type="topic" id="413514372787718" build="ALL" modified="2014-05-23T16:39:44.135Z" icon="0" href="VS_Create">
+        <caption translate="true">ვექტორული ზედამხედველობის სესიის (VS) შექმნა</caption>
+      </topicref>
+      <topicref type="topic" id="413516311014196" build="ALL" modified="2014-06-25T14:08:16.781Z" icon="0" href="VS_edit">
+        <caption translate="true">VS სესიის ნახვა ან რედაქტირება</caption>
+      </topicref>
+      <topicref type="topic" id="417825122655267" build="ALL" modified="2014-05-23T16:39:03.101Z" icon="0" href="Enter_general_information_of__">
+        <caption translate="true">შეიყვანეთ "ვექტორული ზედამხედველობის" ზოგადი ინფორმაცია</caption>
+      </topicref>
+      <topicref type="topic" id="417827157404878" build="ALL" modified="2014-05-23T16:39:54.353Z" icon="0" href="Enter_Detailed_Information">
+        <caption translate="true">შეიყვანეთ "ვექტორული ზედამხედველობის" დეტალური ინფორმაცია</caption>
+        <topicref type="topic" id="41782912784269" build="ALL" modified="2014-06-04T11:29:23.786Z" icon="0" href="Register_vector_pool_">
+          <caption translate="true">მოახდინეთ ვექტორის/პულის რეგისტრაცია</caption>
+          <topicref type="topic" id="417935274180527" build="ALL" modified="2014-06-23T11:10:10.568Z" icon="0" href="Register_summary_info_vector_pool">
+            <caption translate="true">დაარეგისტრირეთ ვექტორის/პულის საბაზისო ინფორმაციის რეზიუმე</caption>
+          </topicref>
+          <topicref type="topic" id="417824696919667" build="ALL" modified="2014-05-23T16:20:59.828Z" icon="0" href="Register_gen_info_for_VP">
+            <caption translate="true">მოახდინეთ ვექტორის/პულის ზოგადი ინფორმაცისი რეგისტრირება</caption>
+          </topicref>
+          <topicref type="topic" id="417828364777677" build="ALL" modified="2014-05-23T16:21:35.732Z" icon="0" href="Register_spec_info_for_VP">
+            <caption translate="true">მოახდინეთ ვექტორი/ერთობლიობის სპეციფიკური ინფორმაციის რეგისტრირება</caption>
+          </topicref>
+          <topicref type="topic" id="417827573027270" build="ALL" modified="2014-05-23T16:22:47.091Z" icon="0" href="Register_samples_for_vp">
+            <caption translate="true">დაარეგისტრირეთ ვექტორის/პულის ნიმუშები</caption>
+          </topicref>
+          <topicref type="topic" id="417827001218931" build="ALL" modified="2014-06-03T15:16:48.275Z" icon="0" href="Register_field_test_results">
+            <caption translate="true">ვექტორისთვის/ პულისთვის საველე ტესტის შედეგების რეგისტრაციის</caption>
+          </topicref>
+          <topicref type="topic" id="417827062418600" build="ALL" modified="2014-07-08T14:03:39.316Z" icon="0" href="Review_laboratory_tests_VP">
+            <caption translate="true">განიხილეთ ლაბორატორიული ტესტები და ტესტის შედეგები ვექტორისთვის/ პულისთვის</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="417946783493040" build="ALL" modified="2014-06-04T11:29:10.180Z" icon="0" href="Copy_vector_pool">
+          <caption translate="true">ვექტორი/პულის კოპირება</caption>
+        </topicref>
+        <topicref type="topic" id="417826937051599" build="ALL" modified="2014-06-03T15:45:41.756Z" icon="0" href="Review_aggregated_data_for_vp">
+          <caption translate="true">გადასინჯეთ VS-ის აგრეგირებული მონაცემები</caption>
+          <topicref type="topic" id="417825455387687" build="ALL" modified="2014-06-03T15:45:52.922Z" icon="0" href="Review_samples">
+            <caption translate="true">განიხილეთ სესიის ნიმუშები</caption>
+          </topicref>
+          <topicref type="topic" id="417826022167280" build="ALL" modified="2014-06-03T15:46:02.154Z" icon="0" href="Review_field_rests_and_test_re">
+            <caption translate="true">განიხილეთ სესიის საველე ტესტები და ტესტის შედეგები</caption>
+          </topicref>
+          <topicref type="topic" id="417826406929971" build="ALL" modified="2014-06-03T16:48:30.002Z" icon="0" href="Review_laboratory_tests_VS">
+            <caption translate="true">გადასინჯეთ სესიის ლაბორატორიული ტესტები და ტესტის შედეგები</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="417827267765911" build="ALL" modified="2014-05-23T16:40:06.335Z" icon="0" href="Enter_Summary_Information">
+        <caption translate="true">შეიტანეთ VS-ის ჯამური ინფორმაცია</caption>
+      </topicref>
+      <topicref type="topic" id="417826700356931" build="ALL" modified="2014-05-23T16:35:50.907Z" icon="0" href="Link_a_VS_session_to_outbreak">
+        <caption translate="true">"ვექტორული ზედამხედველობის სესია" მიაბით ეპიდაფეთქებას</caption>
+      </topicref>
+      <topicref type="topic" id="413515386577130" build="ALL" modified="2014-06-02T12:36:49.747Z" icon="0" href="VS_final">
+        <caption translate="true">შეაჯამეთ (დახურეთ) ვექტორის ზედამხედველობის სესია</caption>
+      </topicref>
+      <topicref type="topic" id="417826827522031" build="ALL" modified="2014-05-23T16:40:13.311Z" icon="0" href="Save_VS_Session">
+        <caption translate="true">შეინახეთ VS სესია</caption>
+      </topicref>
+      <topicref type="topic" id="417827357224052" build="ALL" modified="2014-06-02T12:36:37.098Z" icon="0" href="Close_VS_Session">
+        <caption translate="true">დახურეთ VS სესიის ფანჯარა</caption>
+      </topicref>
+      <topicref type="topic" id="413515732768442" build="ALL" modified="2014-05-23T16:33:27.441Z" icon="0" href="VS_delete">
+        <caption translate="true">VS სესიის წაშლა</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="413517426381848" build="ALL" modified="2013-03-18T14:24:42.734Z" icon="0" href="VS_forms">
+      <caption translate="true">ეკრანული ფორმის აღწერა</caption>
+      <topicref type="topic" id="413517103934717" build="ALL" modified="2013-03-18T14:25:42.046Z" icon="0" href="VS_W01">
+        <caption translate="true">ვექტორის ზედამხედველობის სესიების ჩამონათვალი W01</caption>
+      </topicref>
+      <topicref type="topic" id="413517071186305" build="ALL" modified="2014-06-23T12:08:33.527Z" icon="0" href="VS_W02">
+        <caption translate="true">ვექტორის ზედამხედველობის სესია W02</caption>
+        <topicref type="topic" id="417828400373858" build="ALL" modified="2014-06-23T12:09:27.975Z" icon="0" href="General_Info_of_W02">
+          <caption translate="true">"ვექტორული ზედამხედველობის სესიის" W02 ფორმის "ზოგადი ინფორმაცია"</caption>
+        </topicref>
+        <topicref type="topic" id="417825595631008" build="ALL" modified="2014-06-23T12:09:31.320Z" icon="0" href="Detailed_Info_of_W02">
+          <caption translate="true">ვექტორის ზედამხედველობის W02 ფორმის დეტალური ინფორმაცია</caption>
+          <topicref type="topic" id="417827860725541" build="ALL" modified="2014-06-23T12:09:34.448Z" icon="0" href="Pools_Individual_Vectors_of_W02">
+            <caption translate="true">ვექტორის ზედამხედველობის W02 ფორმის პულების /ინდივიდუალურ ვექტორთა ქვეჩანართი</caption>
+          </topicref>
+          <topicref type="topic" id="417828208254291" build="ALL" modified="2014-06-23T12:09:37.799Z" icon="0" href="Samples_subtab_of_W02">
+            <caption translate="true">ვექტორის ზედამხედველობის W02 ფორმის ნიმუშთა ქვეჩანართი</caption>
+          </topicref>
+          <topicref type="topic" id="417826863093607" build="ALL" modified="2014-06-23T12:09:40.928Z" icon="0" href="Field_Tests_subtab_of_Vector_S">
+            <caption translate="true">ვექტორის ზედამხედველობის W02 ფორმის საველე ტესტების ქვეჩანართი</caption>
+          </topicref>
+          <topicref type="topic" id="417827621356876" build="ALL" modified="2014-06-23T12:09:44.551Z" icon="0" href="Lab_Tests_subtab_of_W02">
+            <caption translate="true">"ვექტორული ზედამხედველობის სესიის" (W02) ფორმის "ლაბორატორიული ტესტების" ქვეჩანართი</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="417827683669564" build="ALL" modified="2014-06-23T12:09:47.671Z" icon="0" href="Summary_Info_tab_of_W02">
+          <caption translate="true">ვექტორის ზედამხედველობის W02 ფორმის ჯამური ინფორმაციის ჩანართი</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="413515327776375" build="ALL" modified="2014-06-23T12:08:37.618Z" icon="0" href="VS_W03">
+        <caption translate="true">პულის/ინდივიდუალური ვექტორის დეტალები W03</caption>
+        <topicref type="topic" id="417925270544354" build="ALL" modified="2014-06-23T12:10:07.752Z" icon="0" href="Summary_section_of_W03">
+          <caption translate="true">"პულის/ცალკეული ვექტორის დეტალების" W03 ფორმის "ჯამური ინფორმაციის" სექცია</caption>
+        </topicref>
+        <topicref type="topic" id="417925807638640" build="ALL" modified="2014-07-08T16:44:39.729Z" icon="0" href="General_tab_of_W03">
+          <caption translate="true">პულის/ ინდივიდუალური ვექტორის დეტალების W03 ფორმის ზოგადი ინფორმაციის ჩანართი</caption>
+        </topicref>
+        <topicref type="topic" id="417928678687115" build="ALL" modified="2014-06-23T12:10:14.440Z" icon="0" href="Vector_Specific_Data_tab_of_W03">
+          <caption translate="true">"პულის/ცალკეული ვექტორის დეტალების" W03 ფორმის "ვექტორ-სპეციფიკური მონაცემების" ჩანართი</caption>
+        </topicref>
+        <topicref type="topic" id="417928263275622" build="ALL" modified="2014-06-23T12:10:17.512Z" icon="0" href="Samples_tab_of_W03">
+          <caption translate="true">ერთობლიობის/ინდივიდუალური ვექტორის დეტალების W03 ფორმის ნიმუშთა ჩანართი</caption>
+        </topicref>
+        <topicref type="topic" id="417925110146379" build="ALL" modified="2014-06-23T12:10:20.369Z" icon="0" href="Field_Tests_tab_of_W03">
+          <caption translate="true">პულის/ ინდივიდუალური ვექტორის დეტალების W03 ფორმის საველე ტესტების ჩანართი</caption>
+        </topicref>
+        <topicref type="topic" id="417927892882623" build="ALL" modified="2014-06-23T12:10:24.433Z" icon="0" href="Lab_Tests_tab_of_W03">
+          <caption translate="true">პულის/ ინდივიდუალური ვექტორის დეტალების W03 ფორმის ლაბორატორიული ტესტების ჩანართი</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="417945010434344" build="ALL" modified="2014-06-23T12:43:07.778Z" icon="0" href="VS_W05">
+        <caption translate="true">პულის/ინდივიდუალური ვექტორის W05 ფორმის კოპირება</caption>
+      </topicref>
+      <topicref type="topic" id="418288877787285" build="ALL" modified="2014-07-08T16:48:58.530Z" icon="0" href="Sample_Details_form">
+        <caption translate="true">ნიმუშის დეტალების ფორმა</caption>
+      </topicref>
+      <topicref type="topic" id="418288351795376" build="ALL" modified="2014-07-08T16:54:24.846Z" icon="0" href="Field_Test_Details_form">
+        <caption translate="true">საველე ტესტების დეტალების ფორმა</caption>
+      </topicref>
+      <topicref type="topic" id="418285168899375" build="ALL" modified="2014-07-08T17:33:26.700Z" icon="0" href="Summary_Info_form">
+        <caption translate="true"> შემაჯამებელი ინფორმაციის ფორმა</caption>
+      </topicref>
+    </topicref>
+  </topicref>
+</map>

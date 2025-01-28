@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Finished" lasteditedby="RBanton" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">დაარეგისტრირეთ ვექტორის/პულის საბაზისო ინფორმაციის რეზიუმე</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">დაარეგისტრირეთ ვექტორის/პულის საბაზისო ინფორმაციის რეზიუმე</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">როდესაც </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_vector_pool_" styleclass="Normal" translate="true">შექმნილია ახალი ერთობლიობა/ინდივიდუალური ვექტორი ან არსებული არის გახსნილი რედაქტირებისთვის</link><text styleclass="Normal" translate="true">, მაშინ გაიხსნება </text><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_W03" styleclass="Normal" translate="true">პულის/ ინდივიდუალური ვექტორის დეტალების ფორმა W03</link><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">პულის/ ინდივიდუალური ვექტორის ჯამური ინფორმაცია არის უნიკალური იდენტიფიკატორი, საველე ID, და პულის/ ვექტორის ტიპი. ველი </text><text styleclass="Normal" style="font-weight:bold;" translate="true">სესიის ID</text><text styleclass="Normal" translate="true"> არის მხოლოდ კითხვად რეჟიმში და ასახავს სესიას, რომლისთვისაც შეგროვდა ვექტორი/ერთობლიობა.</text><text styleclass="List" translate="true"> ვექტორის ტიპები, რომლებიც დაემატა საბაზისო ინფორმაციის რეზიუმეს ფანჯარას, კოპირებულია </text><text styleclass="List" style="font-weight:bold;" translate="true">ვექტორის ტიპის </text><text styleclass="List" translate="true">ველში, ვექტორის ზედამხედველობის სესიის. ველების დეტალური აღწერისთვის, წაიკითხეთ სექცია </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Summary_section_of_W03" styleclass="List" translate="true">პულის/ ინდივიდუალური ვექტორის დეტალების ფორმის W03 შემაჯამებელი სექცია</link><text styleclass="List" translate="true">.</text></para>
+    <para styleclass="See_also"><conditional-text type="IF" value="HTML,WEB_EIDSS"/><text styleclass="See_also" translate="true">იხ. აგრეთვე:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#252;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Summary_section_of_W03" styleclass="List" translate="true">&quot;პულის/ცალკეული ვექტორის დეტალების&quot; W03 ფორმის &quot;ჯამური ინფორმაციის&quot; სექცია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_gen_info_for_VP" styleclass="List" translate="true">მოახდინეთ ვექტორის/პულისზოგადი ინფორმაცისი რეგისტრირება</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_spec_info_for_VP" styleclass="List" translate="true">მოახდინეთ ვექტორი/ერთობლიობის სპეციფიკური ინფორმაციის რეგისტრირება</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_samples_for_vp" styleclass="List" translate="true">დაარეგისტრირეთ ვექტორის/პულისნიმუშები</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_field_test_results" styleclass="List" translate="true">ვექტორის/პულის საველე ტესტების შედეგების რეგისტრაცია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Review_laboratory_tests_VP" styleclass="List" translate="true">ვექტორის/პულისთვის ჩატარებული ლაბორატორიული ტესტების და ტესტის შედეგების გაცნობა</link><conditional-text type="END"/></li>
+    </list>
+  </body>
+</topic>

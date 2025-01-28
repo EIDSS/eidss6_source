@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Finished">
+  <title translate="true">ვექტორის ზედამხედველობის W02 ფორმის ნიმუშთა ქვეჩანართი</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">ვექტორის ზედამხედველობის სესიის W02 ფორმის ნიმუშების ქვეჩანართი</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true"> </text><text styleclass="Normal" style="font-weight:bold;" translate="true">ნიმუშების</text><text styleclass="Normal" translate="true"> ქვეჩანართი გამოიყენება ნიმუშების სანახავად, რომლებიც შეგროვილია ვექტორის ზედამხედველობის სესიის ფარგლებში. ყველა ნიმუსი, რომელიც შეგროვებულია თითოეული ინდივიდუალური ვექტორის/ პულისთვის სესიის ფარგლებში არის კომბინირებული, რათა შეიქმნას სესიის ნიმუშთა ჩამონათვალი. ბადე, რომელიც შეიცავს ნიმუშების ჩამონათვალს </text><text styleclass="List" translate="true">არის მხოლდო კითხვად რეჟიმში. ინდივიდუალური ვექტორის/ პულისთვის ნიმუშების შეტანის დეტალების შესახებ წაიკითხეთ </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_samples_for_vp" styleclass="List" translate="true">ვექტორის/ პულის ნიმუშების რეგისტრაციის</link><text styleclass="List" translate="true"> სექცია.</text></para>
+    <para styleclass="Picture"><image src="VS_W02_samples.png" scale="55.00%" width="547" height="117" styleclass="Picture"><caption translate="true"><![CDATA[ნახ. <%FIG++%> ნიმუშების ტაბულატორი]]></caption></image></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="12" colcount="2" style="width:100%; cell-padding:2px; cell-spacing:2px; border-width:1px; border-spacing:2px; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:top">
+        <td colspan="2">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-weight:bold;" translate="true">მონაცემთა ველები</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">პულის/ვექტორის საიდენტიფიკაციო ნომერი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ID ავტომატურად იქმნება </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Unique_Numbering_Schema" domain="EIDSS_Config.hmxz" styleclass="Table_body" translate="true">დანომრვის უნიკალური სქემის</link><text styleclass="Table_body" translate="true"> შესაბამისად.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ვექტორის ტიპი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ნიმუშისთვის გამოყენებული ვექტორის ტიპი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">სახეობა</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ვექტორ(ებ)ის სახეობა.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ლაბორატორიული ნიმუშის საიდენტიფიკაციო კოდი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ნიმუშის ლაბორატორიული ID, რომელიც ავტომატურად არის განსაზღვრული </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Unique_Numbering_Schema" domain="EIDSS_Config.hmxz" styleclass="Table_body" translate="true">უნიკალური დანომვრის სქემის</link><text styleclass="Table_body" translate="true"> შესაბამისად,</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ველზე ხელმისაწვდომობის ID</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ნიმუშის ID, რომელიც გამოყენებული იყო დზეის-ში მის რეგისტაციამდე.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ნიმუშის ტიპი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ნიმუშის ტიპი</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">შეგროვების თარიღი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">მასალის შეგროვების თარიღი</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px; height:21px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">აღებულია დაწესებულების მიერ</text></para>
+        </td>
+        <td style="width:1044px; height:21px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ორგანიზაცია, რომელმაც შეაგროვა მასალა ნიმუშისთვის.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">კომენტარი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ნიმუშთან დაკავშირებული კომენტარი, რომელიც ლაბორატორიულ მოდულშია შეტანილი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">მიღების თარიღი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">თარიღი, როდესაც ნიმუში დაშვებული იქნა ლაბორატორიულ მოდულში.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ნიმუშის მდგომარეობა მიღებისას</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ნიმუშის მდგომარეობა, როდესაც იგი დაშვებული იქნა ლაბორატორიულ მოდულში.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="See_also"><conditional-text type="IF" value="HTML,WEB_EIDSS"/><text styleclass="See_also" translate="true">იხ. აგრეთვე:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="ü" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_samples_for_vp" styleclass="List" translate="true">დაარეგისტრირეთ ვექტორის/პულისნიმუშები</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Samples_tab_of_W03" styleclass="List" translate="true">"პულის/ცალკეული ვექტორის დეტალების" W03 ფორმის "ნიმუშების" ჩანართი</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_Create" styleclass="List" translate="true">ვექტორული ზედამხედველობის სესიის (VS) შექმნა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_edit" styleclass="List" translate="true">დაარედაქტირეთ ვექტორული ზედამხედველობის სესია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_vector_pool_" styleclass="List" translate="true">ვექტორი/პულის რეგისტრაცია</link><conditional-text type="END"/></li>
+    </list>
+  </body>
+</topic> 

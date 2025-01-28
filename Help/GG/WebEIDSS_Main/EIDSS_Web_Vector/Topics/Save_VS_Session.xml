@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Finished">
+  <title translate="true">შეინახეთ VS სესია</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">შეინახეთ VS სესია</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">დაკარგვის თავიდან ასაცილებლად, რეკომენდებულია სესიაში შეტანილი ცვლილებების ხშირად დამახსოვრება. სესიის დამახსოვრების შემდეგ იგი რჩება გახსნილი და მზადაა მომდევნო ცვლილებებისთვის</text></para>
+    <para styleclass="Normal"></para>
+    <list id="2" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:'Times New Roman'; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">დააწკაპუნეთ </text><text styleclass="List" style="font-weight:bold;" translate="true">"შენახვის"</text><text styleclass="List" translate="true"> ღილაკზე. იხსნება </text><text styleclass="List" style="font-weight:bold;" translate="true">დადასტურების</text><text styleclass="List" translate="true"> ფანჯარა.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">დააწკაპუნეთ </text><text styleclass="List" style="font-weight:bold;" translate="true">"დიახ"</text><text styleclass="List" translate="true"> ღილაკზე, რათა შეინახოთ ცვლილებები.</text></li>
+    </list>
+    <para styleclass="List"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">სესია არის შენახული და მზადაა მომდევნო მუშაობისთვის.</text></para>
+    <para styleclass="See_also"><conditional-text type="IF" value="HTML,WEB_EIDSS"/><text styleclass="See_also" translate="true">იხ. აგრეთვე:</text></para>
+    <list id="3" type="ul" listtype="bullet" formatstring="ü" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_Create" styleclass="List" translate="true">ვექტორული ზედამხედველობის სესიის (VS) შექმნა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_edit" styleclass="List" style="font-family:'Times New Roman'; font-size:11pt; font-weight:normal; color:#000000;" translate="true">დაარედაქტირეთ ვექტორული ზედამხედველობის სესია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Close_VS_Session" styleclass="List" style="font-family:'Times New Roman'; font-size:11pt; font-weight:normal; color:#000000;" translate="true">დახურეთ VS სესიის ფანჯარა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_delete" styleclass="List" style="font-family:'Times New Roman'; font-size:11pt; font-weight:normal; color:#000000;" translate="true">VS სესიის წაშლა</link><conditional-text type="END"/></li>
+    </list>
+  </body>
+</topic> 

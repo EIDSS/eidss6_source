@@ -1,0 +1,137 @@
+﻿@using Kendo.Mvc.UI
+@using bv.common.Configuration
+@using eidss.webclient.Utils
+@using eidss.web.common.Utils
+@using bv.model.Model.Core
+@using eidss.webclient.Models.Reports
+@model eidss.webclient.Models.Reports.VetComparativeByMonthWebModel
+
+@{
+    Layout = "~/Views/Shared/_ReportLayout.cshtml";
+}
+@if (BaseSettings.TranslationMode)
+{
+    <input type='hidden' id='aspclassname' value='@GetType().FullName' />
+}
+<input type='hidden' id='StartYearOld' value='@DateTime.Today.Year'>
+<input type='hidden' id='EndYearOld' value='@DateTime.Today.Year'>
+
+@using (Html.BeginForm())
+{
+    @Html.Partial("Common/ExportButtons", Model)
+
+    <div class="bluelayout">
+        <div class="tabPanelContent">
+
+            @Html.Partial("Common/BaseFilter", Model)
+            <table id="VetIndicatorsFilterTable">
+                <tr>
+                    <td class="mediumreport">
+                        @Html.LabelFor(m => m.YearFrom)
+                    </td>
+                    <td class="largereport">
+                            @{
+                                @(
+                                        Html.Kendo().NumericTextBox()
+                                        .Name("YearFrom")
+                                        .Value(DateTime.Today.Year)
+                                        .Min(2000)
+                                        .Max(DateTime.Today.Year)
+                                        .Decimals(0)
+                                        .HtmlAttributes(new { @class = "requiredField" })
+                                        .Placeholder("")
+                                        .Events(c => c.Change("paperForm.OnVetComparativeYearChanged"))
+                                        .Format("g")
+                                )
+                            }
+                    </td>
+                    <td class="mediumreport">
+                        @Html.LabelFor(m => m.YearTo)
+                    </td>
+                    <td class="largereport">
+                            @{
+                                @(
+                                        Html.Kendo().NumericTextBox()
+                                        .Name("YearTo")
+                                        .Value(DateTime.Today.Year)
+                                        .Min(2000)
+                                        .Max(DateTime.Today.Year)
+                                        .Decimals(0)
+                                        .HtmlAttributes(new { @class = "requiredField" })
+                                        .Placeholder("")
+                                        .Events(c => c.Change("paperForm.OnVetComparativeYearChanged"))
+                                        .Format("g")
+                                )
+                            }
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="mediumreport">
+                        @Html.LabelFor(m => m.Address.RegionId)
+                    </td>
+                    <td class="largereport">
+                        @{
+                            @(Html.Kendo().ComboBox()
+                                  .BindTo(Model.Address.GetSelectedRegions(null).ConvertToSelectListItem())
+                                  .Events(c => c.Change("paperForm.OnRegionChanged"))
+                                  .Name("Address.RegionId"))
+                        }
+                    </td>
+                    <td class="mediumreport">
+                        @Html.LabelFor(m => m.Address.RayonId)
+                    </td>
+                    <td class="largereport">
+                        @{
+                            @(Html.Kendo().ComboBox()
+                                  .BindTo(Model.Address.GetRayons(null).ConvertToSelectListItem())
+                                  .Name("Address.RayonId"))
+                        }
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="mediumreport">
+                        @Html.LabelFor(m => m.DiagnosisId)
+                    </td>
+                    <td class="largereport">
+                        @{
+                            @(Html.Kendo().ComboBox()
+                                    .Events(e => e.Open("function(e) { bvComboBox.onOpen(e, " + (int)EditorControlWidth.Large + "); }"))
+                                    .BindTo(Model.DiagnosisList.ConvertToSelectListItem())
+                                    .Name("DiagnosisId")
+                                    .Events(c => c.Change("paperForm.OnVetSummaryDiagnosisChange"))
+                            )
+                        }
+
+                    </td>
+                    <td class="mediumreport">
+                        @Html.Label(Translator.GetMessageString("strSpeciesType"))
+                    </td>
+                    <td class="largereport">
+                        <span class="picker">
+                            <span class="pickerWrap">
+                                @(
+                                @Html.Kendo().DropDownList()
+                                 .Name("SpeciesType_CheckedItems")
+                                 .DataTextField("Text")
+                                 .DataValueField("Value")
+         .HtmlAttributes(new { @class = "requiredField", @maxcheckedcount = VetComparativeByMonthWebModel.VetMaxSpeciesTypeCount.ToString(), @validationMessage = "msgTooManySpeciesType3" })
+                                 .Template("<input type=\"checkbox\"checkedname=\"${ data.Text }\" value=\"${ data.Value }\" class=\"check-item\" id=\"chb${ data.Value }\"/><span>${ data.Text }</span>")
+                                 .Events(e => e.Select("bvCheckedComboBox.onCheckedComboBoxChanged")
+                                        .DataBound("function(e) { bvCheckedComboBox.bindCheckedComboBoxClickEvent('SpeciesType_CheckedItems', '');}")
+                                        .Open("function(e) { bvCheckedComboBox.onComboBoxOpen(e, " + (int)EditorControlWidth.Large + ", true); }"))
+                                 .BindTo(Model.SpeciesDatasource.ConvertToSelectListItem())
+                                )
+                            </span>
+                        </span>
+
+                    </td>
+                </tr>
+
+
+
+            </table>
+        </div>
+    </div>
+}

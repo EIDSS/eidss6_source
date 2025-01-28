@@ -1,0 +1,2062 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="xrLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel4.Text" xml:space="preserve">
+    <value>نموذج تبليغ طارئ</value>
+  </data>
+  <assembly alias="DevExpress.Data.v15.1" name="DevExpress.Data.v15.1, Version=15.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="xrLabel4.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrPictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAAAAAAAD/4gIcSUNDX1BST0ZJTEUAAQEAAAIMbGNtcwIQAABtbnRyUkdCIFhZ
+        WiAH3AABABkAAwApADlhY3NwQVBQTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLWxj
+        bXMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApkZXNjAAAA/AAA
+        AF5jcHJ0AAABXAAAAAt3dHB0AAABaAAAABRia3B0AAABfAAAABRyWFlaAAABkAAAABRnWFlaAAABpAAA
+        ABRiWFlaAAABuAAAABRyVFJDAAABzAAAAEBnVFJDAAABzAAAAEBiVFJDAAABzAAAAEBkZXNjAAAAAAAA
+        AANjMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0ZXh0AAAAAEZCAABYWVogAAAAAAAA9tYAAQAAAADTLVhZ
+        WiAAAAAAAAADFgAAAzMAAAKkWFlaIAAAAAAAAG+iAAA49QAAA5BYWVogAAAAAAAAYpkAALeFAAAY2lhZ
+        WiAAAAAAAAAkoAAAD4QAALbPY3VydgAAAAAAAAAaAAAAywHJA2MFkghrC/YQPxVRGzQh8SmQMhg7kkYF
+        UXdd7WtwegWJsZp8rGm/fdPD6TD////bAEMAEAsMDgwKEA4NDhIREBMYKBoYFhYYMSMlHSg6Mz08OTM4
+        N0BIXE5ARFdFNzhQbVFXX2JnaGc+TXF5cGR4XGVnY//bAEMBERISGBUYLxoaL2NCOEJjY2NjY2NjY2Nj
+        Y2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY//AABEIAnYCdgMBEQACEQEDEQH/
+        xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYBAwQCB//EAEkQAAICAQIDBAcEBwMLBAMBAAABAgMEBREGEiET
+        MUFRFCIyQlJhcSOBkaEVM2JyscHRFiRTByU0Q0Rjc4KS4fA1VFXSg5Oi8f/EABoBAQEBAQEBAQAAAAAA
+        AAAAAAABAgMEBQb/xAAoEQEBAAICAgEFAAIDAQEAAAAAAQIRAyESMUEEEyIyUQVhFEJxI1L/2gAMAwEA
+        AhEDEQA/APoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAABgABiU4xXrSS+oGmWdiQ9rJpX1mgPD1LB/95R/+xEGY5+HLuyqX9JobG6F1U/Ys
+        hL6Mo9gAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAeZSUVvJpLzbAj8nXNPxd1ZkRcvhh1ZNwcNmvZWRHbT9Otm33SmtkO1auz4kyvatqx4+SXUdjZ
+        Xw/lWrfN1TJnv7sZbIaNtkOFNNT3sVtj/amxo23R4Z0qP+zb/WTGjb3/AGe0v/2kBpGHw7pe3+ix/EaG
+        qXC+lvqqpRfymxpdtcuG4VrfFzcmmXhtMmjbU9P1/H/UahG1eVi/qO0Zhqes4stszA7WC75VFV1U8RYM
+        3y2udEvKyOw2aSdORVfHmqsjNfJ7lRtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAc2Vm4+FX2mTbGqHnJ94ELLiG/Nm69IwrL/DtJ9IogPRNR1LZ6pm8sf8Kn
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYa3WwEfDQ9OhY7HiwnNvdymuZ/mZmMjPhHbCqFceW
+        EVFLwRpdPewVkAAAAcuVp+NmSrlkVRsde/LzIzcZbtLJfblnw/pc5czw69/kh4xn7eLtx8WjFhyUVQrj
+        5RWxdaakk9NxVZAAANN2PVkVuF1cZxfepLclkqWSo/8As3pXPzeix3M+GLH28XTjaXh4mRK/HojXOUeV
+        8qLMZLtqYyXbtNNAAABjYDXbRXdBwthGcX3qS3JZL7SyVw4+iYWJl+k4tbqn3NRfR/cZmEl3E8IkkbaZ
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf/9k=
+</value>
+  </data>
+  <data name="xrLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>529.3332, 27.5000248</value>
+  </data>
+  <data name="xrLabel2.Text" xml:space="preserve">
+    <value>وزارة الزراعة الأردنية</value>
+  </data>
+  <data name="xrLabel2.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel3.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>514.3332, 50.5000038</value>
+  </data>
+  <data name="xrLabel3.Text" xml:space="preserve">
+    <value>مديرية البيطرة والصحة الحيوانية</value>
+  </data>
+  <data name="xrLabel3.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel126.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrLabel126.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.5002136, 44.1665649</value>
+  </data>
+  <data name="xrLabel127.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel127.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>663.861, 44.1664619</value>
+  </data>
+  <data name="xrLabel127.Text" xml:space="preserve">
+    <value>التشخيص النهائي</value>
+  </data>
+  <data name="xrLabel122.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrLabel122.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>275.000061, 10</value>
+  </data>
+  <data name="xrLabel122.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>375.7599, 23</value>
+  </data>
+  <data name="xrLabel123.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel123.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>650.76, 10</value>
+  </data>
+  <data name="xrLabel123.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>112.739868, 23</value>
+  </data>
+  <data name="xrLabel123.Text" xml:space="preserve">
+    <value>اسم الطبيب البيطري</value>
+  </data>
+  <data name="xrLabel124.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel124.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>206.359558, 10</value>
+  </data>
+  <data name="xrLabel124.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>46.31, 23</value>
+  </data>
+  <data name="xrLabel124.Text" xml:space="preserve">
+    <value>التوقيع</value>
+  </data>
+  <data name="xrLabel125.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrLabel125.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>14.3332415, 10</value>
+  </data>
+  <data name="xrLabel125.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>192.026337, 22.9999962</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Detail1.HeightF" type="System.Single, mscorlib">
+    <value>77.5</value>
+  </data>
+  <data name="xrLabel91.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4980516, 519.1338</value>
+  </data>
+  <data name="xrLabel92.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.16805, 519.1346</value>
+  </data>
+  <data name="xrLabel92.Text" xml:space="preserve">
+    <value>فقر دم </value>
+  </data>
+  <data name="xrLabel92.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel93.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.6698, 519.1338</value>
+  </data>
+  <data name="xrLabel93.Text" xml:space="preserve">
+    <value>الإجهاض </value>
+  </data>
+  <data name="xrLabel93.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel94.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9999, 519.1338</value>
+  </data>
+  <data name="xrLabel95.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.499878, 519.1338</value>
+  </data>
+  <data name="xrLabel96.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.1698, 519.1338</value>
+  </data>
+  <data name="xrLabel96.Text" xml:space="preserve">
+    <value>عدائي </value>
+  </data>
+  <data name="xrLabel96.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel97.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.9999, 519.1338</value>
+  </data>
+  <data name="xrLabel98.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.669891, 519.1338</value>
+  </data>
+  <data name="xrLabel98.Text" xml:space="preserve">
+    <value>الثعلبة-alopecia </value>
+  </data>
+  <data name="xrLabel98.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel85.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.669769, 547.134033</value>
+  </data>
+  <data name="xrLabel85.Text" xml:space="preserve">
+    <value>بثور بين الأصابع </value>
+  </data>
+  <data name="xrLabel85.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel86.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.9999, 547.134033</value>
+  </data>
+  <data name="xrLabel87.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.1698, 547.134</value>
+  </data>
+  <data name="xrLabel87.Text" xml:space="preserve">
+    <value>بثور اللسان </value>
+  </data>
+  <data name="xrLabel87.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel88.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.499878, 547.134</value>
+  </data>
+  <data name="xrLabel89.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9999, 547.134033</value>
+  </data>
+  <data name="xrLabel90.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.6698, 547.134033</value>
+  </data>
+  <data name="xrLabel90.Text" xml:space="preserve">
+    <value>استسقاء </value>
+  </data>
+  <data name="xrLabel90.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel79.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.668, 575.133545</value>
+  </data>
+  <data name="xrLabel79.Text" xml:space="preserve">
+    <value>إفرازات - أنفية </value>
+  </data>
+  <data name="xrLabel79.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel80.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.998169, 575.133545</value>
+  </data>
+  <data name="xrLabel81.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.49823, 575.1335</value>
+  </data>
+  <data name="xrLabel82.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.1682, 575.1335</value>
+  </data>
+  <data name="xrLabel82.Text" xml:space="preserve">
+    <value>إفرازات مهبلية </value>
+  </data>
+  <data name="xrLabel82.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel83.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.998169, 575.133545</value>
+  </data>
+  <data name="xrLabel84.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.66806, 575.133545</value>
+  </data>
+  <data name="xrLabel84.Text" xml:space="preserve">
+    <value>جفاف </value>
+  </data>
+  <data name="xrLabel84.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel106.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4944916, 800.1339</value>
+  </data>
+  <data name="xrLabel105.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.167923, 800.134033</value>
+  </data>
+  <data name="xrLabel105.Text" xml:space="preserve">
+    <value>اليرقان </value>
+  </data>
+  <data name="xrLabel105.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel104.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.6688, 771.133362</value>
+  </data>
+  <data name="xrLabel104.Text" xml:space="preserve">
+    <value>سيلان اللعاب </value>
+  </data>
+  <data name="xrLabel104.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.167923, 547.134766</value>
+  </data>
+  <data name="xrLabel1.Text" xml:space="preserve">
+    <value>إفرازات - العين </value>
+  </data>
+  <data name="xrLabel1.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel167.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.0700073, 996.13</value>
+  </data>
+  <data name="xrLabel167.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel168.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4, 996.13</value>
+  </data>
+  <data name="xrLabel169.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.672546, 996.1332</value>
+  </data>
+  <data name="xrLabel169.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel170.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.999771, 996.13324</value>
+  </data>
+  <data name="xrLabel170.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>31.6716461, 27.999939</value>
+  </data>
+  <data name="xrLabel171.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.171722, 996.1331</value>
+  </data>
+  <data name="xrLabel171.Text" xml:space="preserve">
+    <value>انخفاض حرارة الجسم </value>
+  </data>
+  <data name="xrLabel171.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel172.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.5024, 996.133362</value>
+  </data>
+  <data name="xrLabel173.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9989, 996.133362</value>
+  </data>
+  <data name="xrLabel174.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.668945, 996.133362</value>
+  </data>
+  <data name="xrLabel174.Text" xml:space="preserve">
+    <value>هيموجلوبين يوريا </value>
+  </data>
+  <data name="xrLabel174.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel159.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.0700073, 968.13</value>
+  </data>
+  <data name="xrLabel159.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>155.83, 29</value>
+  </data>
+  <data name="xrLabel159.Text" xml:space="preserve">
+    <value>بول دموي </value>
+  </data>
+  <data name="xrLabel159.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel160.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4, 968.13</value>
+  </data>
+  <data name="xrLabel160.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>31.67, 29</value>
+  </data>
+  <data name="xrLabel161.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 8pt</value>
+  </data>
+  <data name="xrLabel161.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.669128, 968.1333</value>
+  </data>
+  <data name="xrLabel161.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>155.83, 29</value>
+  </data>
+  <data name="xrLabel161.Text" xml:space="preserve">
+    <value>وضعية التهام الهواء ( صعوبة شديدة في التّنفس ) </value>
+  </data>
+  <data name="xrLabel161.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel162.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.999771, 968.133545</value>
+  </data>
+  <data name="xrLabel162.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>31.67, 29</value>
+  </data>
+  <data name="xrLabel163.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.172455, 968.13324</value>
+  </data>
+  <data name="xrLabel163.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>155.83, 29</value>
+  </data>
+  <data name="xrLabel163.Text" xml:space="preserve">
+    <value>السّعال </value>
+  </data>
+  <data name="xrLabel163.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel164.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.499237, 968.13324</value>
+  </data>
+  <data name="xrLabel164.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>31.67, 29</value>
+  </data>
+  <data name="xrLabel165.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9999, 968.13324</value>
+  </data>
+  <data name="xrLabel165.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>31.67, 29</value>
+  </data>
+  <data name="xrLabel166.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.6698, 968.13324</value>
+  </data>
+  <data name="xrLabel166.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>155.83, 29</value>
+  </data>
+  <data name="xrLabel166.Text" xml:space="preserve">
+    <value>تقرح - فموي </value>
+  </data>
+  <data name="xrLabel166.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel151.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.1690025, 940.1339</value>
+  </data>
+  <data name="xrLabel151.Text" xml:space="preserve">
+    <value>عدم الشّرب </value>
+  </data>
+  <data name="xrLabel151.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel152.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4985609, 940.1339</value>
+  </data>
+  <data name="xrLabel153.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.669128, 940.1332</value>
+  </data>
+  <data name="xrLabel153.Text" xml:space="preserve">
+    <value>الدوران </value>
+  </data>
+  <data name="xrLabel153.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel154.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.998032, 940.1332</value>
+  </data>
+  <data name="xrLabel155.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.171722, 940.1332</value>
+  </data>
+  <data name="xrLabel155.Text" xml:space="preserve">
+    <value>حمّى </value>
+  </data>
+  <data name="xrLabel155.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel156.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.499023, 940.1332</value>
+  </data>
+  <data name="xrLabel157.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9989, 940.1332</value>
+  </data>
+  <data name="xrLabel158.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.668945, 940.133362</value>
+  </data>
+  <data name="xrLabel158.Text" xml:space="preserve">
+    <value>ازرقاق - أطراف </value>
+  </data>
+  <data name="xrLabel158.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel143.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.1690025, 912.1338</value>
+  </data>
+  <data name="xrLabel143.Text" xml:space="preserve">
+    <value>الجلد - ازرقاق </value>
+  </data>
+  <data name="xrLabel143.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel144.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4985609, 912.1338</value>
+  </data>
+  <data name="xrLabel145.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.669128, 912.1333</value>
+  </data>
+  <data name="xrLabel145.Text" xml:space="preserve">
+    <value>تجمع السوائل </value>
+  </data>
+  <data name="xrLabel145.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel146.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.998032, 912.133057</value>
+  </data>
+  <data name="xrLabel147.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.1682, 912.133057</value>
+  </data>
+  <data name="xrLabel147.Text" xml:space="preserve">
+    <value>الكتل </value>
+  </data>
+  <data name="xrLabel147.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel148.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.499237, 912.133057</value>
+  </data>
+  <data name="xrLabel149.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9989, 912.1333</value>
+  </data>
+  <data name="xrLabel150.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.668945, 912.1335</value>
+  </data>
+  <data name="xrLabel150.Text" xml:space="preserve">
+    <value>احتقان </value>
+  </data>
+  <data name="xrLabel150.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel135.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.1690025, 884.1339</value>
+  </data>
+  <data name="xrLabel135.Text" xml:space="preserve">
+    <value>نفاخ </value>
+  </data>
+  <data name="xrLabel135.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel136.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4985609, 884.1339</value>
+  </data>
+  <data name="xrLabel137.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.669128, 884.1332</value>
+  </data>
+  <data name="xrLabel137.Text" xml:space="preserve">
+    <value>إمساك </value>
+  </data>
+  <data name="xrLabel137.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel138.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.999008, 884.1332</value>
+  </data>
+  <data name="xrLabel139.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.1682, 884.1331</value>
+  </data>
+  <data name="xrLabel139.Text" xml:space="preserve">
+    <value>القيء </value>
+  </data>
+  <data name="xrLabel139.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel140.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.499237, 884.1331</value>
+  </data>
+  <data name="xrLabel141.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9989, 884.1333</value>
+  </data>
+  <data name="xrLabel142.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.668945, 884.1333</value>
+  </data>
+  <data name="xrLabel142.Text" xml:space="preserve">
+    <value>ضيق في التنفس </value>
+  </data>
+  <data name="xrLabel142.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel121.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.1690025, 856.1338</value>
+  </data>
+  <data name="xrLabel121.Text" xml:space="preserve">
+    <value>قشور </value>
+  </data>
+  <data name="xrLabel121.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel128.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4985609, 856.1338</value>
+  </data>
+  <data name="xrLabel128.Text" xml:space="preserve">
+    <value>ملاحظة: تصوير النموذج نسختين و ارساله الى مديرية مختبرات الثروة الحيوانية مع العينات المرسلة و النسخة الأخرى الى مديرية البيطرة و الصحة الحيوانية</value>
+  </data>
+  <data name="xrLabel129.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.669128, 856.1333</value>
+  </data>
+  <data name="xrLabel129.Text" xml:space="preserve">
+    <value>إسهال </value>
+  </data>
+  <data name="xrLabel129.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel130.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.999008, 856.1331</value>
+  </data>
+  <data name="xrLabel131.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.1682, 856.13324</value>
+  </data>
+  <data name="xrLabel131.Text" xml:space="preserve">
+    <value>رائحة الفم الكريهة </value>
+  </data>
+  <data name="xrLabel131.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel132.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.499237, 856.13324</value>
+  </data>
+  <data name="xrLabel133.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9989, 856.1334</value>
+  </data>
+  <data name="xrLabel134.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.668945, 856.1334</value>
+  </data>
+  <data name="xrLabel134.Text" xml:space="preserve">
+    <value>بثور - الشّرى التّحسّسي </value>
+  </data>
+  <data name="xrLabel134.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel113.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.07, 828.13</value>
+  </data>
+  <data name="xrLabel113.Text" xml:space="preserve">
+    <value>فقدان الشهية </value>
+  </data>
+  <data name="xrLabel113.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel114.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4, 828.13</value>
+  </data>
+  <data name="xrLabel115.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.673187, 828.1331</value>
+  </data>
+  <data name="xrLabel115.Text" xml:space="preserve">
+    <value>زحار </value>
+  </data>
+  <data name="xrLabel115.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel116.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.901779, 828.13324</value>
+  </data>
+  <data name="xrLabel116.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>31.7714386, 28</value>
+  </data>
+  <data name="xrLabel117.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.172455, 828.133057</value>
+  </data>
+  <data name="xrLabel117.Text" xml:space="preserve">
+    <value>التهاب الفم </value>
+  </data>
+  <data name="xrLabel117.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel118.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.503265, 828.133362</value>
+  </data>
+  <data name="xrLabel119.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9989, 828.1334</value>
+  </data>
+  <data name="xrLabel120.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.668945, 828.1334</value>
+  </data>
+  <data name="xrLabel120.Text" xml:space="preserve">
+    <value>خمول حركة الكرش </value>
+  </data>
+  <data name="xrLabel120.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel107.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.669128, 800.134033</value>
+  </data>
+  <data name="xrLabel107.Text" xml:space="preserve">
+    <value>ضعف </value>
+  </data>
+  <data name="xrLabel107.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel108.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.999008, 800.133362</value>
+  </data>
+  <data name="xrLabel109.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.1682, 800.1331</value>
+  </data>
+  <data name="xrLabel109.Text" xml:space="preserve">
+    <value>المفاصل - تورّم المفاصل </value>
+  </data>
+  <data name="xrLabel109.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel110.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.499237, 800.1332</value>
+  </data>
+  <data name="xrLabel111.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9989, 800.13324</value>
+  </data>
+  <data name="xrLabel112.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.668945, 800.13324</value>
+  </data>
+  <data name="xrLabel112.Text" xml:space="preserve">
+    <value>الحليب - إنتاج الحليب المنخفض </value>
+  </data>
+  <data name="xrLabel112.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel69.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.1690025, 771.13446</value>
+  </data>
+  <data name="xrLabel69.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>155.83, 29</value>
+  </data>
+  <data name="xrLabel69.Text" xml:space="preserve">
+    <value>عتامة القرنية </value>
+  </data>
+  <data name="xrLabel69.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel70.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4985609, 771.1346</value>
+  </data>
+  <data name="xrLabel70.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>31.67, 29</value>
+  </data>
+  <data name="xrLabel71.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.66803, 771.1345</value>
+  </data>
+  <data name="xrLabel71.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>155.83, 29</value>
+  </data>
+  <data name="xrLabel71.Text" xml:space="preserve">
+    <value>أنزفة نقطية </value>
+  </data>
+  <data name="xrLabel71.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel72.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.998978, 771.133667</value>
+  </data>
+  <data name="xrLabel72.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>31.6690521, 29</value>
+  </data>
+  <data name="xrLabel73.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.1682, 771.133362</value>
+  </data>
+  <data name="xrLabel73.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>155.83, 29</value>
+  </data>
+  <data name="xrLabel73.Text" xml:space="preserve">
+    <value>شلل جزئي </value>
+  </data>
+  <data name="xrLabel73.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel61.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.1690025, 743.134155</value>
+  </data>
+  <data name="xrLabel61.Text" xml:space="preserve">
+    <value>علامات عصبية </value>
+  </data>
+  <data name="xrLabel61.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel62.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4985609, 743.1342</value>
+  </data>
+  <data name="xrLabel63.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.669128, 743.1336</value>
+  </data>
+  <data name="xrLabel63.Text" xml:space="preserve">
+    <value>التهاب الضرع </value>
+  </data>
+  <data name="xrLabel63.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel64.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.999008, 743.1334</value>
+  </data>
+  <data name="xrLabel65.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.1682, 743.133362</value>
+  </data>
+  <data name="xrLabel65.Text" xml:space="preserve">
+    <value>تورّم في العضلات </value>
+  </data>
+  <data name="xrLabel65.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel66.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.499023, 743.1335</value>
+  </data>
+  <data name="xrLabel67.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9989, 743.133545</value>
+  </data>
+  <data name="xrLabel68.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.668945, 743.1336</value>
+  </data>
+  <data name="xrLabel68.Text" xml:space="preserve">
+    <value>ضمور عضلي </value>
+  </data>
+  <data name="xrLabel68.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel53.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.1690025, 715.1344</value>
+  </data>
+  <data name="xrLabel53.Text" xml:space="preserve">
+    <value>العرج </value>
+  </data>
+  <data name="xrLabel53.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel54.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4985609, 715.134338</value>
+  </data>
+  <data name="xrLabel55.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.669128, 715.133545</value>
+  </data>
+  <data name="xrLabel55.Text" xml:space="preserve">
+    <value>التهاب الملتحمة </value>
+  </data>
+  <data name="xrLabel55.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel56.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.999008, 715.1337</value>
+  </data>
+  <data name="xrLabel57.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.1682, 715.1335</value>
+  </data>
+  <data name="xrLabel57.Text" xml:space="preserve">
+    <value>مغص </value>
+  </data>
+  <data name="xrLabel57.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel58.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.499023, 715.1336</value>
+  </data>
+  <data name="xrLabel59.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9989, 715.133667</value>
+  </data>
+  <data name="xrLabel60.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.668945, 715.1337</value>
+  </data>
+  <data name="xrLabel60.Text" xml:space="preserve">
+    <value>تغذية - الصّد عن تناول الغذاء </value>
+  </data>
+  <data name="xrLabel60.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel45.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.1690025, 687.134338</value>
+  </data>
+  <data name="xrLabel45.Text" xml:space="preserve">
+    <value>العقيدات nodules</value>
+  </data>
+  <data name="xrLabel45.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel46.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4985609, 687.134338</value>
+  </data>
+  <data name="xrLabel47.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.669128, 687.13385</value>
+  </data>
+  <data name="xrLabel47.Text" xml:space="preserve">
+    <value>تنخّر النّسيج </value>
+  </data>
+  <data name="xrLabel47.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel48.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.99913, 687.133667</value>
+  </data>
+  <data name="xrLabel49.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.1682, 687.1336</value>
+  </data>
+  <data name="xrLabel49.Text" xml:space="preserve">
+    <value>الهزال </value>
+  </data>
+  <data name="xrLabel49.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel50.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.499023, 687.1336</value>
+  </data>
+  <data name="xrLabel51.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9989, 687.133667</value>
+  </data>
+  <data name="xrLabel52.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.668945, 687.133667</value>
+  </data>
+  <data name="xrLabel52.Text" xml:space="preserve">
+    <value>الجلد - حكة </value>
+  </data>
+  <data name="xrLabel52.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel37.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.1699562, 659.1344</value>
+  </data>
+  <data name="xrLabel37.Text" xml:space="preserve">
+    <value>الجلد - بثور </value>
+  </data>
+  <data name="xrLabel37.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel38.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4993868, 659.1344</value>
+  </data>
+  <data name="xrLabel39.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.669769, 659.1335</value>
+  </data>
+  <data name="xrLabel39.Text" xml:space="preserve">
+    <value>الجلد - آفات/lesions </value>
+  </data>
+  <data name="xrLabel39.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel40.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.999771, 659.133667</value>
+  </data>
+  <data name="xrLabel41.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.169067, 659.1335</value>
+  </data>
+  <data name="xrLabel41.Text" xml:space="preserve">
+    <value>التّحديق </value>
+  </data>
+  <data name="xrLabel41.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel42.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.499878, 659.1336</value>
+  </data>
+  <data name="xrLabel43.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9999, 659.133667</value>
+  </data>
+  <data name="xrLabel44.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.668945, 659.133667</value>
+  </data>
+  <data name="xrLabel44.Text" xml:space="preserve">
+    <value>إمالة الرأس </value>
+  </data>
+  <data name="xrLabel44.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel29.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.668945, 631.1338</value>
+  </data>
+  <data name="xrLabel29.Text" xml:space="preserve">
+    <value>التهاب البربخ </value>
+  </data>
+  <data name="xrLabel29.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel30.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9989, 631.1338</value>
+  </data>
+  <data name="xrLabel31.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.499237, 631.133667</value>
+  </data>
+  <data name="xrLabel33.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.99913, 631.133667</value>
+  </data>
+  <data name="xrLabel34.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.669128, 631.1338</value>
+  </data>
+  <data name="xrLabel34.Text" xml:space="preserve">
+    <value>حويصلات - فموي </value>
+  </data>
+  <data name="xrLabel34.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel35.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4985609, 631.1343</value>
+  </data>
+  <data name="xrLabel36.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.1690025, 631.13446</value>
+  </data>
+  <data name="xrLabel36.Text" xml:space="preserve">
+    <value>الحويصلات - بين الأصابع </value>
+  </data>
+  <data name="xrLabel36.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel28.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4973526, 603.1344</value>
+  </data>
+  <data name="xrLabel25.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>232.669128, 603.1337</value>
+  </data>
+  <data name="xrLabel25.Text" xml:space="preserve">
+    <value>الزحار </value>
+  </data>
+  <data name="xrLabel25.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel26.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>200.999008, 603.1337</value>
+  </data>
+  <data name="xrLabel23.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.169067, 603.133667</value>
+  </data>
+  <data name="xrLabel23.Text" xml:space="preserve">
+    <value>التهاب جلدي- بين الأصابع </value>
+  </data>
+  <data name="xrLabel23.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel24.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.499023, 603.133667</value>
+  </data>
+  <data name="xrLabel22.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9989, 603.1337</value>
+  </data>
+  <data name="xrLabel20.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4986877, 575.1345</value>
+  </data>
+  <data name="xrLabel19.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.1690025, 575.1345</value>
+  </data>
+  <data name="xrLabel19.Text" xml:space="preserve">
+    <value>شلل </value>
+  </data>
+  <data name="xrLabel19.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel18.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4980516, 547.1341</value>
+  </data>
+  <data name="xrTable2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrTable2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.5001287, 188.0951</value>
+  </data>
+  <data name="xrOtherHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrOtherHeader.Text" xml:space="preserve">
+    <value>أخرى</value>
+  </data>
+  <data name="xrEquineHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrEquineHeader.Text" xml:space="preserve">
+    <value>خيل</value>
+  </data>
+  <data name="xrCamelusHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrCamelusHeader.Text" xml:space="preserve">
+    <value>جمال</value>
+  </data>
+  <data name="xrBovineHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrBovineHeader.Text" xml:space="preserve">
+    <value>أبقار</value>
+  </data>
+  <data name="xrCaprineHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrCaprineHeader.Text" xml:space="preserve">
+    <value>ماعز</value>
+  </data>
+  <data name="xrOvineHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrOvineHeader.Text" xml:space="preserve">
+    <value>ضأن</value>
+  </data>
+  <data name="xrAttrHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrAttrHeader.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrTableRow2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrOtherTotalAnimals.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrEquineTotalAnimals.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrCamelusTotalAnimals.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrBovineTotalAnimals.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrCaprineTotalAnimals.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrOvineTotalAnimals.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrAttrTotalAnimals.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrAttrTotalAnimals.Text" xml:space="preserve">
+    <value>عدد الحيوانات ضمن الحيازة</value>
+  </data>
+  <data name="xrAttrTotalAnimals.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrOtherTotalSick.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrEquineTotalSick.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrCamelusTotalSick.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrBovineTotalSick.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrCaprineTotalSick.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrOvineTotalSick.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrAttrTotalSick.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrAttrTotalSick.Text" xml:space="preserve">
+    <value>عدد الحيوانات المصابة</value>
+  </data>
+  <data name="xrAttrTotalSick.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrOtherTotalDead.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrEquineTotalDead.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrCamelusTotalDead.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrBovineTotalDead.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrCaprineTotalDead.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrOvineTotalDead.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrAttrTotalDead.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrAttrTotalDead.Text" xml:space="preserve">
+    <value>عدد الحيوانات النافقة</value>
+  </data>
+  <data name="xrAttrTotalDead.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrOtherTotalAborted.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrEquineTotalAborted.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrCamelusTotalAborted.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrBovineTotalAborted.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrCaprineTotalAborted.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrOvineTotalAborted.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrAttrTotalAborted.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrAttrTotalAborted.Text" xml:space="preserve">
+    <value>عدد الحيوانات المجهضة</value>
+  </data>
+  <data name="xrAttrTotalAborted.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrOtherTotalVaccinated.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrEquineTotalVaccinated.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrCamelusTotalVaccinated.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrBovineTotalVaccinated.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrCaprineTotalVaccinated.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrOvineTotalVaccinated.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrAttrTotalVaccinated.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrAttrTotalVaccinated.Text" xml:space="preserve">
+    <value>عدد الحيوانات المحصنة للمرض المشتبه به</value>
+  </data>
+  <data name="xrAttrTotalVaccinated.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrOtherSickAgeRange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrEquineSickAgeRange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrCamelusSickAgeRange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrBovineSickAgeRange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrCaprineSickAgeRange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrOvineSickAgeRange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrAttrSickAgeRange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrAttrSickAgeRange.Text" xml:space="preserve">
+    <value>الفئة العمرية للحيوانات المريضة</value>
+  </data>
+  <data name="xrAttrSickAgeRange.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrOtherDeadAgeRange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrEquineDeadAgeRange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrCamelusDeadAgeRange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrBovineDeadAgeRange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrCaprineDeadAgeRange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrOvineDeadAgeRange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrAttrDeadAgeRange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrAttrDeadAgeRange.Text" xml:space="preserve">
+    <value>الفئة العمرية للحيوانات النافقة</value>
+  </data>
+  <data name="xrAttrDeadAgeRange.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel15.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>251, 70</value>
+  </data>
+  <data name="xrLabel15.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel17.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>293.5001, 161.148132</value>
+  </data>
+  <data name="xrLabel17.Text" xml:space="preserve">
+    <value>تفاصيل الحيازة</value>
+  </data>
+  <data name="xrLabel16.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>513.4998, 81.0833</value>
+  </data>
+  <data name="xrLabel16.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>251, 70</value>
+  </data>
+  <data name="xrLabel16.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel77.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>23.500061, 390.863678</value>
+  </data>
+  <data name="xrLabel77.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>607.029968, 71.85388</value>
+  </data>
+  <data name="xrLabel77.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>BottomRight</value>
+  </data>
+  <data name="xrLabel76.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel76.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>630.530151, 439.717529</value>
+  </data>
+  <data name="xrLabel76.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>132.97, 23</value>
+  </data>
+  <data name="xrLabel76.Text" xml:space="preserve">
+    <value>اسم المرض المشتبه به</value>
+  </data>
+  <data name="xrLabel75.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel75.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>592.7521, 462.717529</value>
+  </data>
+  <data name="xrLabel75.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>167.97, 23</value>
+  </data>
+  <data name="xrLabel75.Text" xml:space="preserve">
+    <value>تاريخ ظهور الأعراض المرضية</value>
+  </data>
+  <data name="xrLabel74.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>403.252045, 462.717529</value>
+  </data>
+  <data name="xrLabel74.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>189.5, 23</value>
+  </data>
+  <data name="xrLabel78.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel78.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4997683, 496.1342</value>
+  </data>
+  <data name="xrLabel78.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>751.01, 23</value>
+  </data>
+  <data name="xrLabel78.Text" xml:space="preserve">
+    <value>الأعراض</value>
+  </data>
+  <data name="xrLabel101.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrLabel101.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>36.92983, 1068.62109</value>
+  </data>
+  <data name="xrLabel101.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>658.4546, 23.000061</value>
+  </data>
+  <data name="xrLabel102.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel102.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>695.3844, 1068.62109</value>
+  </data>
+  <data name="xrLabel102.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>67.28168, 23.000061</value>
+  </data>
+  <data name="xrLabel102.Text" xml:space="preserve">
+    <value>جمع العيّنات</value>
+  </data>
+  <data name="xrLabel102.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel12.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>263.5001, 58.083313</value>
+  </data>
+  <data name="xrLabel12.Text" xml:space="preserve">
+    <value>عنوانه</value>
+  </data>
+  <data name="xrLabel9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel9.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>716.8558, 16.4199886</value>
+  </data>
+  <data name="xrLabel9.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>41.6742554, 22.9999981</value>
+  </data>
+  <data name="xrLabel9.Text" xml:space="preserve">
+    <value>القسم</value>
+  </data>
+  <data name="xrLabel9.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrLabel10.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>23.5001163, 16.4166451</value>
+  </data>
+  <data name="xrLabel10.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>174.529877, 23.0000038</value>
+  </data>
+  <data name="xrLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel8.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>423.03, 16.42</value>
+  </data>
+  <data name="xrLabel8.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="xrLabel8.Text" xml:space="preserve">
+    <value>العيادة البيطرية</value>
+  </data>
+  <data name="xrLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrLabel7.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>283.4998, 16.4166451</value>
+  </data>
+  <data name="xrLabel7.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>139.530212, 23.0000038</value>
+  </data>
+  <data name="xrLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel6.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>198.03, 16.42</value>
+  </data>
+  <data name="xrLabel6.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>45, 23</value>
+  </data>
+  <data name="xrLabel6.Text" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="xrLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrLabel5.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>530.333252, 16.4166451</value>
+  </data>
+  <data name="xrLabel5.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>186.522583, 23.0000038</value>
+  </data>
+  <data name="xrLabel103.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel103.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>291.8328, 1098.56909</value>
+  </data>
+  <data name="xrLabel103.Text" xml:space="preserve">
+    <value>نتيجة فحص المختبر</value>
+  </data>
+  <data name="xrLabel13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel13.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>513.5, 58.08001</value>
+  </data>
+  <data name="xrLabel13.Text" xml:space="preserve">
+    <value>اسم مالك القطيع</value>
+  </data>
+  <data name="xrLabel11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrLabel11.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4947462, 58.083313</value>
+  </data>
+  <data name="xrLabel11.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>251, 23</value>
+  </data>
+  <data name="xrLabel11.Text" xml:space="preserve">
+    <value>الهاتف</value>
+  </data>
+  <data name="xrLabel14.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4944916, 81.0833</value>
+  </data>
+  <data name="xrLabel14.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>251, 70</value>
+  </data>
+  <data name="xrLabel14.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel32.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9.5pt</value>
+  </data>
+  <data name="xrLabel32.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>420.1682, 631.133667</value>
+  </data>
+  <data name="xrLabel32.Text" xml:space="preserve">
+    <value>التهاب احمراري جلديerythema </value>
+  </data>
+  <data name="xrLabel32.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel27.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>45.167923, 603.13446</value>
+  </data>
+  <data name="xrLabel27.Text" xml:space="preserve">
+    <value>اللسان - آفات</value>
+  </data>
+  <data name="xrLabel27.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel21.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>607.668945, 603.1337</value>
+  </data>
+  <data name="xrLabel21.Text" xml:space="preserve">
+    <value>اكتئاب </value>
+  </data>
+  <data name="xrLabel21.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrLabel99.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>388.495483, 771.133545</value>
+  </data>
+  <data name="xrLabel99.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>31.67, 29</value>
+  </data>
+  <data name="xrLabel99.Text" xml:space="preserve">
+    <value>علامات سريرية أخرى:</value>
+  </data>
+  <data name="xrLabel100.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>575.9957, 771.133362</value>
+  </data>
+  <data name="xrLabel100.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>31.6699982, 28.9995117</value>
+  </data>
+  <data name="Detail2.HeightF" type="System.Single, mscorlib">
+    <value>1121.56909</value>
+  </data>
+  <data name="xrLabTable.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.494504, 0</value>
+  </data>
+  <data name="xrLabResult.Weight" type="System.Double, mscorlib">
+    <value>1.9800495181435383</value>
+  </data>
+  <data name="xrLabTable.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>750.006, 23</value>
+  </data>
+  <data name="xrLabTestTypeHeader.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>263.39, 0</value>
+  </data>
+  <data name="xrLabTestTypeHeader.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>250.005463, 23</value>
+  </data>
+  <data name="xrLabTestTypeHeader.Text" xml:space="preserve">
+    <value>نوع الاختبار </value>
+  </data>
+  <data name="xrLabSampleInfoHeader.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>13.4944935, 0</value>
+  </data>
+  <data name="xrLabSampleInfoHeader.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>250.000046, 23</value>
+  </data>
+  <data name="xrLabSampleInfoHeader.Text" xml:space="preserve">
+    <value>النتيجة </value>
+  </data>
+  <data name="xrLabResultHeader.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>513.4, 0</value>
+  </data>
+  <data name="xrLabResultHeader.Text" xml:space="preserve">
+    <value>معرّف العيّنة/ نوع العيّنة </value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+</root>

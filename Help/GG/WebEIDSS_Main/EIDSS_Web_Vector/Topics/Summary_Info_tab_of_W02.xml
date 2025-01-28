@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">ვექტორის ზედამხედველობის W02 ფორმის ჯამური ინფორმაციის ჩანართი</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true"> ვექტორული ზედამხედველობის სესიის W02 ფორმის შემაჯამებელი ინფორმაციის ჩანართი</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true"></text><text styleclass="Normal" style="font-weight:bold;" translate="true">ჯამური ინფორმაციის</text><text styleclass="Normal" translate="true"> ტაბულაცია გამოიყენება იმ ინფორმაციისა და მასალების რეგისტრაციისთვის, რომლებიც სწრაფად შეგროვდა სესიის ფარგლებსი. შეიტანეთ მონაცემები ბადეში.</text></para>
+    <para styleclass="Picture"><text styleclass="Picture" translate="true"> </text><image src="VS_W02_summary.png" scale="55.00%" width="563" height="164" styleclass="Picture"><caption translate="true"><![CDATA[ნახ. <%FIG++%> შემაჯამებელი ინფორმაციის ჩანართი]]></caption></image></para>
+    <para styleclass="Normal"><table styleclass="Table_White" rowcount="13" colcount="2">
+      <tr style="vertical-align:top">
+        <td colspan="2" style="width:1039px;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-weight:bold;" translate="true">სვეტები</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:330px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">ჩანაწერის ID</text></para>
+        </td>
+        <td style="width:1039px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">პულის/ვექტორის ID. </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">(ახალი)</text><text styleclass="Table_body" translate="true"> გამოიყენება ახალი ვექტორისთვის/ პულისთვის, რომელიც ჯერ დამახსოვრებული არ არის. ვექტორის/პულის პირველად დამახსოვრების შემდეგ, უნიკალური დანომვრის სქემის მიხედვით გენერირებული ID გამოიყენება ნაცვლად</text><text styleclass="Table_body" style="font-weight:bold;" translate="true"> (ახალი) </text><text styleclass="Table_body" translate="true">იდენტიფიკატორისა.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:330px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">ადგილმდებარეობა</text></para>
+        </td>
+        <td style="width:1039px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეარჩიეთ ან შეიყვანეთ პულის/ცალკეული ვექტორის შეგროვების ზუსტი ადგილმდებარეობა. დააწკაპუნეთ ამ ველზე; გაიხსნება სპეციალური ფანჯარა ადგილმდებარეობის შესაყვანად. ადგილმდებარეობის განსაზღვრის შემდეგ, დააწკაპუნეთ </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დიახ</text><text styleclass="Table_body" translate="true"> ღილაკზე ამ სპეციალური ფანჯრის დასახურად. მონაცემები გამოჩნდება </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">ადგილმდებარეობის</text><text styleclass="Table_body" translate="true"> ველში.</text></para>
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ველი სავალდებულოა.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:330px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">შეგროვების თარიღი</text></para>
+        </td>
+        <td style="width:1039px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ვექტორის ან პულის შეგროვების თარიღი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:330px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">ვექტორის ტიპი</text></para>
+        </td>
+        <td style="width:1039px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეარჩიეთ შეგროვებული ვექტორის/ პულის ტიპი. ველი სავალდებულოა.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:330px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">სახეობა</text></para>
+        </td>
+        <td style="width:1039px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">მონიშნეთ ვექტორ(ებ)ის სახეობა. ველი სავალდებულოა.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:330px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">სქესი</text></para>
+        </td>
+        <td style="width:1039px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">მონიშნეთ შეგროვილი ვექტორ(ებ)ის სქესი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:330px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">დანომრეთ შეგროვებული ერთობიობა/ ვექტორები</text></para>
+        </td>
+        <td style="width:1039px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">შეიყვანეთ ვექტორების/ერთობლიობათა რაოდენობა შერჩეული პარამეტრებით.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:330px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">დაავადება (პოზიტიური ერთობლიობების/ ვექტორების რაოდენობა)</text></para>
+        </td>
+        <td style="width:1039px;">
+          <para styleclass="Normal"><text styleclass="Table_body" translate="true">დადასტურებული დაავადებები და იმ ვექტორების/პულების რაოდენობა, რომლებიც დადებითი აღმოჩნდა.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="2" style="width:1039px;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ღილაკები</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:330px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">ახალი</text></para>
+        </td>
+        <td style="width:1039px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ხსნის </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Summary_Info_form" styleclass="Table_body" translate="true">შემაჯამებელი ინფორმაციის ფორმას</link><text styleclass="Table_body" translate="true"> რათა დაემატოს ახალი ჩანაწერი.</text></para>
+          <list id="4" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:'Times New Roman'; font-size:11pt; color:#000000;">
+            <li styleclass="List"><text styleclass="List" translate="true"> დააწკაპუნეთ </text><text styleclass="List" style="font-weight:bold;" translate="true">ღილაკზე </text><text styleclass="List" translate="true">ახალი. </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Summary_Info_form" styleclass="Table_body" translate="true">გაიხსნება</link><text styleclass="Table_body" translate="true"></text><text styleclass="List" translate="true"> შემაჯამებელი ინფორმაციის ფორმა.</text></li>
+            <li styleclass="List"><text styleclass="List" translate="true">დაამატეთ ახალი ჩანაწერი.</text></li>
+            <li styleclass="List"><text styleclass="List" translate="true">ცვლილებების დასამახსოვრებლად, </text><text styleclass="Table_body" translate="true">დააწკაპუნეთ </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დიახ</text><text styleclass="Table_body" translate="true"> ღილაკზე.</text></li>
+          </list>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:330px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">რედაქტირება</text><text styleclass="Normal" style="font-weight:bold;" translate="true"> (</text><image src="edit_button.png" scale="100.00%" styleclass="Image Caption" style="font-weight:normal;"></image><text styleclass="Normal" style="font-weight:normal;" translate="true">)</text></para>
+        </td>
+        <td style="width:1039px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ხსნის </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Summary_Info_form" styleclass="Table_body" translate="true">შემაჯამებელი ინფორმაციის ფორმას</link><text styleclass="Table_body" translate="true"> რათა დარედაქტირდეს ჩანაწერი.</text></para>
+          <list id="5" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:'Times New Roman'; font-size:11pt; color:#000000;">
+            <li styleclass="List"><text styleclass="List" translate="true">დააწკაპუნეთ </text><text styleclass="List" style="font-weight:bold;" translate="true">რედაქტირების</text><text styleclass="List" translate="true"> ღილაკზე</text><text styleclass="Normal" style="font-weight:bold;" translate="true"></text><text styleclass="Normal" style="font-weight:normal;" translate="true"> (</text><image src="edit_button.png" scale="100.00%" styleclass="Image Caption" style="font-weight:normal;"></image><text styleclass="Normal" style="font-weight:normal;" translate="true">)</text><text styleclass="List" translate="true"> წასაშლელ ჩანაწერამდე. </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Summary_Info_form" styleclass="Table_body" translate="true">გაიხსნება</link><text styleclass="Table_body" translate="true"></text><text styleclass="List" translate="true"> შემაჯამებელი ინფორმაციის ფორმა.</text></li>
+            <li styleclass="List"><text styleclass="List" translate="true">დაარედაქტირეთ ჩანაწერი. </text></li>
+            <li styleclass="List"><text styleclass="List" translate="true">ცვლილებების დასამახსოვრებლად, </text><text styleclass="Table_body" translate="true">დააწკაპუნეთ </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დიახ</text><text styleclass="Table_body" translate="true"> ღილაკზე.</text></li>
+          </list>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:330px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">წაშლა</text><text styleclass="Table_body" translate="true"> (</text><image src="delete_button.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Table_body" translate="true">)</text></para>
+        </td>
+        <td style="width:1039px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">წაშლის შერჩეულ ჩანაწერ(ებ)ს:</text></para>
+          <list id="6" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:'Times New Roman'; font-size:11pt; color:#000000;">
+            <li styleclass="List"><text styleclass="List" translate="true">შეარჩიეთ ჩანაწერები</text><text styleclass="Normal" translate="true">(s)</text><text styleclass="List" translate="true"> წასაშლელად.</text></li>
+            <li styleclass="List"><text styleclass="List" translate="true">წდააწკაპუნეთ</text><text styleclass="Table_body" style="font-weight:bold;" translate="true"> </text><text styleclass="Table_body" translate="true">წაშლის</text><text styleclass="Table_body" translate="true"> ღილაკზე </text> (<image src="delete_button.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Table_body" translate="true">) წასაშლელ ჩანაწერამდე. იხსნება </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დადასტურების</text><text styleclass="Table_body" translate="true"> ფანჯარა.</text></li>
+            <li styleclass="List"><text styleclass="Table_body" translate="true">წაშლის ოპერაციის დასადასტურებლად დააწკაპუნეთ </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დიახ</text><text styleclass="Table_body" translate="true"> ღილაკზე და დახურეთ </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დადასტურების</text><text styleclass="Table_body" translate="true"> ფანჯარა.</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic> 

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<object name="UploadEhsPatientItem"
+        connection="EidssConnectionString"
+        generator="ObjectGenerator.xslt"
+        xmlns="urn:schemas-bv:objectmodel">
+
+  <storage>
+    <!--fake storage procedure-->
+    <get name="spUploadEhsPatientItem_SelectDetail" type="detaillist" />
+  </storage>
+  <tables>
+    <table name="UploadEhsPatientItem">
+      <fields>
+        <storage name="validationErrors" type="List&lt;Tuple&lt;string,string&gt;&gt;"/>
+        <calculated name="master" depends="Parent" type="UploadEhsMaster" lambda="c => c.Parent as UploadEhsMaster"/>
+        <calculated name="isValid" depends="validationErrors" type="bool" lambda="c => c.validationErrors == null || c.validationErrors.Count == 0"/>
+
+        <calculated name="strStatus" type="string" depends="Resolution" lambda='c => eidss.model.Resources.EidssMessages.Get(c.Resolution.HasValue ? (c.Resolution.Value == (int)UploadEhsPatientResolution.Updated ? "rsUpdated" : (c.Resolution.Value == (int)UploadEhsPatientResolution.Created ? "rsCreated" : "rsDismissed")) : "rsUnspecified")' />
+        <calculated name="strStatusPresent" type="string" depends="Resolution" lambda='c => eidss.model.Resources.EidssMessages.Get(c.Resolution.HasValue ? (c.Resolution.Value == (int)UploadEhsPatientResolution.Updated ? "rsUpdate" : (c.Resolution.Value == (int)UploadEhsPatientResolution.Created ? "rsCreate" : "rsDismiss")) : "rsUnspecified")' />
+      </fields>
+      <readonly>
+        <fields name="strStatusPresent" predicate="c => true" />
+      </readonly>
+      <storage>
+        <post name="spUploadEhsPatientItem_Post" predicate="c => c.isValid"/>
+      </storage>
+      <extenders>
+        <creating>
+          <value_extender target="validationErrors" value="new List&lt;Tuple&lt;string,string&gt;&gt;()"/>
+          <lambda_extender target="idfsUploadEhs" type="long" lambda="c => c.master == null ? 0 : c.master.idfsUploadEhs"/>
+          <scalar_extender target="idfsUploadEhsPatientItem" class="PositiveAutoIncrementExtender" />
+        </creating>
+        <created>
+          <custom_extender>
+            <text>
+              if (EidssUserContext.Instance != null)
+                if (EidssUserContext.User != null)
+                {                             
+                  if (EidssUserContext.User.EmployeeID != null)
+                  {
+                    long em;
+                    if (long.TryParse(EidssUserContext.User.EmployeeID.ToString(), out em))
+                      obj.idfPersonEnteredBy = em;
+                  }
+                  if (EidssUserContext.User.ID != null)
+                  {
+                    long em;
+                    if (long.TryParse(EidssUserContext.User.ID.ToString(), out em))
+                      obj.idfUserID = em;
+                  }
+                }                        
+            </text>
+          </custom_extender>
+        </created>
+      </extenders>
+      <actions>
+        <standard>
+          <remove type="Create"/>
+          <remove type="Delete"/>
+          <remove type="SelectAll"/>
+          <remove type="Ok"/>
+          <remove type="Cancel"/>
+          <remove type="Save"/>
+        </standard>
+      </actions>
+    </table>
+  </tables>
+</object>

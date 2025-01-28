@@ -1,0 +1,846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblReportName.Text" xml:space="preserve">
+    <value>Форма екстренного повідомлення</value>
+  </data>
+  <data name="FullAddressLabel.Text" xml:space="preserve">
+    <value>Повна адреса</value>
+  </data>
+  <assembly alias="DevExpress.Data.v15.1" name="DevExpress.Data.v15.1, Version=15.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="xrPageBreak1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>0, 1012.83337</value>
+  </data>
+  <data name="xrLabel103.Text" xml:space="preserve">
+    <value>Заповніть таблицю:</value>
+  </data>
+  <data name="xrPanel5.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>0, 1465.71582</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="xrPanel5.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>777, 48.7803955</value>
+  </data>
+  <data name="xrLabel102.Text" xml:space="preserve">
+    <value>11. Чи зібрані зразки: Так / Ні </value>
+  </data>
+  <data name="xrLabel100.Text" xml:space="preserve">
+    <value>(найменування лікувального закладу)</value>
+  </data>
+  <data name="xrLabel98.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>587.33, 23</value>
+  </data>
+  <data name="xrLabel99.Text" xml:space="preserve">
+    <value>10. Місце госпіталізації </value>
+  </data>
+  <data name="xrLabel96.Text" xml:space="preserve">
+    <value>(число, місяць, рік)</value>
+  </data>
+  <data name="xrLabel97.Text" xml:space="preserve">
+    <value>госпіталізації</value>
+  </data>
+  <data name="xrLabel94.Text" xml:space="preserve">
+    <value>(число, місяць, рік)</value>
+  </data>
+  <data name="xrLabel95.Text" xml:space="preserve">
+    <value>останнього відвідування  навчального закладу,місця роботи</value>
+  </data>
+  <data name="xrLabel92.Text" xml:space="preserve">
+    <value>(число, місяць, рік)</value>
+  </data>
+  <data name="xrLabel93.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>165.500076, 23</value>
+  </data>
+  <data name="xrLabel93.Text" xml:space="preserve">
+    <value>встановлення діагнозу</value>
+  </data>
+  <data name="xrLabel91.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>280.166626, 785.5002</value>
+  </data>
+  <data name="xrLabel91.Text" xml:space="preserve">
+    <value>(число, місяць, рік)</value>
+  </data>
+  <data name="xrLabel90.Text" xml:space="preserve">
+    <value>(число, місяць, рік)</value>
+  </data>
+  <data name="xrLabel89.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>60.49998, 760.500366</value>
+  </data>
+  <data name="xrLabel89.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>165.500076, 23</value>
+  </data>
+  <data name="xrLabel89.Text" xml:space="preserve">
+    <value>первинного звернення</value>
+  </data>
+  <data name="xrLabel88.Text" xml:space="preserve">
+    <value>захворювання</value>
+  </data>
+  <data name="xrLabel87.Text" xml:space="preserve">
+    <value>9. Дати:</value>
+  </data>
+  <data name="xrLabel85.Text" xml:space="preserve">
+    <value>шифр за МКХ-10</value>
+  </data>
+  <data name="xrLabel84.Text" xml:space="preserve">
+    <value>(вписати)</value>
+  </data>
+  <data name="xrLabel82.Text" xml:space="preserve">
+    <value>8. Діагноз</value>
+  </data>
+  <data name="xrLabel79.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.999878, 547.8333</value>
+  </data>
+  <data name="xrLabel79.Text" xml:space="preserve">
+    <value>7. Місце роботи, навчання, виховання та їх адреса  </value>
+  </data>
+  <data name="xrLabel77.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>95.49998, 520.0002</value>
+  </data>
+  <data name="xrLabel77.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>319.000061, 22.999939</value>
+  </data>
+  <data name="xrLabel78.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>87.4999542, 23.0001831</value>
+  </data>
+  <data name="xrLabel78.Text" xml:space="preserve">
+    <value>6. Телефон </value>
+  </data>
+  <data name="xrLabel61.Text" xml:space="preserve">
+    <value>кв. № </value>
+  </data>
+  <data name="xrLabel63.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>360.5001, 491.750641</value>
+  </data>
+  <data name="xrLabel63.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>156.999847, 23</value>
+  </data>
+  <data name="xrLabel64.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>280.166718, 491.750519</value>
+  </data>
+  <data name="xrLabel64.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>80.333374, 23.000061</value>
+  </data>
+  <data name="xrLabel64.Text" xml:space="preserve">
+    <value>будинок № </value>
+  </data>
+  <data name="xrLabel67.Text" xml:space="preserve">
+    <value>вулиця </value>
+  </data>
+  <data name="xrLabel69.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>238.937576, 468.750519</value>
+  </data>
+  <data name="xrLabel69.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>513.8958, 22.999939</value>
+  </data>
+  <data name="xrLabel70.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.9999795, 468.750275</value>
+  </data>
+  <data name="xrLabel70.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>230.937546, 23.0001221</value>
+  </data>
+  <data name="xrLabel70.Text" xml:space="preserve">
+    <value>населений пункт (місто, село, смт) </value>
+  </data>
+  <data name="xrLabel73.Text" xml:space="preserve">
+    <value>район</value>
+  </data>
+  <data name="xrLabel76.Text" xml:space="preserve">
+    <value>область </value>
+  </data>
+  <data name="xrLabel58.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>414.500031, 422.7502</value>
+  </data>
+  <data name="xrLabel58.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>337.499969, 23.0001221</value>
+  </data>
+  <data name="xrLabel59.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.9999795, 422.7502</value>
+  </data>
+  <data name="xrLabel59.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>406.500061, 23.0001221</value>
+  </data>
+  <data name="xrLabel59.Text" xml:space="preserve">
+    <value>5. Місце реєстрації  хворого (повна поштова адреса): країна </value>
+  </data>
+  <data name="xrLabel57.Text" xml:space="preserve">
+    <value>кв. № </value>
+  </data>
+  <data name="xrLabel50.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>360.5001, 399.750336</value>
+  </data>
+  <data name="xrLabel50.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>156.999847, 23</value>
+  </data>
+  <data name="xrLabel51.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>78.1105042, 23.000061</value>
+  </data>
+  <data name="xrLabel51.Text" xml:space="preserve">
+    <value>будинок № </value>
+  </data>
+  <data name="xrLabel54.Text" xml:space="preserve">
+    <value>вулиця</value>
+  </data>
+  <data name="xrLabel46.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>238.937576, 376.750153</value>
+  </data>
+  <data name="xrLabel46.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>513.8958, 23</value>
+  </data>
+  <data name="xrLabel47.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.9999795, 376.7501</value>
+  </data>
+  <data name="xrLabel47.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>230.937546, 23.000061</value>
+  </data>
+  <data name="xrLabel47.Text" xml:space="preserve">
+    <value>населений пункт (місто, село, смт) </value>
+  </data>
+  <data name="xrLabel44.Text" xml:space="preserve">
+    <value>район</value>
+  </data>
+  <data name="xrLabel41.Text" xml:space="preserve">
+    <value>область</value>
+  </data>
+  <data name="xrLabel38.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>423.777252, 330.750031</value>
+  </data>
+  <data name="xrLabel38.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>328.222748, 23</value>
+  </data>
+  <data name="xrLabel37.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.9999795, 330.750031</value>
+  </data>
+  <data name="xrLabel37.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>415.777283, 23.000061</value>
+  </data>
+  <data name="xrLabel37.Text" xml:space="preserve">
+    <value>4. Місце проживання хворого (повна поштова адреса): країна </value>
+  </data>
+  <data name="xrLabel35.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>240.999969, 23.0001221</value>
+  </data>
+  <data name="xrLabel35.Text" xml:space="preserve">
+    <value>3. Стать: чоловіча – 1, жіноча – 2    </value>
+  </data>
+  <data name="xrLabel4.Text" xml:space="preserve">
+    <value> (число, місяць, рік)</value>
+  </data>
+  <data name="xrLabel32.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>141.229172, 23.000061</value>
+  </data>
+  <data name="xrLabel32.Text" xml:space="preserve">
+    <value>2. Дата народження</value>
+  </data>
+  <data name="xrLabel33.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>260.027374, 213.4166</value>
+  </data>
+  <data name="xrLabel33.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>504.9725, 23</value>
+  </data>
+  <data name="xrLabel34.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>252.027451, 23.000061</value>
+  </data>
+  <data name="xrLabel34.Text" xml:space="preserve">
+    <value>1. Прізвище, ім’я, по батькові хворого </value>
+  </data>
+  <data name="xrLabel31.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>214.625046, 156.8334</value>
+  </data>
+  <data name="xrLabel31.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>550.3746, 16.333374</value>
+  </data>
+  <data name="xrLabel31.Text" xml:space="preserve">
+    <value>(найменування закладу охорони здоров’я)</value>
+  </data>
+  <data name="xrLabel30.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>214.625046, 133.833282</value>
+  </data>
+  <data name="xrLabel30.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>550.3748, 23</value>
+  </data>
+  <data name="xrLabel29.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.9999795, 133.833282</value>
+  </data>
+  <data name="xrLabel29.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>206.624985, 23</value>
+  </data>
+  <data name="xrLabel29.Text" xml:space="preserve">
+    <value>Повідомлення направлено до </value>
+  </data>
+  <data name="xrLabel28.Text" xml:space="preserve">
+    <value>року.</value>
+  </data>
+  <data name="xrLabel26.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>267.833862, 101.999916</value>
+  </data>
+  <data name="xrLabel26.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>208.8328, 16.333374</value>
+  </data>
+  <data name="xrLabel26.Text" xml:space="preserve">
+    <value>(дата заповнення повідомлення)</value>
+  </data>
+  <data name="xrLabel21.Text" xml:space="preserve">
+    <value>захворювання, отруєння, радіаційне ураження, гостре професійне отруєння
+</value>
+  </data>
+  <data name="xrLabel20.Text" xml:space="preserve">
+    <value>про інфекційну хворобу, носійство збудників інфекційних хвороб, масові неінфекційні </value>
+  </data>
+  <data name="xrLabel2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>93.41675, 10</value>
+  </data>
+  <data name="xrLabel2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>350.499847, 23.00003</value>
+  </data>
+  <data name="xrLabel2.Text" xml:space="preserve">
+    <value>ЕКСТРЕНЕ  ПОВІДОМЛЕННЯ №</value>
+  </data>
+  <data name="xrLabel2.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrPanel4.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>0, 441.9999</value>
+  </data>
+  <data name="xrLabel18.Text" xml:space="preserve">
+    <value>Наказ МОЗ України</value>
+  </data>
+  <data name="xrLabel17.Text" xml:space="preserve">
+    <value>ЗАТВЕРДЖЕНО</value>
+  </data>
+  <data name="xrLabel16.Text" xml:space="preserve">
+    <value>Форма первинної облікової документації
+№ 058/о
+</value>
+  </data>
+  <data name="xrLabel15.Text" xml:space="preserve">
+    <value>МЕДИЧНА ДОКУМЕНТАЦІЯ</value>
+  </data>
+  <data name="xrPanel3.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>426.000061, 79.0000153</value>
+  </data>
+  <data name="xrPanel3.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>350.999939, 362.999878</value>
+  </data>
+  <data name="xrPanel1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>375.999969, 79.0000153</value>
+  </data>
+  <data name="xrPanel1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>50.00009, 362.999878</value>
+  </data>
+  <data name="xrLabel7.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>626.499451, 33.0000038</value>
+  </data>
+  <data name="xrLabel7.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>144.500488, 23</value>
+  </data>
+  <data name="xrLabel7.Text" xml:space="preserve">
+    <value>Наказ МОЗ України</value>
+  </data>
+  <data name="xrLabel6.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>653.9995, 10</value>
+  </data>
+  <data name="xrLabel6.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>117.000549, 23</value>
+  </data>
+  <data name="xrLabel6.Text" xml:space="preserve">
+    <value>ЗАТВЕРДЖЕНО</value>
+  </data>
+  <data name="xrLabel14.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>9.000092, 302.499939</value>
+  </data>
+  <data name="xrLabel14.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>156.999863, 50.49994</value>
+  </data>
+  <data name="xrLabel14.Text" xml:space="preserve">
+    <value>Ідентифікаційний код 
+ЄДРПОУ
+</value>
+  </data>
+  <data name="xrLabel1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>350.499939, 55.8335266</value>
+  </data>
+  <data name="xrLabel1.Text" xml:space="preserve">
+    <value>Назва міністерства, іншого центрального органу виконавчої влади, органу місцевого самоврядування, у сфері управління якого перебуває заклад</value>
+  </data>
+  <data name="xrLabel11.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>9.999949, 243.333466</value>
+  </data>
+  <data name="xrLabel11.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>350.5, 55</value>
+  </data>
+  <data name="xrLabel12.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>10.000102, 188.33345</value>
+  </data>
+  <data name="xrLabel12.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>350.500031, 55</value>
+  </data>
+  <data name="xrLabel13.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>10, 139.000061</value>
+  </data>
+  <data name="xrLabel13.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>350.499939, 49.33336</value>
+  </data>
+  <data name="xrLabel13.Text" xml:space="preserve">
+    <value>Найменування та місцезнаходження (повна поштова адреса) закладу, відповідальні особи якого заповнили повідомлення</value>
+  </data>
+  <data name="xrLabel9.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>10, 65.83351</value>
+  </data>
+  <data name="xrLabel9.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>350.499969, 38.49991</value>
+  </data>
+  <data name="xrLabel142.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>165.999954, 310.9734</value>
+  </data>
+  <data name="xrLabel146.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>190.312454, 310.973267</value>
+  </data>
+  <data name="xrLabel147.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>214.624985, 310.973267</value>
+  </data>
+  <data name="xrLabel148.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>238.937485, 310.973267</value>
+  </data>
+  <data name="xrLabel149.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>263.249969, 310.973267</value>
+  </data>
+  <data name="xrLabel151.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>287.562561, 310.973267</value>
+  </data>
+  <data name="xrLabel152.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>311.875, 310.973267</value>
+  </data>
+  <data name="xrLabel153.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>336.187531, 310.973267</value>
+  </data>
+  <data name="xrLabel193.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>336.454071, 335.973267</value>
+  </data>
+  <data name="xrPanel2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>0, 79.0000153</value>
+  </data>
+  <data name="xrPanel2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>375.999969, 362.999878</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Detail1.HeightF" type="System.Single, mscorlib">
+    <value>1514.49622</value>
+  </data>
+  <data name="xrTableCell61.Weight" type="System.Double, mscorlib">
+    <value>1.8300007671107255</value>
+  </data>
+  <data name="xrTableCell62.Weight" type="System.Double, mscorlib">
+    <value>1.4849979202653842</value>
+  </data>
+  <data name="xrLabel104.Text" xml:space="preserve">
+    <value>Дата забору</value>
+  </data>
+  <data name="xrLabel107.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>426.000061, 9.999949</value>
+  </data>
+  <data name="xrLabel107.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>148.499878, 22.6665421</value>
+  </data>
+  <data name="xrLabel107.Text" xml:space="preserve">
+    <value>Тип зразку</value>
+  </data>
+  <data name="xrLabel106.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>243.000076, 10</value>
+  </data>
+  <data name="xrLabel106.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>183.000046, 23.0000038</value>
+  </data>
+  <data name="xrLabel106.Text" xml:space="preserve">
+    <value>Лабораторний №</value>
+  </data>
+  <data name="xrLabel105.Text" xml:space="preserve">
+    <value>Час забору</value>
+  </data>
+  <data name="xrLabel108.Text" xml:space="preserve">
+    <value>Куди направлено</value>
+  </data>
+  <data name="xrTable1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>10.0000963, 0</value>
+  </data>
+  <data name="xrTableCell1.Weight" type="System.Double, mscorlib">
+    <value>1.2383332808197924</value>
+  </data>
+  <data name="xrTableCell2.Weight" type="System.Double, mscorlib">
+    <value>1.0916669464111313</value>
+  </data>
+  <data name="xrTableCell3.Weight" type="System.Double, mscorlib">
+    <value>1.8299989360560263</value>
+  </data>
+  <data name="xrTableCell4.Weight" type="System.Double, mscorlib">
+    <value>1.4850000564958668</value>
+  </data>
+  <data name="xrTableCell5.Weight" type="System.Double, mscorlib">
+    <value>1.9249997605072784</value>
+  </data>
+  <data name="xrTableCell7.Weight" type="System.Double, mscorlib">
+    <value>1.2383332808197924</value>
+  </data>
+  <data name="xrTableCell9.Weight" type="System.Double, mscorlib">
+    <value>1.0916664886474565</value>
+  </data>
+  <data name="xrTableCell10.Weight" type="System.Double, mscorlib">
+    <value>1.8299987834681346</value>
+  </data>
+  <data name="xrTableCell23.Weight" type="System.Double, mscorlib">
+    <value>1.4850009720232162</value>
+  </data>
+  <data name="xrTableCell24.Weight" type="System.Double, mscorlib">
+    <value>1.9249994553314953</value>
+  </data>
+  <data name="xrTableCell25.Weight" type="System.Double, mscorlib">
+    <value>1.2383332808197924</value>
+  </data>
+  <data name="xrTableCell26.Weight" type="System.Double, mscorlib">
+    <value>1.0916669464111313</value>
+  </data>
+  <data name="xrTableCell27.Weight" type="System.Double, mscorlib">
+    <value>1.8299989360560263</value>
+  </data>
+  <data name="xrTableCell28.Weight" type="System.Double, mscorlib">
+    <value>1.4849997513200834</value>
+  </data>
+  <data name="xrTableCell29.Weight" type="System.Double, mscorlib">
+    <value>1.9250000656830617</value>
+  </data>
+  <data name="xrTableCell30.Weight" type="System.Double, mscorlib">
+    <value>1.2383334334076839</value>
+  </data>
+  <data name="xrTableCell31.Weight" type="System.Double, mscorlib">
+    <value>1.0916667938232398</value>
+  </data>
+  <data name="xrTableCell32.Weight" type="System.Double, mscorlib">
+    <value>1.8299989360560263</value>
+  </data>
+  <data name="xrTableCell33.Weight" type="System.Double, mscorlib">
+    <value>1.4849997513200834</value>
+  </data>
+  <data name="xrTableCell34.Weight" type="System.Double, mscorlib">
+    <value>1.9250000656830617</value>
+  </data>
+  <data name="xrTableCell35.Weight" type="System.Double, mscorlib">
+    <value>1.2383334334076839</value>
+  </data>
+  <data name="xrTableCell36.Weight" type="System.Double, mscorlib">
+    <value>1.0916667938232398</value>
+  </data>
+  <data name="xrTableCell37.Weight" type="System.Double, mscorlib">
+    <value>1.8299989360560263</value>
+  </data>
+  <data name="xrTableCell38.Weight" type="System.Double, mscorlib">
+    <value>1.4849997513200834</value>
+  </data>
+  <data name="xrTableCell39.Weight" type="System.Double, mscorlib">
+    <value>1.9250000656830617</value>
+  </data>
+  <data name="xrTableCell40.Weight" type="System.Double, mscorlib">
+    <value>1.2383334334076839</value>
+  </data>
+  <data name="xrTableCell41.Weight" type="System.Double, mscorlib">
+    <value>1.0916669464111315</value>
+  </data>
+  <data name="xrTableCell42.Weight" type="System.Double, mscorlib">
+    <value>1.8299987834681346</value>
+  </data>
+  <data name="xrTableCell43.Weight" type="System.Double, mscorlib">
+    <value>1.4849997513200834</value>
+  </data>
+  <data name="xrTableCell44.Weight" type="System.Double, mscorlib">
+    <value>1.9250000656830617</value>
+  </data>
+  <data name="xrTable1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>756.9999, 150</value>
+  </data>
+  <data name="xrLabel113.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>749.833252, 386.3337</value>
+  </data>
+  <data name="xrLabel113.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>15.17, 20.83</value>
+  </data>
+  <data name="xrLabel141.Text" xml:space="preserve">
+    <value>Підпис особи, яка одержала повідомлення </value>
+  </data>
+  <data name="xrLabel139.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>609.582642, 741.6678</value>
+  </data>
+  <data name="xrLabel139.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>155.42, 16.33</value>
+  </data>
+  <data name="xrLabel139.Text" xml:space="preserve">
+    <value> (підпис)</value>
+  </data>
+  <data name="xrLabel138.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>609.582642, 718.668</value>
+  </data>
+  <data name="xrLabel138.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>155.42, 23</value>
+  </data>
+  <data name="xrLabel137.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.99972534, 718.668</value>
+  </data>
+  <data name="xrLabel137.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>517.67334, 22.9997559</value>
+  </data>
+  <data name="xrLabel137.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v15.1">
+    <value>BottomLeft</value>
+  </data>
+  <data name="xrLabel136.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>8.00003052, 695.667969</value>
+  </data>
+  <data name="xrLabel136.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>757, 23</value>
+  </data>
+  <data name="xrLabel136.Text" xml:space="preserve">
+    <value>16. Прізвище, ім’я, по батькові та номер контактного телефону особи, яка заповнила повідомлення  
+</value>
+  </data>
+  <data name="xrLabel134.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>636.2494, 672.6682</value>
+  </data>
+  <data name="xrLabel134.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>128.75, 23</value>
+  </data>
+  <data name="xrLabel133.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.99972534, 672.668</value>
+  </data>
+  <data name="xrLabel133.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>628.249634, 23.000061</value>
+  </data>
+  <data name="xrLabel133.Text" xml:space="preserve">
+    <value>15. Діагноз підтверджено: лабораторним дослідженням – 1, клінічно – 2,  інші – 3 (вписати) </value>
+  </data>
+  <data name="xrLabel131.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>292.777344, 649.668</value>
+  </data>
+  <data name="xrLabel131.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>472.22, 23</value>
+  </data>
+  <data name="xrLabel132.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>83.69415, 649.668</value>
+  </data>
+  <data name="xrLabel132.Text" xml:space="preserve">
+    <value>отримала повідомлення  </value>
+  </data>
+  <data name="xrLabel130.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>292.7774, 626.6681</value>
+  </data>
+  <data name="xrLabel130.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>472.22, 23</value>
+  </data>
+  <data name="xrLabel129.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>11.8609114, 626.6681</value>
+  </data>
+  <data name="xrLabel129.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>280.9165, 22.99997</value>
+  </data>
+  <data name="xrLabel129.Text" xml:space="preserve">
+    <value>Прізвище особи: яка повідомила  </value>
+  </data>
+  <data name="xrLabel128.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>8.00003052, 603.6681</value>
+  </data>
+  <data name="xrLabel127.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>8.00003052, 569.001465</value>
+  </data>
+  <data name="xrLabel127.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>756.999939, 34.6666565</value>
+  </data>
+  <data name="xrLabel127.Text" xml:space="preserve">
+    <value>14. Дата і час первинного повідомлення (за телефоном тощо)   санітарно-профілактичного закладу у сфері громадського здоров’я </value>
+  </data>
+  <data name="xrLabel126.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>8, 546.001465</value>
+  </data>
+  <data name="xrLabel126.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>756.999939, 22.9985352</value>
+  </data>
+  <data name="xrLabel125.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.999878, 522.167542</value>
+  </data>
+  <data name="xrLabel125.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>756.999939, 23.8339233</value>
+  </data>
+  <data name="xrLabel124.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.999878, 499.16748</value>
+  </data>
+  <data name="xrLabel123.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.999878, 476.1674</value>
+  </data>
+  <data name="xrLabel122.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.999878, 453.167328</value>
+  </data>
+  <data name="xrLabel121.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.999878, 430.16745</value>
+  </data>
+  <data name="xrLabel120.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.999878, 407.167419</value>
+  </data>
+  <data name="xrLabel112.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>8, 386.333984</value>
+  </data>
+  <data name="xrLabel112.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>741.83, 20.83316</value>
+  </data>
+  <data name="xrLabel118.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.999878, 340.334167</value>
+  </data>
+  <data name="xrLabel117.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.999878, 317.333679</value>
+  </data>
+  <data name="xrLabel116.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>8.00003052, 271.333832</value>
+  </data>
+  <data name="xrLabel115.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.999878, 294.3338</value>
+  </data>
+  <data name="xrLabel111.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>8, 202.33</value>
+  </data>
+  <data name="xrLabel109.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>509.92, 179.32</value>
+  </data>
+  <data name="xrLabel109.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>255.08, 23</value>
+  </data>
+  <data name="xrLabel110.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>8, 179.32</value>
+  </data>
+  <data name="xrLabel110.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>501.9162, 23</value>
+  </data>
+  <data name="xrLabel110.Text" xml:space="preserve">
+    <value>12. Якщо отруєння – вказати, де воно виникло, чим отруївся постраждалий </value>
+  </data>
+  <data name="xrLabel114.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>8.00003052, 225.333862</value>
+  </data>
+  <data name="xrLabel114.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>757, 46</value>
+  </data>
+  <data name="xrLabel114.Text" xml:space="preserve">
+    <value>13. Проведені первинні протиепідемічні заходи та додаткові відомості  (епіданамнез, дані про контактних осіб, вакцинальний статус тощо) </value>
+  </data>
+  <data name="xrLabel119.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v15.1">
+    <value>7.999878, 363.333832</value>
+  </data>
+</root>

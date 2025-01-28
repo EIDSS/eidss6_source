@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<object name="EHealthCaseAM"
+        connection="EidssConnectionString"
+        generator="ObjectGenerator.xslt"
+        xmlns="urn:schemas-bv:objectmodel">
+
+  <storage>
+    <get name="spEHealthCaseAM_SelectList" type="detaillist,detailone" />
+  </storage>
+
+  <tables>
+    <table name="EHealthCaseAM">
+      <labels>
+        <!--<item name="patient_id_EIDSS"  labelId="ehsPatientId"/>-->
+      </labels>
+      <fields>
+        <calculated name="master" depends="Parent" type="EHealthCaseAMRequest" lambda="c => c.Parent as EHealthCaseAMRequest"/>
+      </fields>
+      <readonly>
+        <!--<fields name="*" predicate="c => true" />-->
+        <!--<fields name="idfEHealthCaseAMRequest" predicate="c => true" />-->
+        <!--<fields name="idfEHealthCaseAMItem" predicate="c => true" />-->
+      </readonly>
+      <actions>
+        <standard>
+          <remove type="Create"/>
+          <remove type="Delete"/>
+          <remove type="SelectAll"/>
+          <remove type="Ok"/>
+          <remove type="Cancel"/>
+          <remove type="Save"/>
+        </standard>
+      </actions>
+    </table>
+  </tables>
+</object>

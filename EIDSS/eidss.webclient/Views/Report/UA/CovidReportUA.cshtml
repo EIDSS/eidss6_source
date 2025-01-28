@@ -1,0 +1,61 @@
+﻿@using Kendo.Mvc.UI
+@using bv.common.Configuration
+@using eidss.webclient.Utils
+@model eidss.model.Reports.UA.UACov19ListModel
+
+@{
+    Layout = "~/Views/Shared/_ReportLayout.cshtml";
+}
+
+@if (BaseSettings.TranslationMode)
+{
+    <input type='hidden' id='aspclassname' value='@GetType().FullName' />
+}
+
+@using (Html.BeginForm())
+{
+    @Html.Partial("Common/ExportButtons", Model)
+    <div class="bluelayout">
+        <div class="tabPanelContent">
+
+            @Html.Partial("Common/BaseFilter", Model)
+            @Html.Partial("Common/BaseDateTimeIntervalFilter", Model)
+            @Html.Partial("Common/AddressFilter", Model.Address)
+            <table id="FilterTable">
+                <tr>
+                    <td class="mediumreport">
+                        @Html.LabelFor(m => m.CaseClassification)
+                    </td>
+                    <td class="largereport">
+                        @{
+                            @(Html.Kendo()
+                                        .ComboBoxFor(m => m.CaseClassification)
+                                        .BindTo(Model.CaseClassificationsList.ConvertToSelectListItem())
+                                        .Name("CaseClassification")
+                                        .Placeholder("")
+                                )
+                        }
+                    </td>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <td class="mediumreport">
+                        @Html.LabelFor(m => m.Outcome)
+                    </td>
+                    <td class="largereport">
+
+                        @{
+                            @(Html.Kendo()
+                            .ComboBoxFor(m => m.Outcome)
+                            .BindTo(Model.OutcomesList.ConvertToSelectListItem())
+                            .Name("Outcome")
+                            .Placeholder("")
+                            )
+                        }
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Finished">
+  <title translate="true">ოპერაციები "ვექტორული ზედამხედველობის მოდულში"</title>
+  <a-keywords>
+    <a-keyword>VS_operations</a-keyword>
+  </a-keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">ოპერაციები "ვექტორული ზედამხედველობის მოდულში"</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ამ სექციაში აღწერილია ოპერაციები, რომლებიც შეიძლება ჩატარდეს "ვექტორული ზედამხედველობის მოდულში".</text></para>
+  </body>
+</topic> 

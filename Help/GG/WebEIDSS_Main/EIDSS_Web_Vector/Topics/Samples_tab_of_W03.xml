@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="RBanton" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">ერთობლიობის/ინდივიდუალური ვექტორის დეტალების W03 ფორმის ნიმუშთა ჩანართი</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">პულის/ ინდივიდუალური ვექტორის დეტალების W03 ფორმის ნიმუშების ჩანართი</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">&#32;</text><text styleclass="Normal" style="font-weight:bold;" translate="true">ნიმუშის</text><text styleclass="Normal" translate="true"> ჩანართი გამოიყენება ვექტორის ან პულისთვის შეგროვებული ნიმუშების დასამატებლად, რედაქტირებისთვის, სანახავად და წასაშლელად. აქედან ხდება ნიმუშების კოპირება </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Samples_subtab_of_W02" styleclass="Normal" translate="true">ვექტორის ზედამხედველობის სესიის (W02) ფორმის ნიმუშების ქვეტაბულაში</link><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"></para>
+    <list id="3" level="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="Normal" translate="true">დაამატეთ </text><text styleclass="List" translate="true">ახალი ნიმუში, დააწკაპუნეთ </text><text styleclass="List" style="font-weight:bold;" translate="true">ღილაკზე</text><text styleclass="List" style="font-weight:normal;" translate="true"> ახალი</text><text styleclass="List" translate="true">.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">დაარედაქტირეთ არსებული ნიმუში, დააწკაპუნეთ </text><text styleclass="List" style="font-weight:bold;" translate="true"> ღილაკზე</text><text styleclass="List" translate="true"> რედაქტირება (</text><image src="edit_button.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="List" translate="true">) </text><text styleclass="Normal" translate="true">დასარედაქტირებელ ნიმუშამდე.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">წაშალეთ </text><text styleclass="Normal" translate="true">ნიმუშ(ებ)ი, დააწკაპუნეთ</text><text styleclass="Normal" style="font-weight:bold;" translate="true"> წაშლის</text><text styleclass="Normal" translate="true"> ღილაკზე (</text><image src="delete_button.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Normal" translate="true">) წასაშლელ ნიმუშამდე.</text></li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Picture"><image src="VS_W03_samples.png" scale="55.00%" width="563" height="156" styleclass="Picture"><caption translate="true"><![CDATA[ნახ. <%FIG++%> ნიმუშების ტაბულატორი]]></caption></image></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="13" colcount="2" style="width:100%; cell-padding:2px; cell-spacing:2px; border-width:1px; border-spacing:2px; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:top">
+        <td colspan="2">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-weight:bold;" translate="true">მონაცემთა ველები</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ლაბორატორიული ნიმუშის საიდენტიფიკაციო კოდი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ნიმუშის ლაბორატორიული ID განისაზღვრება ავტომატურად </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Unique_Numbering_Schema" domain="EIDSS_Config.hmxz" styleclass="Table_body" translate="true">უნიკარული დანომვრის სქემის</link><text styleclass="Table_body" translate="true">&#32;</text><text styleclass="Table_body" translate="true">შესაბამისად.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ველზე ხელმისაწვდომობის ID</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ნიმუშის ID, რომელიც გამოყენებული იყო დზეის-ში მის რეგისტაციამდე.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px; height:22px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ნიმუშის ტიპი</text></para>
+        </td>
+        <td style="width:1044px; height:22px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ნიმუშის ტიპი</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">შეგროვების თარიღი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">მასალის შეგროვების თარიღი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">აღებულია დაწესებულების მიერ</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ორგანიზაცია, რომელმაც შეაგროვა მასალა ნიმუშისთვის.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">კომენტარი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">კომენტარები, რომელთა შეტანა ხდება ლაბორატორიულ მოდულში.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">მიღების თარიღი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">თარიღი, როდესაც ნიმუში დაშვებული იქნა ლაბორატორიულ მოდულში.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal" style="text-align:left;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ნიმუშის მდგომარეობა მიღებისას</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ნიმუშის მდგომარეობა, როდესაც იგი დაშვებული იქნა ლაბორატორიულ მოდულში.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="2">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ღილაკები</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">ახალი</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ქმნის ახალ ნიმუშს.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">რედაქტირება</text><text styleclass="Normal" translate="true"> (</text><image src="edit_button.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Normal" translate="true">)</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ხსნის </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Sample_Details_form" styleclass="Table_body" translate="true">ნიმუშის დეტალების ფორმას</link><text styleclass="Table_body" translate="true"> დასარედაქტირებლად გამზადებული ნიმუშებით.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:325px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">წაშლა</text><text styleclass="Normal" translate="true"> (</text><image src="delete_button.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Normal" translate="true">)</text></para>
+        </td>
+        <td style="width:1044px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">წაშლის შერჩეულ ნიმუშ(ებ)ს</text></para>
+          <list id="4" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;">
+            <li styleclass="List"><text styleclass="List" translate="true">შეარჩიეთ ნიმუშ(ებ)ი წასაშლელად.</text></li>
+            <li styleclass="List"><text styleclass="List" translate="true">დააწკაპუნეთ </text><text styleclass="Table_body" translate="true">ღილაკზე </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">წაშლა</text><text styleclass="Table_body" translate="true">. იხსნება </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დადასტურების</text><text styleclass="Table_body" translate="true"> ფანჯარა.</text></li>
+            <li styleclass="List"><text styleclass="Table_body" translate="true">წაშლის ოპერაციის დასადასტურებლად დააწკაპუნეთ </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დიახ</text><text styleclass="Table_body" translate="true"> ღილაკზე და დახურეთ </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დადასტურების</text><text styleclass="Table_body" translate="true"> ფანჯარა.</text></li>
+          </list>
+          <para styleclass="Table_body"><text styleclass="Normal" translate="true">შეიძლება წაიშალოს მხოლოდ ის ნიმუშები, რომლებიც დაშვებული არ ყოფილა და არ გაუვლიათ საველე ტესტები.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="See_also"><conditional-text type="IF" value="HTML,WEB_EIDSS"/><text styleclass="See_also" translate="true">იხ. აგრეთვე:</text></para>
+    <list id="5" type="ul" listtype="bullet" formatstring="&#252;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_W03" styleclass="List" translate="true">პულის/ცალკეული ვექტორის დეტალების W03 ფორმა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Summary_section_of_W03" styleclass="List" translate="true">&quot;პულის/ცალკეული ვექტორის დეტალების&quot; W03 ფორმის &quot;ჯამური ინფორმაციის&quot; სექცია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="General_tab_of_W03" styleclass="List" translate="true">&quot;პულის/ცალკეული ვექტორის დეტალების&quot; W03 ფორმის &quot;ზოგადი ინფორმაციის&quot; ჩანართი</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Vector_Specific_Data_tab_of_W03" styleclass="List" translate="true">&quot;პულის/ცალკეული ვექტორის დეტალების&quot; W03 ფორმის &quot;ვექტორ-სპეციფიკური მონაცემების&quot; ჩანართი</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Field_Tests_tab_of_W03" styleclass="List" translate="true">&quot;პული/ცალკეული ვექტორის დეტალების&quot; W03 ფორმის &quot;საველე ტესტების&quot; ჩანართი</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Lab_Tests_tab_of_W03" styleclass="List" translate="true">&quot;პულის/ცალკეული ვექტორის დეტალების&quot; W03 ფორმის &quot;ლაბორატორიული ტესტების&quot; ჩანართი</link><conditional-text type="END"/></li>
+    </list>
+  </body>
+</topic>

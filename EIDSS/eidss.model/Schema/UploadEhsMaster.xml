@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<object name="UploadEhsMaster"
+        connection="EidssConnectionString"
+        generator="ObjectGenerator.xslt"
+        xmlns="urn:schemas-bv:objectmodel">
+
+  <storage>
+    <!--Fake stored procedure-->
+    <get name="spUploadEhsMaster_SelectDetail" type="detailone" />
+  </storage>
+
+  <tables>
+    <table name="UploadEhsMaster">
+      <fields>
+        <storage name="PatientFileName" type="string"/>
+        <storage name="PatientErrorFileContent" type="byte[]"/>
+        <storage name="EventFileName" type="string"/>
+        <storage name="EventErrorFileContent" type="byte[]"/>
+        <storage name="EventResultFileContent" type="byte[]"/>
+        <storage name="intDummy" type="int"/>
+      </fields>
+      <relations>
+        <relation name="ExistingPatientItems" table="UploadEhsExistingPatientItem" internal="false" type="child" notautoload="true" lazy="false" source="idfsUploadEhs" target="idfsUploadEhs" />
+      </relations>
+      <storage>
+        <post name="spUploadEhsMaster_Post"/>
+      </storage>
+      <postorder>
+        <item name="this"/>
+      </postorder>
+      <extenders>
+        <creating>
+          <custom_extender>
+            <text>
+              obj = SelectByKey(manager, GetNewIDExtender&lt;UploadEhsMaster&gt;.getNewId(manager));
+              obj.ExistingPatientItems.Clear();
+            </text>
+          </custom_extender>
+        </creating>
+        <created>
+          <custom_extender>
+            <text>
+              if (EidssUserContext.Instance != null)
+                if (EidssUserContext.User != null)
+                {                             
+                  if (EidssUserContext.User.EmployeeID != null)
+                  {
+                    long em;
+                    if (long.TryParse(EidssUserContext.User.EmployeeID.ToString(), out em))
+                      obj.idfPersonEnteredBy = em;
+                  }
+                  if (EidssUserContext.User.ID != null)
+                  {
+                    long em;
+                    if (long.TryParse(EidssUserContext.User.ID.ToString(), out em))
+                      obj.idfUserID = em;
+                  }
+                }                        
+            </text>
+          </custom_extender>
+        </created>
+      </extenders>
+      <actions>
+        <standard>
+          <remove type="Create"/>
+          <remove type="Delete"/>
+          <remove type="SelectAll"/>
+          <remove type="Ok"/>
+          <remove type="Cancel"/>
+          <remove type="Save"/>
+        </standard>
+      </actions>
+    </table>
+  </tables>
+</object>

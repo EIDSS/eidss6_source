@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="xrPageInfo1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 11pt</value>
+  </data>
+  <data name="YearCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 9pt</value>
+  </data>
+  <data name="JanuaryCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="JanuaryPercentCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="FebruaryCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="FebruaryPercentCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="MarchCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="MarchPercentCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="AprilCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="AprilPercentCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="MayCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="MayPercentCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="JuneCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="JunePercentCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="JulyCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="JulyPercentCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="AugustCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="AugustPercentCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="SeptemberCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="SeptemberPercentCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="OctoberCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="OctoberPercentCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="NovemberCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="NovemberPercentCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="DecemberCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="DecemberPercentCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="TotalCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="RatePerLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="RatePerLabel.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>129.625, 23</value>
+  </data>
+  <data name="RatePerLabel.Text" xml:space="preserve">
+    <value>อัตราป่วย / 100,000 คน</value>
+  </data>
+  <data name="PercentageLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="PercentageLabel.Text" xml:space="preserve">
+    <value>{0} - ร้อยละ</value>
+  </data>
+  <data name="AbsoluteNumberLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="AbsoluteNumberLabel.Text" xml:space="preserve">
+    <value>{0} - จำนวนรวม</value>
+  </data>
+  <data name="CountryLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="CountryLabel.Text" xml:space="preserve">
+    <value>ประเทศไทย</value>
+  </data>
+  <data name="HeaderLabelCell1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 16pt, style=Bold</value>
+  </data>
+  <data name="HeaderLabelCell1.Text" xml:space="preserve">
+    <value>เปรียบเทียบข้อมูลปี {0} {1}</value>
+  </data>
+  <data name="HeaderLabelCell2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 16pt, style=Bold</value>
+  </data>
+  <data name="HeaderLabelCell2.Text" xml:space="preserve">
+    <value>การวินิจฉัย: {0}</value>
+  </data>
+  <data name="MonthYearHeaderCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="MonthYearHeaderCell.Text" xml:space="preserve">
+    <value>ปี\เดือน</value>
+  </data>
+  <data name="JanuaryHeaderCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="JanuaryHeaderCell.Text" xml:space="preserve">
+    <value>มกราคม</value>
+  </data>
+  <data name="FebruaryHeaderCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="FebruaryHeaderCell.Text" xml:space="preserve">
+    <value>กุมภาพันธ์</value>
+  </data>
+  <data name="MarchHeaderCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="MarchHeaderCell.Text" xml:space="preserve">
+    <value>มีนาคม</value>
+  </data>
+  <data name="AprilHeaderCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="AprilHeaderCell.Text" xml:space="preserve">
+    <value>เมษายน</value>
+  </data>
+  <data name="MayHeaderCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="MayHeaderCell.Text" xml:space="preserve">
+    <value>พฤษภาคม</value>
+  </data>
+  <data name="JuneHeaderCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="JuneHeaderCell.Text" xml:space="preserve">
+    <value>มิถุนายน</value>
+  </data>
+  <data name="JulyHeaderCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="JulyHeaderCell.Text" xml:space="preserve">
+    <value>กรกฏาคม</value>
+  </data>
+  <data name="AugustHeaderCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="AugustHeaderCell.Text" xml:space="preserve">
+    <value>สิงหาคม</value>
+  </data>
+  <data name="SeptemberHeaderCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="SeptemberHeaderCell.Text" xml:space="preserve">
+    <value>กันยายน</value>
+  </data>
+  <data name="OctoberHeaderCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="OctoberHeaderCell.Text" xml:space="preserve">
+    <value>ตุลาคม</value>
+  </data>
+  <data name="NovemberHeaderCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="NovemberHeaderCell.Text" xml:space="preserve">
+    <value>พฤศจิกายน</value>
+  </data>
+  <data name="DecemberHeaderCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="DecemberHeaderCell.Text" xml:space="preserve">
+    <value>ธันวาคม</value>
+  </data>
+  <data name="TotalHeaderCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="TotalHeaderCell.Text" xml:space="preserve">
+    <value>รวม</value>
+  </data>
+  <data name="xrTableCell1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell16.Text" xml:space="preserve">
+    <value>จำนวนรวม</value>
+  </data>
+  <data name="xrTableCell2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell2.Text" xml:space="preserve">
+    <value>ร้อยละ</value>
+  </data>
+  <data name="xrTableCell17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell17.Text" xml:space="preserve">
+    <value>จำนวนรวม</value>
+  </data>
+  <data name="xrTableCell3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell3.Text" xml:space="preserve">
+    <value>ร้อยละ</value>
+  </data>
+  <data name="xrTableCell18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell18.Text" xml:space="preserve">
+    <value>จำนวนรวม</value>
+  </data>
+  <data name="xrTableCell5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell5.Text" xml:space="preserve">
+    <value>ร้อยละ</value>
+  </data>
+  <data name="xrTableCell19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell19.Text" xml:space="preserve">
+    <value>จำนวนรวม</value>
+  </data>
+  <data name="xrTableCell6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell6.Text" xml:space="preserve">
+    <value>ร้อยละ</value>
+  </data>
+  <data name="xrTableCell20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell20.Text" xml:space="preserve">
+    <value>จำนวนรวม</value>
+  </data>
+  <data name="xrTableCell7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell7.Text" xml:space="preserve">
+    <value>ร้อยละ</value>
+  </data>
+  <data name="xrTableCell21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell21.Text" xml:space="preserve">
+    <value>จำนวนรวม</value>
+  </data>
+  <data name="xrTableCell8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell8.Text" xml:space="preserve">
+    <value>ร้อยละ</value>
+  </data>
+  <data name="xrTableCell22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell22.Text" xml:space="preserve">
+    <value>จำนวนรวม</value>
+  </data>
+  <data name="xrTableCell9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell9.Text" xml:space="preserve">
+    <value>ร้อยละ</value>
+  </data>
+  <data name="xrTableCell23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell23.Text" xml:space="preserve">
+    <value>จำนวนรวม</value>
+  </data>
+  <data name="xrTableCell10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell10.Text" xml:space="preserve">
+    <value>ร้อยละ</value>
+  </data>
+  <data name="xrTableCell24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell24.Text" xml:space="preserve">
+    <value>จำนวนรวม</value>
+  </data>
+  <data name="xrTableCell11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell11.Text" xml:space="preserve">
+    <value>ร้อยละ</value>
+  </data>
+  <data name="xrTableCell25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell25.Text" xml:space="preserve">
+    <value>จำนวนรวม</value>
+  </data>
+  <data name="xrTableCell12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell12.Text" xml:space="preserve">
+    <value>ร้อยละ</value>
+  </data>
+  <data name="xrTableCell26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell26.Text" xml:space="preserve">
+    <value>จำนวนรวม</value>
+  </data>
+  <data name="xrTableCell13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell13.Text" xml:space="preserve">
+    <value>ร้อยละ</value>
+  </data>
+  <data name="xrTableCell27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell27.Text" xml:space="preserve">
+    <value>จำนวนรวม</value>
+  </data>
+  <data name="xrTableCell14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="xrTableCell14.Text" xml:space="preserve">
+    <value>ร้อยละ</value>
+  </data>
+  <data name="xrTableCell15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 8pt</value>
+  </data>
+  <data name="OrganizationNameCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 11pt</value>
+  </data>
+  <data name="xrTableCell4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 11pt</value>
+  </data>
+  <data name="xrTableCell4.Text" xml:space="preserve">
+    <value>ข้อมูลจาก EIDSS:</value>
+  </data>
+  <data name="resource.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="resource.Font1" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 11pt</value>
+  </data>
+  <data name="resource.Font2" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 11pt</value>
+  </data>
+  <data name="Chart.Legend.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+  <data name="DateTimeCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Sarabun New, 10pt</value>
+  </data>
+</root>

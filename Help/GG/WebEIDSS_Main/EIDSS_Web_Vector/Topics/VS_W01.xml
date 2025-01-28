@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Finished" lasteditedby="RBanton" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">ვექტორის ზედამხედველობის სესიების ჩამონათვალი W01</title>
+  <a-keywords>
+    <a-keyword>VS_W01</a-keyword>
+  </a-keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">ვექტორის ზედამხედველობის სესიების ჩამონათვალი W01</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">ვექტორის ზედამხედველობის სესიების ჩამონათვალის </text><text styleclass="Normal" style="font-weight:normal;" translate="true">ფორმა</text><text styleclass="Normal" translate="true"> გამოიყენება ვექტორის ზედამხედველობის სესიების მოსაძებნად, სანახავად, რედაქტირებისთვის და წასაშლელად.</text></para>
+    <para styleclass="Picture"><image src="VS_W01.png" scale="55.00%" width="793" height="372" styleclass="Picture"><caption translate="true"><![CDATA[ნახ. <%FIG++%> ვექტორის ზედამხედველობის სესიების ჩამონათვალის ფანჯარა]]></caption></image></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="32" colcount="2" style="width:100%; cell-padding:2px; cell-spacing:2px; border-width:1px; border-spacing:2px; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:top">
+        <td colspan="2">
+          <para styleclass="Table_body2" style="text-align:center;"><text styleclass="Table_body2" style="font-weight:bold;" translate="true">ძებნის კრიტერიუმების ველები</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">სესიის ID</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true"> შეიყვანეთ მოსაძებნი სესიის სრული ID, თუკი ცნობილია.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">საველე სესიის საიდენტიფიკაციო ნომერი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეიყვანეთ მოსაძებნი სესიის სრული საველე ID, თუკი ცნობილია.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">სტატუსი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეარჩიეთ მოსაძებნი სესი(ებ)ის სტატუსი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">ვექტორის ტიპი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეარჩიეთ მოსაძებნი სესიების დროს შეგროვებული ვეტორ(ებ)ის ტიპი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">სახეობა</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true"> შეარჩიეთ მოსაძებნი სესიების დროს შეგროვებული ვექტორ(ებ)ის სახეობები. ეს ველი ხელმისაწვდომია მხოლოდ იმ შემთხვევაში, თუ </text><text styleclass="Normal" style="font-weight:bold;" translate="true">ვექტორის ტიპი</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> არის შერჩეული.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">დიაგნოზები</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეარჩიეთ მოსაძებნი სესი(ებ)ის საშუალებით დადასტურებული დიაგნოზები.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">დიაგნოზთა ჯგუფი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">თუ მოსაძებნია სესიები ერთი და იმავე ჯგუფისა სხვადასხვა დიაგნოზებით, ჯგუფი შეარჩიეთ აქ.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">რეგიონი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეარჩიეთ მოსაძებნი სესი(ებ)ის რეგიონი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">რაიონი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეარჩიეთ მოსაძებნი სესი(ებ)ის რაიონი. ველი ხელმისაწვდომია მხოლოდ მაშინ, როცა </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">რეგიონი</text><text styleclass="Table_body" translate="true"> შერჩეულია.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">დასახლება</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეარჩიე დასახლებული პუნქტი, სადაც ჩატარდა სესია/სესიები. ველი ხელმისაწვდომია მხოლოდ მაშინ, როდესა </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">რეგიონი</text><text styleclass="Table_body" style="font-weight:normal;" translate="true"> და </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">რაიონი</text><text styleclass="Table_body" translate="true"> შერჩეულია. </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">გრძედი </text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეიტანეთ გრძედის კოორდინატა ტერიტორიისა, სადაც ჩატარადა სესია/სესიები.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">გრძედი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეიტანეთ განედის კოორდინატა ტერიტორიისა, სადაც ჩატარადა სესია/სესიები.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">დაწყების თარიღი -დან/-მდე</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეარჩიეთ სესიის/სესიების დაწყების დროის ინტერვალი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">დახურვის თარიღი -დან/-მდე</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეარჩიე სესიის/სესიების დასრულების დროის ინტერვალი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">აფეთქების საიდენტიფიკაციო ნომერი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეარჩიეთ აფეთქება, რომელთანაც არის დაკავშირებული სასურველი სესია/სესიები.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">მონაცემთა შეყვანის სამუშაო ობიექტი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">შეარჩიეთ ადგილი, სადაც მოხდა სასურველი სესიის/სესიების რეგისტრირება.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="2">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-weight:bold;" translate="true">შედეგების ჩამონათვალის სვეტები</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">სესიის ID</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ეკრანზე გამოდის ვექტორის ზედამხედველობის სესიის ID. </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">სტატუსი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ეკრანზე გამოდის სესიის სტატუსი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">ვექტორების ტიპები</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ეკრანზე გამოდის ვექტორების ტიპები, რომლებიც შეგროვილია სესიისთვის და ერთმანეთისაგან გამოყოფილია მძიმით (</text><text styleclass="Table_body" style="font-weight:bold;" translate="true">,</text><text styleclass="Table_body" translate="true">).</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">დაავადებები</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ეკრანზე გამოდის დაავადებები, რომლებიც დადასტურებულია სესიით და ერთმანეთისგან გამოყოფილია მძიმით (</text><text styleclass="Table_body" style="font-weight:bold;" translate="true">,</text><text styleclass="Table_body" translate="true">).</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">რეგიონი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ეკრანზე გამოდის რეგიონი, სადაც ჩატარდა სესია.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">რაიონი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ეკრანზე გამოდის რაიონი, სადაც ჩატარდა სესია.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">გრძედი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ეკრანზე გამოდის სესიის ჩატარების ადგილის გძედის კოორდინატი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">გრძედი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ეკრანზე გამოდის სესიის ჩატარების ადგილის განედის კოორდინატი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">დასაწყისის თარიღი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ეკრანზე გამოდის სესიის დაწყების თარიღი.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">დახურვის თარიღი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">სესიის სტატუსის თარიღი შეიცვალა, და გახდა </text><text styleclass="Table_body" style="font-style:italic;" translate="true">დახურული</text><text styleclass="Table_body" translate="true"> რაც გამოჩნდა ეკრანზე.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="2" style="width:1037px;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-weight:bold;" translate="true">ღილაკები</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">ახალი</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ქმნის ახალ ვექტორის ზედამხედველობის სესიას. დეტალებისთვის, წაიკითხე </text><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_Create" styleclass="Table_body" translate="true">ექტორის ზედამხედველობის (VS) სესიის შექმნის</link><text styleclass="Table_body" translate="true"> სექცია.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">რედაქტირება</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> (</text><image src="edit_button.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Normal" style="font-weight:normal;" translate="true">)</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">ხსნის დასარედაქტირებელ სესიას. დეტალებისთვის, წაიკითხე </text><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_edit" styleclass="Table_body" translate="true">VS სესიის რედაქტირების</link><text styleclass="Table_body" translate="true"> სექცია.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:332px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">წაშლა</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> (</text><image src="delete_button.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Normal" style="font-weight:normal;" translate="true">)</text></para>
+        </td>
+        <td style="width:1037px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">წაშლის შერჩეულ სესიას. დეტალებისთვის, წაიკითხე </text><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_delete" styleclass="Table_body" translate="true">VS სესიის წაშლის</link><text styleclass="Table_body" translate="true"> სექცია.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="See_also"><conditional-text type="IF" value="HTML,WEB_EIDSS"/><text styleclass="See_also" translate="true">იხ. აგრეთვე:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#252;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_Create" styleclass="List" translate="true">ვექტორული ზედამხედველობის სესიის (VS) შექმნა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_edit" styleclass="List" translate="true">დაარედაქტირეთ ვექტორული ზედამხედველობის სესია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_final" styleclass="List" translate="true">შეაჯამეთ (დახურეთ) ვექტორის ზედამხედველობის სესია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_delete" styleclass="List" translate="true">VS სესიის წაშლა</link><conditional-text type="END"/></li>
+    </list>
+  </body>
+</topic>

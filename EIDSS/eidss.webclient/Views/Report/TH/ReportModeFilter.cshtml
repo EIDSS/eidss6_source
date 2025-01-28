@@ -1,0 +1,17 @@
+﻿@using Kendo.Mvc.UI
+@using eidss.web.common.Utils
+
+@model eidss.webclient.Models.Reports.NumberOfCasesDeathsMonthTHWebModel
+
+@{
+    @(
+        Html.Kendo().ComboBox()
+            .Name("ReportModeIndex")
+        .DataTextField("Text")
+        .DataValueField("Value")
+        .BindTo(@Model.GetReportModeModelList())
+        .Value(String.Empty)
+        .HtmlAttributes(new { @class = "requiredField" })
+        .Events(c => c.Change("paperForm.OnReportModeChanged"))
+    )              
+}

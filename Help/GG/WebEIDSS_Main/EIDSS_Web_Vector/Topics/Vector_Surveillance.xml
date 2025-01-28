@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">ვექტორული ზედამხედველობა</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">ვექტორული ზედამხედველობა</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ვექტორის ზედამხედველობის (VS) მოდული არის ინსტრუმენტი, რომელიც უზრუნველყოფს ვექტორის ზედამხედველობის სესიის მონაცემთა შეყვანასა და მართვას, შეგროვებულ ვექტორთა ტიპებისა და სახეობების, სესიის ადგილმდებარეობის და დროის, ნიმუშების, საველე და ლაბორატორიული ტესტების და მათი შედეგების და დადასტურებული დიაგნოზების შესახებ ინფორმაციის ჩათვლით. ზემოთ ნახსენები ინფორმაცია შეიძლება შეყვანილი იქნეს დეტალურად, ან სტატისტიკური ანგარიშის სახით. </text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ვექტორის ტიპიდან გამომდიანრე, თუკი ვექტორები შეგროვებულია ერთობლიოვად ან ინდივიდუალურად, შეიძლება განსხვავებული იქნეს მონაცემთა შეყვანის პროცედურა, განსაკუთრებით, სესიისთვის შეგროვებული ნიმუშების რეგისტრაციისას. </text></para>
+  </body>
+</topic> 

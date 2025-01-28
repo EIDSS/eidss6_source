@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Finished">
+  <title translate="true">"პულის/ცალკეული ვექტორის დეტალების" W03 ფორმის "ვექტორ-სპეციფიკური მონაცემების" ჩანართი</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">"პულის/ცალკეული ვექტორის დეტალების" W03 ფორმის "ვექტორ-სპეციფიკური მონაცემების" ჩანართი</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="List" style="font-weight:normal;" translate="true"></text><text styleclass="List" style="font-weight:bold;" translate="true">ვექტორის სპეციფიკური მონაცემების </text><text styleclass="List" style="font-weight:normal;" translate="true">ტაბულაცია</text><text styleclass="Normal" translate="true"> ასახავს </text><text styleclass="Normal" style="font-weight:bold;" translate="true">ვექტორის ტიპის სპეციფიკური მონაცემების</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> მოქნილ ფორმას</text><text styleclass="List" style="font-weight:normal;" translate="true">. ნაკრები დამოკიდებულია ვექტორის ტიპზე და შეიძლება განსხვავებული იყოს ქვემოთ მოცემული კონფიგურაციისაგან.</text></para>
+    <para styleclass="Picture"><image src="vss_pool_form_vsd.png" scale="55.00%" width="262" height="161" styleclass="Picture"><caption translate="true"><![CDATA[ნახ. <%FIG++%> ვექტორის სპეციფიკური მონაცემების ჩანართი]]></caption></image></para>
+    <para styleclass="See_also"><conditional-text type="IF" value="HTML,WEB_EIDSS"/><text styleclass="See_also" translate="true">იხ. აგრეთვე:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="ü" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_W03" styleclass="List" translate="true">პულის/ცალკეული ვექტორის დეტალების W03 ფორმა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Summary_section_of_W03" styleclass="List" translate="true">"პულის/ცალკეული ვექტორის დეტალების" W03 ფორმის "ჯამური ინფორმაციის" სექცია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="General_tab_of_W03" styleclass="List" translate="true">"პულის/ცალკეული ვექტორის დეტალების" W03 ფორმის "ზოგადი ინფორმაციის" ჩანართი</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Samples_tab_of_W03" styleclass="List" translate="true">"პულის/ცალკეული ვექტორის დეტალების" W03 ფორმის "ნიმუშების" ჩანართი</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Field_Tests_tab_of_W03" styleclass="List" translate="true">"პული/ცალკეული ვექტორის დეტალების" W03 ფორმის "საველე ტესტების" ჩანართი</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Lab_Tests_tab_of_W03" styleclass="List" translate="true">"პულის/ცალკეული ვექტორის დეტალების" W03 ფორმის "ლაბორატორიული ტესტების" ჩანართი</link><conditional-text type="END"/></li>
+    </list>
+  </body>
+</topic> 

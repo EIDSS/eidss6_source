@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="RBanton" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">VS სესიის ნახვა ან რედაქტირება</title>
+  <a-keywords>
+    <a-keyword>VS_edit</a-keyword>
+  </a-keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">VS სესიის ნახვა ან რედაქტირება</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="List" translate="true"> ვექტორის ზედამხედველობის სესიის რედაქტირება შეიძლება მხოლოდ მაშინ, როდესაც იგი არის აქტიური, ანუ, მას აქვს სტატუსი </text><text styleclass="List" style="font-style:italic;" translate="true">მიმდინარე</text><text styleclass="List" translate="true">.</text></para>
+    <para styleclass="Normal"></para>
+    <list id="5" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="List" style="font-weight:bold;" translate="true">ჟურნალების</text><text styleclass="List" translate="true"> მენიუში შეარჩიეთ </text><text styleclass="List" style="font-weight:bold;" translate="true">ვექტორული ზედამხედველობის სესიები</text><text styleclass="List" translate="true">. გაიხსნება </text><text styleclass="List" style="font-weight:bold;" translate="true">ვექტორული ზედამხედველობის სესიების ჩამონათვალის</text><text styleclass="List" style="font-weight:normal;" translate="true"> ფანჯარა. </text></li>
+      <li styleclass="Normal"><text styleclass="List" translate="true">იპოვეთ სასურველი VS სესია. დეტალური აღწერილობისთვის, თუ როგორ ვიპოვოთ სესია, წაიკითხეთ სექცია </text><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_search" styleclass="List" translate="true">ვექტორული ზედამხედველობის სესიის ძებნა</link><text styleclass="List" translate="true">.</text></li>
+      <li styleclass="Normal"><text styleclass="List" translate="true">გააკეთეთ შემდეგიდან ერთ–ერთი:</text></li>
+    </list>
+    <list id="6" level="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="List" translate="true">დააწკაპუნეთ დასარედაქტირებელი სესიის ნომერზე.</text></li>
+      <li styleclass="Normal"><text styleclass="List" translate="true">დააწკაპუნეთ </text><text styleclass="List" style="font-weight:bold;" translate="true">რედაქტირების</text><text styleclass="List" translate="true"> ღილაკზე(</text><image src="edit_button.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="List" translate="true">) დასათვალიერებელ ან დასარედაქტირებელ სესიამდე.</text></li>
+    </list>
+    <para styleclass="List2" style="text-indent:0px; margin-right:0px; margin-left:17px; tabstops:none;"><text styleclass="List2" translate="true">სესია გაიხსნება </text><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_W02" styleclass="List2" translate="true">ვექტორული ზედამხედველობის სესიის</link><text styleclass="List2" translate="true"> ფორმაში და იგი მზადაა რედაქტირებისთვის.</text></para>
+    <list id="5" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Enter_general_information_of__" styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;" translate="true">მოახდინეთ VS-ის ზოგადი ინფორმაციის რედაქტირება </link><text styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;" translate="true">.</text></li>
+      <li styleclass="List"><text styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:normal; color:#000000;" translate="true">სესიის შესახებ ინფორმაციის რედაქტირება მოახდინეთ ქვემოთ მოცემული ერთ-ერთის შესაბამისად:</text></li>
+    </list>
+    <list id="7" level="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Enter_Summary_Information" styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:normal; color:#000000;" translate="true">ჯამური ინფორმაცია</link><text styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:normal; color:#000000;" translate="true">&#32;</text></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Enter_Detailed_Information" styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:normal; color:#000000;" translate="true">დეტალური მონაცემები</link></li>
+    </list>
+    <list id="8" level="4" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_gen_info_for_VP" styleclass="List" translate="true">მოახდინეთ ვექტორის/პულისზოგადი ინფორმაცისი რეგისტრირება</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_spec_info_for_VP" styleclass="List" translate="true">მოახდინეთ ვექტორი/ერთობლიობის სპეციფიკური ინფორმაციის რეგისტრირება</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_samples_for_vp" styleclass="List" translate="true">დაარეგისტრირეთ ვექტორის/პულისნიმუშები</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_field_test_results" styleclass="List" translate="true">ვექტორის/პულის საველე ტესტების შედეგების რეგისტრაცია</link></li>
+    </list>
+    <para styleclass="List2"><text styleclass="List2" translate="true"> VS სესიის დაავადებათა ჩამონათვალი შეიცავს ყველა დაავადებას, რომელიც დადასტურებულია ან საველე, ან ლაბორატორიული ტესტებით, რომლებიც ჩატარდა სესიის ფარგლებში შეგროვებული ვექტორის/ერთობლიობისთვის.</text></para>
+    <list id="5" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Link_a_VS_session_to_outbreak" styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;" translate="true">&quot;ვექტორული ზედამხედველობის სესია&quot; მიაბით ეპიდაფეთქებას</link><text styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;" translate="true">, თუ აუცილებელია.</text></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Save_VS_Session" styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;" translate="true">დაიმახსოვრეთ ვექტორული ზედამხედველობის სესია</link><text styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;" translate="true">.</text></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Close_VS_Session" styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;" translate="true">დახურეთ ვექტორული ზედამხედველობის სესია</link><text styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;" translate="true">.</text></li>
+    </list>
+    <para styleclass="List"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">დამახსოვრებული ვექტორის ზედამხედველობის სესიის რეპლიკაცია დაიწყება და იგი გადაიგზავნება დზეის-ის სერვერზე და სხვა ქვესისტემებში, თუკი </text><text styleclass="Normal" style="font-weight:bold;" translate="true">დიაგნოზის</text><text styleclass="Normal" translate="true"> ველი შეცვლილია, ან თუკი საველე ან ლაბორატორიული ტესტის შედეგი დამატებულია ან რედაქტირებულია.</text></para>
+    <para styleclass="See_also"><conditional-text type="IF" value="HTML,WEB_EIDSS"/><text styleclass="See_also" translate="true">იხ. აგრეთვე:</text></para>
+    <list id="9" type="ul" listtype="bullet" formatstring="&#252;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_Create" styleclass="List" translate="true">ვექტორული ზედამხედველობის სესიის (VS) შექმნა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_final" styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:normal; color:#000000;" translate="true">დაასრულეთ &quot;ვექტორული ზედამხედველობის სესია&quot;</link><conditional-text type="END"/></li>
+    </list>
+  </body>
+</topic>

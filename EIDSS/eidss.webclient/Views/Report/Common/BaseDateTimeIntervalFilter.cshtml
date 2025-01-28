@@ -1,0 +1,47 @@
+﻿@using Kendo.Mvc.UI
+@model eidss.model.Reports.Common.BaseIntervalModel
+@Html.Hidden("ArchiveValidationDate", "StartDate") @*for validation*@
+
+<table id="BaseIntervalFilterTable">
+    <tr>
+        <td class="mediumreport">
+            @Html.LabelFor(m => m.StartDate)
+        </td>
+        <td class="largereport">
+
+            @(Html.Kendo().DateTimePicker()
+                  .Name("StartDate")
+                  .Value(Model.StartDate)
+                          .HtmlAttributes(new { @class = "requiredField", type = "text", @validationMessage = Model.ValidationMessage, value = Model.UseEmptyInititalStartDate ? "" : Model.StartDate.ToShortDateString() + " " + Model.StartDate.ToShortTimeString() })
+                  .Events(c => c.Change("paperForm.OnStartDateTimeChanged"))
+                  .Min(Model.MinStartDate ?? DateTime.MinValue)
+                  .Max(Model.MaxStartDate ?? DateTime.MaxValue)
+                  .Format("g")
+                  .TimeFormat("t")
+            )
+            @*TODO: Chrome date problem fix - end*@
+
+
+        </td>
+        <td class="mediumreport">
+            @Html.LabelFor(m => m.EndDate)
+        </td>
+        <td class="largereport">
+            @(Html.Kendo().DateTimePicker()
+                    .Name("EndDate")
+                    .Value(Model.EndDate)
+                            .HtmlAttributes(new { @class = "requiredField", type = "text", value = Model.UseEmptyInititalEndDate ? "" : Model.EndDate.ToShortDateString() + " " + Model.EndDate.ToShortTimeString() })
+                    .Events(c => c.Change("paperForm.OnEndDateTimeChanged"))
+                    .Min(Model.MinEndDate ?? DateTime.MinValue)
+                    .Max(Model.MaxEndDate ?? DateTime.MaxValue)
+                    .Format("g")
+                    .TimeFormat("t")
+            )
+            @*TODO: Chrome date problem fix - end*@
+
+
+        </td>
+
+    </tr>
+
+</table>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Needs Review">
+  <title translate="true">პულის/ინდივიდუალური ვექტორის W05 ფორმის კოპირება</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">პულის/ინდივიდუალური ვექტორის W05 ფორმის კოპირება</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ფორმა </text><text styleclass="Normal" style="font-weight:bold;" translate="true">პულის/ინდივიდუალური ვექტორის კოპირება</text><text styleclass="Normal" translate="true"> გამოიყენებაერთობლიობის/ინდივიდუალური ვექტორის ორიგინალის იმ დეტალების შესარჩევად, რომელთა კოპირება უნდა მოხდეს შთამომავალ ერთობლიობაში/ვექტორში.</text></para>
+    <para styleclass="Picture"><image src="VS_W05_copy_vector_pool.png" scale="55.00%" width="295" height="128" styleclass="Picture"><caption translate="true"><![CDATA[ნახ. <%FIG++%> "პულის/ცალკეული ვექტორის კოპირების" ფანჯარა]]></caption></image></para>
+    <para style="margin-bottom:13px; line-height:1.15;"><table styleclass="Table_White" rowcount="7" colcount="2">
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" style="font-weight:bold;" translate="true">ვექტორის საერთო მონაცემები</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">საკონტროლო უჯრა აირჩევა დეფოლტის მეშვეობით და მისი წაშლა შეუძლებელია. </text><text styleclass="Normal" translate="true">ველების კოპირება ხდება შემდეგი წესების მეშვეობით:</text></para>
+          <list id="4" level="2" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="List" translate="true">ახალი </text><text styleclass="List" style="font-weight:bold;" translate="true">ერთობლიობის/ვექტორის ID</text><text styleclass="List" translate="true"> იქმნება </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Unique_Numbering_Schema" domain="EIDSS_Config.hmxz" styleclass="List" translate="true">უნიკალური დანომვრის სქემის</link><text styleclass="List" translate="true"> შესაბამისად და შეიძლება ხელით შესწორდეს</text></li>
+            <li styleclass="List"><text styleclass="List" style="font-weight:normal;" translate="true">ხოლო </text><text styleclass="List" style="font-weight:bold;" translate="true">სესიის ID</text><text styleclass="List" translate="true"> და </text><text styleclass="List" style="font-weight:bold;" translate="true">ვექტორის ტიპი</text><text styleclass="List" translate="true"> დაკოპირდება პულის/ ინდივიდუალური ვექტორის ორიგინალიდან</text></li>
+            <li styleclass="List"><text styleclass="List" style="font-weight:normal;" translate="true">ცარიელი </text><text styleclass="List" style="font-weight:bold;" translate="true">რჩება პულის/ვექტორის ID ველი</text><text styleclass="List" translate="true"> და შეიძლება ხელით შესწორდეს</text></li>
+          </list>
+          <para styleclass="Table_body"><text styleclass="Table_body" translate="true">მონაცემები </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">ზოგადი</text><text styleclass="Table_body" translate="true"> ტაბულაციიდან კოპირდება ცვლილებების გარეშე.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">ვექტორის მახასიათებელთა მონაცემები</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">შეარჩიეთ საკონტროლო უჯრა, რათა დააკოპიროთ ყველა მონაცემი </text><text styleclass="Normal" style="font-weight:bold;" translate="true">ვექტორის მახასიათებელთა მონაცემების</text><text styleclass="Normal" translate="true"> პულის/ ინდივიდუალური ვექტორის ორიგინალის ტაბულაციიდან.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">შეგროვებული ნიმუშები</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">შეარჩიეთ საკონტროლო უჯრა, რათა დააკოპიროთ ნიმუშები შემდეგი მოანცემებით: </text></para>
+          <list id="5" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">სახეობა</text></li>
+            <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">ნიმუშის ტიპი</text></li>
+            <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">შეგროვების თარიღი</text></li>
+            <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">აღებულია დაწესებულების მიერ</text></li>
+          </list>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">კოპირებული მონაცემები არის რედაქტირებადი. დარჩენილი ველები რჩება ცარიელი და შეიძლება შეივსოს ხელით.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">საველე ტესტები</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">კოპირებისთვის შეარჩიე ტესტები შემდეგი მონაცემებით:</text></para>
+          <list id="6" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">ნიმუშის ტიპი</text></li>
+            <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">მონაცემთა შეგროვება</text></li>
+            <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">ტესტის სახელი</text></li>
+            <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">ტესტის კატეგორია</text></li>
+            <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">ტესტის ჩატარების თარიღი</text></li>
+            <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">ტესტირებულია ინსტიტუტის მიერ</text></li>
+            <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">დადასტურებულია</text></li>
+          </list>
+          <para styleclass="Table_body"><text styleclass="Table_body" style="font-weight:normal;" translate="true"></text><text styleclass="Table_body" style="font-weight:bold;" translate="true">ტესტის შედეგებით</text><text styleclass="Table_body" style="font-weight:normal;" translate="true"> და </text><text styleclass="Table_body" style="font-weight:bold;" translate="true">დაავადების</text><text styleclass="Table_body" style="font-weight:normal;" translate="true"> ველები დატოვებულია ცარიელი.</text></para>
+          <para styleclass="Table_body"><text styleclass="Table_body" style="font-weight:normal;" translate="true">როდესაც </text><text styleclass="Table_body2" translate="true">საველე ტესტების</text><text styleclass="Table_body" style="font-weight:normal;" translate="true"> საკონტროლო უჯრები შეირჩევა, ნიმუშები ავტომატურად დაკოპირდება ნიმუშის კოპირების წესების შესაბამისად.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="2" style="width:1041px;">
+          <para styleclass="Table_body2" style="text-align:center;"><text styleclass="Table_body2" translate="true">ღილაკები</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">შერჩევა</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">ინახავს არჩევანს და ხურავს ფორმას.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:328px;">
+          <para styleclass="Table_body2"><text styleclass="Table_body2" translate="true">გაუქმება</text></para>
+        </td>
+        <td style="width:1041px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">აუქმებს კოპირებას.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="See_also"><conditional-text type="IF" value="HTML,WEB_EIDSS"/><text styleclass="See_also" translate="true">იხ. აგრეთვე:</text></para>
+    <list id="7" type="ul" listtype="bullet" formatstring="ü" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Copy_vector_pool" styleclass="List" translate="true">ვექტორი/პულის კოპირება</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Register_vector_pool_" styleclass="List" translate="true">ვექტორი/პულის რეგისტრაცია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_W03" styleclass="List" translate="true">პულის/ცალკეული ვექტორის დეტალების W03 ფორმა</link><conditional-text type="END"/></li>
+    </list>
+  </body>
+</topic> 

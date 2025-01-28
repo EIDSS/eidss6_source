@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Finished" lasteditedby="LNemkova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">ვექტორული ზედამხედველობის სესიის ძებნა</title>
+  <a-keywords>
+    <a-keyword>VS_search</a-keyword>
+  </a-keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">ვექტორული ზედამხედველობის სესიის ძებნა</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="List" translate="true">ვექტორული ზედამხედველობის სესიის რაოდენობა შეიძლება უამრავი იყოს. ასეთ პირობებში შეიძლება რთული იყოს სასურველი სესიის პოვნა სპეციალური "ძებნის პანელის" გარეშე. </text><text styleclass="Normal" translate="true">"ძებნის პანელი" წარმოადგენს ფილტრაციის ერთ-ერთ ინსტრუმენტს, რომელიც გამოიყენება მხოლოდ იმ ჩანაწერების ამოსაღებად, რომლებიც აკმაყოფილებს ძებნის შეყვანილი კრიტერიუმების ჩამონათვალს.</text></para>
+    <para styleclass="Normal"></para>
+    <list id="2" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true"></text><text styleclass="List" style="font-weight:bold;" translate="true">ჟურნალების</text><text styleclass="List" translate="true"> მენიუში შეარჩიეთ </text><text styleclass="List" style="font-weight:bold;" translate="true">ვექტორული ზედამხედველობის სესიები</text><text styleclass="List" translate="true">. გაიხსნება </text><text styleclass="List" style="font-weight:bold;" translate="true">ვექტორული ზედამხედველობის სესიების ჩამონათვალის</text><text styleclass="List" style="font-weight:normal;" translate="true"> ფანჯარა. </text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">"ძებნის პანელის" ველებში შეარჩიეთ ფილტრაციის კრიტერიუმები. "ძებნის პანელის" ველების აღწერილობისთვის, წაიკითხეთ სექცია </text><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_W01" styleclass="List" translate="true">ვექტორული ზედამხედველობის W01 ჩამონათვალი</link><text styleclass="List" translate="true">.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">დაკლიკეთ </text><text styleclass="List" style="font-weight:bold;" translate="true">ძიების</text><text styleclass="List" translate="true"> ღილაკზე. ის ვექტორული ზედამხედველობის სესიები, რომლებიც აკმაყოფილებენ ფილტრაციის კრიტერიუმებს, გამოსახულია ჩამონათვალის ფორმაში.</text></li>
+    </list>
+    <para styleclass="List"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">დამატებითი ინფორმაცია ძებნის პანელის შესახებ იხ. </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Searches" domain="EIDSS_Web_GS.hmxz" styleclass="Normal" translate="true">ძებნის სიების</link><text styleclass="Normal" translate="true"> სექცია.</text></para>
+    <para styleclass="See_also"><conditional-text type="IF" value="HTML,WEB_EIDSS"/><text styleclass="See_also" translate="true">იხ. აგრეთვე:</text></para>
+    <list id="3" type="ul" listtype="bullet" formatstring="&#252;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_W01" styleclass="List" translate="true">ვექტორის ზედამხედველობის სესიების ჩამონათვალი W01</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_Create" styleclass="List" translate="true">ვექტორული ზედამხედველობის სესიის (VS) შექმნა</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_edit" styleclass="List" translate="true">დაარედაქტირეთ ვექტორული ზედამხედველობის სესია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_final" styleclass="List" translate="true">შეაჯამეთ (დახურეთ) ვექტორის ზედამხედველობის სესია</link></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="VS_delete" styleclass="List" translate="true">VS სესიის წაშლა</link><conditional-text type="END"/></li>
+    </list>
+  </body>
+</topic> 

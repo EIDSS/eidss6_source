@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+ <data name="navSearchFields" disabled = "true"/> 
+ <data name="grcQueryObjectFiltration" disabled = "true"/> 
+ <data name="grpSearchFields" disabled = "true"/> 
+</root>

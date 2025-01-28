@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<object name="ThaiProvinceDistrictTreeLookup"
+        connection="EidssConnectionString"
+        generator="ObjectGenerator.xslt"
+        xmlns="urn:schemas-bv:objectmodel">
+
+  <storage>
+    <get name="spProvinceDistrictTree_SelectLookup" type="lookuplist" cache="true"/>
+  </storage>
+
+  <tables>
+    <table name="ThaiProvinceDistrictTreeLookup" tostring="c => c.name" lookupcachename="ProvinceDistrictTree">
+      <keys>
+        <key name="idfsProvinceOrDistrict" />
+      </keys>
+    </table>
+  </tables>
+
+</object>
+
